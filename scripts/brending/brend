@@ -11,7 +11,8 @@ cp -r images/. /usr/share/pixmaps
 rm /etc/arch-release
 touch /etc/uwu-os-release
 # copy neofetch logo
-rm -r /usr/share/neofetch
+rm -rf /usr/share/neofetch
+mkdir -p /usr/share/neofetch/uwulogo
 cp -f files/uwulogo /usr/share/neofetch/uwulogo
 # display kawaii logo
 alias neofetch='neofetch --source /usr/share/neofetch/uwulogo'
