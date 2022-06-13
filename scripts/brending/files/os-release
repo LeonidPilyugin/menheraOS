@@ -1,11 +1,11 @@
-NAME="UwU OS"
-ID=uwu-os
+NAME="uwuOS Linux"
+ID=uwuos
 ID_LIKE=arch
 BUILD_ID=rolling
-PRETTY_NAME="UwU OS"
-ANSI_COLOR="32;176;92;208;200"
+PRETTY_NAME="uwuOS"
+ANSI_COLOR="38;2;255;0;221"
 HOME_URL="https://matiashik.github.io/uwuos-arch/"
 DOCUMENTATION_URL="https://github.com/Matiashik/uwuos-arch"
 SUPPORT_URL="https://github.com/Matiashik/uwuos-arch"
 BUG_REPORT_URL="https://github.com/Matiashik/uwuos-arch/"
-LOGO=uwuos
+LOGO=uwuos-logo
