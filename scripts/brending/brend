@@ -8,7 +8,7 @@ cp -f files/issue /etc/issue
 cp -r images/. /usr/share/pixmaps
 # don't know why does empty arch-release exist
 # remove next 2 lines if it's cringe
-rm /etc/arch-release
+rm -f /etc/arch-release
 touch /etc/uwu-os-release
 # copy neofetch logo
 rm -rf /usr/share/neofetch
