@@ -1,0 +1,17 @@
+#!/bin/bash
+# copy os info
+cp -f files/os-release /usr/lib/os-release
+ln -f /usr/lib/os-release /etc/os-release
+# copy system command prompt id
+cp -f files/issue /etc/issue
+# copy logos
+cp -r images/. /usr/share/pixmaps
+# don't know why does empty arch-release exist
+# remove next 2 lines if it's cringe
+rm /etc/arch-release
+touch /etc/uwu-os-release
+# copy neofetch logo
+rm -r /usr/share/neofetch
+cp -f files/uwulogo /usr/share/neofetch/uwulogo
+# display kawaii logo
+alias neofetch='neofetch --source /usr/share/neofetch/uwulogo'
