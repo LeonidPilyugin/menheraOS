@@ -8,5 +8,5 @@ rm -r /etc/neofetch
 mkdir /etc/neofetch
 touch /etc/neofetch/config.conf
 cat files/neoconf > /etc/neofetch/config.conf
-cat files/neoconf > ~/.config/neofetch/config.conf
+cat files/neoconf > /home/*/.config/neofetch/config.conf
 cp -r files/uwulogo /etc/neofetch/
