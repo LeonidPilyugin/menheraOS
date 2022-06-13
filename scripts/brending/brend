@@ -1,6 +1,6 @@
 cat files/os-release > /usr/lib/os-release
 cat files/issue > /etc/issue
-cp -r images/* /usr/share/pixmaps
+cp -r images/* /usr/share/pixmaps/
 rm -f /etc/arch-release
 touch /etc/uwuos-release
 
@@ -9,4 +9,4 @@ mkdir /etc/neofetch
 touch /etc/neofetch/config.conf
 cat files/neoconf > /etc/neofetch/config.conf
 cat files/neoconf > ~/.config/neofetch/config.conf
-cp files/uwulogo /etc/neofetch
+cp -r files/uwulogo /etc/neofetch/
