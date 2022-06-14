@@ -136,14 +136,10 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
-ColorScheme=Kawaii
-Name=Breath2 2021 Light
-shadeSortColumn=true
-toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+ColorSchemeHash=6f619d06782a0838c6c254238c3ba6eede7ebf2b
 
 [KDE]
 LookAndFeelPackage=org.kde.kawaii.desktop
-contrast=4
 
 [WM]
 activeBackground=227,229,231
