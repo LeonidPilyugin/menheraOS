@@ -1,1 +1,1 @@
-# 💜uwuos💜 readme page
+# neco-arch readme page

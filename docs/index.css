@@ -1,9 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 h1 {
-    font-family: 'Indie Flower';
+    white-space: pre-line;
+    margin: 20px 0px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 300%;
+    font-weight: bolder;
 }
 
 h2 {
-    font-family: 'Indie Flower';
+    white-space: pre-line;
+    margin: 18px 0px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 250%;
+    font-weight: lighter;
+}
+
+t {
+    margin: 3px 0px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
 }
