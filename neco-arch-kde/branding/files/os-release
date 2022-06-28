@@ -1,11 +1,11 @@
-NAME="Neco-Arch"
+NAME="NecoArch"
 ID=necoarch
 ID_LIKE=arch
 BUILD_ID=rolling
-PRETTY_NAME="Neco-arch"
-ANSI_COLOR="38;2;101;14;194"
-HOME_URL="https://matiashik.github.io/uwuos-arch/"
+PRETTY_NAME="NecoArch"
+ANSI_COLOR="38;2;209;23;93"
+HOME_URL="https://matiashik.github.io/neco-arch/"
 DOCUMENTATION_URL="https://matiashik.github.io/neco-arch/"
 SUPPORT_URL="https://github.com/Matiashik/neco-arch"
 BUG_REPORT_URL="https://github.com/Matiashik/neco-arch/"
-LOGO=neco-arch-logo
+LOGO=necoarch-logo
