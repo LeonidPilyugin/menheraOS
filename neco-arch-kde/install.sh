@@ -11,3 +11,5 @@ cd ../konsole
 ./konsole.sh
 cd ../legacy
 ./kde.sh
+cd ../guranyu
+./guranyu-install.sh
