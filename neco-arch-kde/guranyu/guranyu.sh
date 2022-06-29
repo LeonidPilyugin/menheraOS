@@ -1,2 +1,2 @@
 #!/bin/sh
-cvlc --play-and-exit /usr/share/sounds/guranyu.mp3 &>/dev/null
+cvlc --play-and-exit guranyu.mp3 &>/dev/null &
