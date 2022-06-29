@@ -4,6 +4,7 @@ pacman -S zsh --noconfirm
 # install oh-my-zsh (theme manager)
 export ZSH=/opt/oh-my-zsh
 export RUNZSH="no"
+export CHSH="no"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # install autosuggestions plugin
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH/plugins/zsh-autosuggestions
