@@ -31,8 +31,12 @@ GIT_TXT_COL=$TEXT_COL
 
 # цвет UwU
 UWU_COL=ffc4e5
+
 # цвет OwO
 OWO_COL=ff335c
+
+# цвет времени
+TIME_COL="#ffffff"
 
 
 # echo OwO if there are errors, nothing otherwise
@@ -94,7 +98,8 @@ directory_and_git() {
 
 
 current_time() {
-    echo "%{$fg[white]%}%*%{$reset_color%}"
+    #echo "%{$fg%F{$TIME_COL}%}%*%{$reset_color%}"
+    echo "%B%F{$TIME_COL}%*%f%b"
 }
 
 # set the git_prompt_info text
