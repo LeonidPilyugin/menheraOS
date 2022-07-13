@@ -5,5 +5,5 @@ DefaultProfile=Kawaii.profile
 Favorites=Kawaii.profile
 
 [UiSettings]
-ColorScheme=Kawaii Dark
-WindowColorScheme=Kawaii Dark
+ColorScheme=KawaiiDark
+WindowColorScheme=KawaiiDark

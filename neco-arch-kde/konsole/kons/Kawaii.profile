@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=Kawaii Dark
+ColorScheme=KawaiiDark
 
 [General]
 Command=/bin/zsh
