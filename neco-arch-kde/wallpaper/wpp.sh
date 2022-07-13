@@ -1,5 +1,5 @@
 #!/bin/sh
-pacman -S python-pip --noconfirm
+sudo pacman -S python-pip --noconfirm
 pip install dbus-python
 
 CRL=$(curl https://raw.githubusercontent.com/pashazz/ksetwallpaper/master/ksetwallpaper.py)
