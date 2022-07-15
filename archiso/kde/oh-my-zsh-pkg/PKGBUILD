@@ -1,0 +1,20 @@
+# Maintainer: Leonid Pilyugin  <l.pilyugin04@gmail.com>
+
+pkgname=oh-my-zsh
+pkgver=1.0
+pkgrel=1
+pkgdesc='Oh My Zsh is an open source, community-driven framework for managing your zsh configuration.'
+arch=('x86_64')
+depends=('zsh' 'git')
+url="https://github.com/ohmyzsh/ohmyzsh"
+
+package() {
+	export ZSH=$pkgdir/usr/lib/oh-my-zsh
+	export RUNZSH="no"
+	export CHSH="no"
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+	# install autosuggestions plugin
+	git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH/plugins/zsh-autosuggestions
+	# install syntax highlighting plugin
+	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH/plugins/zsh-syntax-highlighting
+}

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Install
+Version=1.0
+GenericName=Live Installer
+StartupNotify=true
+Comment=Install NecoArch on disk
+Exec=sudo calamares
+Icon=calamares
+Type=Application
+Categories=Qt;System;
+GenericName=GUI installer
+Terminal=false

@@ -1,0 +1,7 @@
+#!/bin/sh
+cd calamares-pkg
+./torepo
+cd ../oh-my-zsh-pkg
+./torepo
+cd ../repo
+./update

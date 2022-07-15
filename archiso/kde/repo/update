@@ -1,0 +1,10 @@
+ #!/bin/bash
+
+rm repo*
+
+echo "repo-add"
+repo-add -n -R repo.db.tar.gz *.pkg.tar.zst
+
+echo "####################################"
+echo "Repo Updated!!"
+echo "####################################"
