@@ -1,7 +1,7 @@
 src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/test_conf.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/test_conf.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Yaml.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Yaml.h \
  /usr/include/qt/QtCore/QStringList /usr/include/qt/QtCore/qstringlist.h \
  /usr/include/qt/QtCore/qlist.h /usr/include/qt/QtCore/qalgorithms.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/12.1.0/type_traits \

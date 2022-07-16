@@ -1,5 +1,5 @@
-/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/moc_PluginFactory.cpp: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/PluginFactory.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/moc_predefs.h \
+/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/moc_PluginFactory.cpp: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/PluginFactory.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/moc_predefs.h \
   /usr/include/KF5/KCoreAddons/KPluginFactory \
   /usr/include/KF5/KCoreAddons/kcoreaddons_export.h \
   /usr/include/KF5/KCoreAddons/kexportplugin.h \

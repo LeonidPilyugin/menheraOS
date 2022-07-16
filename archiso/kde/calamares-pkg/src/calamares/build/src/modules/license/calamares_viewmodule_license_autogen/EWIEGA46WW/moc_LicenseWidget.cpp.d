@@ -1,7 +1,7 @@
-/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license/calamares_viewmodule_license_autogen/EWIEGA46WW/moc_LicenseWidget.cpp: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicenseWidget.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license/calamares_viewmodule_license_autogen/moc_predefs.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicensePage.h \
+/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license/calamares_viewmodule_license_autogen/EWIEGA46WW/moc_LicenseWidget.cpp: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicenseWidget.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license/calamares_viewmodule_license_autogen/moc_predefs.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicensePage.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

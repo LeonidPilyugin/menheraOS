@@ -1,32 +1,32 @@
 Determining if the function ped_file_system_clobber exists failed with the following output:
-Change Dir: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
+Change Dir: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_75441/fast && /usr/bin/make  -f CMakeFiles/cmTC_75441.dir/build.make CMakeFiles/cmTC_75441.dir/build
-make[1]: вход в каталог «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_75441.dir/CheckFunctionExists.c.o
-/usr/bin/cc  -I/usr/include/parted -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -DCHECK_FUNCTION_EXISTS=ped_file_system_clobber -o CMakeFiles/cmTC_75441.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_75441
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75441.dir/link.txt --verbose=1
-/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -DCHECK_FUNCTION_EXISTS=ped_file_system_clobber -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_75441.dir/CheckFunctionExists.c.o -o cmTC_75441  /usr/lib/libparted.so /usr/lib/libparted-fs-resize.so 
-/usr/bin/ld: CMakeFiles/cmTC_75441.dir/CheckFunctionExists.c.o: в функции «main»:
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b6c57/fast && /usr/bin/make  -f CMakeFiles/cmTC_b6c57.dir/build.make CMakeFiles/cmTC_b6c57.dir/build
+make[1]: вход в каталог «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_b6c57.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/usr/include/parted -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -DCHECK_FUNCTION_EXISTS=ped_file_system_clobber -o CMakeFiles/cmTC_b6c57.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b6c57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6c57.dir/link.txt --verbose=1
+/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -DCHECK_FUNCTION_EXISTS=ped_file_system_clobber -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_b6c57.dir/CheckFunctionExists.c.o -o cmTC_b6c57  /usr/lib/libparted.so /usr/lib/libparted-fs-resize.so 
+/usr/bin/ld: CMakeFiles/cmTC_b6c57.dir/CheckFunctionExists.c.o: в функции «main»:
 CheckFunctionExists.c:(.text.startup+0x11): неопределённая ссылка на «ped_file_system_clobber»
 collect2: ошибка: выполнение ld завершилось с кодом возврата 1
-make[1]: *** [CMakeFiles/cmTC_75441.dir/build.make:101: cmTC_75441] Ошибка 1
-make[1]: выход из каталога «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
-make: *** [Makefile:127: cmTC_75441/fast] Ошибка 2
+make[1]: *** [CMakeFiles/cmTC_b6c57.dir/build.make:101: cmTC_b6c57] Ошибка 1
+make[1]: выход из каталога «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_b6c57/fast] Ошибка 2
 
 
 
 Determining if the function ped_file_system_resize exists failed with the following output:
-Change Dir: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
+Change Dir: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_81fc3/fast && /usr/bin/make  -f CMakeFiles/cmTC_81fc3.dir/build.make CMakeFiles/cmTC_81fc3.dir/build
-make[1]: вход в каталог «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_81fc3.dir/CheckFunctionExists.c.o
-/usr/bin/cc  -I/usr/include/parted -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -DCHECK_FUNCTION_EXISTS=ped_file_system_resize -o CMakeFiles/cmTC_81fc3.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_81fc3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81fc3.dir/link.txt --verbose=1
-/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -DCHECK_FUNCTION_EXISTS=ped_file_system_resize -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_81fc3.dir/CheckFunctionExists.c.o -o cmTC_81fc3  /usr/lib/libparted.so /usr/lib/libparted-fs-resize.so 
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e2cf6/fast && /usr/bin/make  -f CMakeFiles/cmTC_e2cf6.dir/build.make CMakeFiles/cmTC_e2cf6.dir/build
+make[1]: вход в каталог «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_e2cf6.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/usr/include/parted -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -DCHECK_FUNCTION_EXISTS=ped_file_system_resize -o CMakeFiles/cmTC_e2cf6.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e2cf6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2cf6.dir/link.txt --verbose=1
+/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -DCHECK_FUNCTION_EXISTS=ped_file_system_resize -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_e2cf6.dir/CheckFunctionExists.c.o -o cmTC_e2cf6  /usr/lib/libparted.so /usr/lib/libparted-fs-resize.so 
 /usr/bin/ld: /usr/lib/libparted-fs-resize.so: неопределённая ссылка на «ped_geometry_sync_fast»
 /usr/bin/ld: /usr/lib/libparted-fs-resize.so: неопределённая ссылка на «ped_timer_destroy_nested»
 /usr/bin/ld: /usr/lib/libparted-fs-resize.so: неопределённая ссылка на «ped_exception_throw»
@@ -66,9 +66,9 @@ Linking C executable cmTC_81fc3
 /usr/bin/ld: /usr/lib/libparted-fs-resize.so: неопределённая ссылка на «ped_geometry_test_inside»
 /usr/bin/ld: /usr/lib/libparted-fs-resize.so: неопределённая ссылка на «ped_timer_new_nested»
 collect2: ошибка: выполнение ld завершилось с кодом возврата 1
-make[1]: *** [CMakeFiles/cmTC_81fc3.dir/build.make:101: cmTC_81fc3] Ошибка 1
-make[1]: выход из каталога «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
-make: *** [Makefile:127: cmTC_81fc3/fast] Ошибка 2
+make[1]: *** [CMakeFiles/cmTC_e2cf6.dir/build.make:101: cmTC_e2cf6] Ошибка 1
+make[1]: выход из каталога «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_e2cf6/fast] Ошибка 2
 
 
 

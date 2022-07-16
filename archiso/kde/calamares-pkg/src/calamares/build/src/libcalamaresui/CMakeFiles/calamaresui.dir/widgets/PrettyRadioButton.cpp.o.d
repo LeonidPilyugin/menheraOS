@@ -1,8 +1,8 @@
 src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/PrettyRadioButton.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/widgets/PrettyRadioButton.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/widgets/PrettyRadioButton.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/widgets/PrettyRadioButton.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/widgets/PrettyRadioButton.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/12.1.0/type_traits \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -242,11 +242,11 @@ src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/PrettyRadioButton.cpp.o: \
  /usr/include/qt/QtGui/qbrush.h /usr/include/qt/QtGui/qfont.h \
  /usr/include/qt/QtGui/qfontmetrics.h /usr/include/qt/QtGui/qfontinfo.h \
  /usr/include/qt/QtWidgets/qsizepolicy.h /usr/include/qt/QtGui/qcursor.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/utils/CalamaresUtilsGui.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/utils/CalamaresUtilsGui.h \
  /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
  /usr/include/qt/QtGui/QPixmap /usr/include/qt/QtGui/qpixmap.h \
  /usr/include/qt/QtCore/QSize /usr/include/qt/QtCore/qsize.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/widgets/ClickableLabel.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/widgets/ClickableLabel.h \
  /usr/include/qt/QtCore/QElapsedTimer \
  /usr/include/qt/QtCore/qelapsedtimer.h /usr/include/qt/QtWidgets/QLabel \
  /usr/include/qt/QtWidgets/qlabel.h /usr/include/qt/QtWidgets/qframe.h \

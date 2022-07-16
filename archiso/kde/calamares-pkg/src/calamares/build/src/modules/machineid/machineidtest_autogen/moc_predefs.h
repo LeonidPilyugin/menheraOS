@@ -5,7 +5,7 @@
 #define __UINT_LEAST16_MAX__ 0xffff
 #define __FLT16_HAS_QUIET_NAN__ 1
 #define __ATOMIC_ACQUIRE 2
-#define QT_TESTCASE_BUILDDIR "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build"
+#define QT_TESTCASE_BUILDDIR "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build"
 #define __FLT128_MAX_10_EXP__ 4932
 #define __FLT_MIN__ 1.17549435082228750796873653722224568e-38F
 #define __GCC_IEC_559_COMPLEX 2
@@ -159,7 +159,7 @@
 #define __WCHAR_WIDTH__ 32
 #define __FLT32_MAX__ 3.40282346638528859811704183484516925e+38F32
 #define __DEC128_EPSILON__ 1E-33DL
-#define BUILD_AS_TEST "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid"
+#define BUILD_AS_TEST "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid"
 #define __FLT16_DECIMAL_DIG__ 5
 #define __SSE2_MATH__ 1
 #define __ATOMIC_HLE_RELEASE 131072

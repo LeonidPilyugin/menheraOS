@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Include any dependencies generated for this target.
 include src/modules/preservefiles/CMakeFiles/preservefilestest.dir/depend.make
@@ -72,44 +72,44 @@ include src/modules/preservefiles/CMakeFiles/preservefilestest.dir/flags.make
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.o: src/modules/preservefiles/CMakeFiles/preservefilestest.dir/flags.make
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.o: src/modules/preservefiles/preservefilestest_autogen/mocs_compilation.cpp
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.o: src/modules/preservefiles/CMakeFiles/preservefilestest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles/preservefilestest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles/preservefilestest_autogen/mocs_compilation.cpp
 
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles/preservefilestest_autogen/mocs_compilation.cpp > CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles/preservefilestest_autogen/mocs_compilation.cpp > CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.i
 
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles/preservefilestest_autogen/mocs_compilation.cpp -o CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles/preservefilestest_autogen/mocs_compilation.cpp -o CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.s
 
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.o: src/modules/preservefiles/CMakeFiles/preservefilestest.dir/flags.make
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.o: ../src/modules/preservefiles/Item.cpp
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.o: src/modules/preservefiles/CMakeFiles/preservefilestest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.o -MF CMakeFiles/preservefilestest.dir/Item.cpp.o.d -o CMakeFiles/preservefilestest.dir/Item.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles/Item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.o -MF CMakeFiles/preservefilestest.dir/Item.cpp.o.d -o CMakeFiles/preservefilestest.dir/Item.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles/Item.cpp
 
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/preservefilestest.dir/Item.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles/Item.cpp > CMakeFiles/preservefilestest.dir/Item.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles/Item.cpp > CMakeFiles/preservefilestest.dir/Item.cpp.i
 
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/preservefilestest.dir/Item.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles/Item.cpp -o CMakeFiles/preservefilestest.dir/Item.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles/Item.cpp -o CMakeFiles/preservefilestest.dir/Item.cpp.s
 
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.o: src/modules/preservefiles/CMakeFiles/preservefilestest.dir/flags.make
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.o: ../src/modules/preservefiles/Tests.cpp
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.o: src/modules/preservefiles/CMakeFiles/preservefilestest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.o -MF CMakeFiles/preservefilestest.dir/Tests.cpp.o.d -o CMakeFiles/preservefilestest.dir/Tests.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.o -MF CMakeFiles/preservefilestest.dir/Tests.cpp.o.d -o CMakeFiles/preservefilestest.dir/Tests.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles/Tests.cpp
 
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/preservefilestest.dir/Tests.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles/Tests.cpp > CMakeFiles/preservefilestest.dir/Tests.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles/Tests.cpp > CMakeFiles/preservefilestest.dir/Tests.cpp.i
 
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/preservefilestest.dir/Tests.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles/Tests.cpp -o CMakeFiles/preservefilestest.dir/Tests.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles/Tests.cpp -o CMakeFiles/preservefilestest.dir/Tests.cpp.s
 
 # Object files for target preservefilestest
 preservefilestest_OBJECTS = \
@@ -132,18 +132,18 @@ preservefilestest: /usr/lib/libQt5Xml.so.5.15.5
 preservefilestest: /usr/lib/libKF5CoreAddons.so.5.96.0
 preservefilestest: /usr/lib/libQt5Core.so.5.15.5
 preservefilestest: src/modules/preservefiles/CMakeFiles/preservefilestest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../preservefilestest"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/preservefilestest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../preservefilestest"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/preservefilestest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build: preservefilestest
 .PHONY : src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build
 
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && $(CMAKE_COMMAND) -P CMakeFiles/preservefilestest.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && $(CMAKE_COMMAND) -P CMakeFiles/preservefilestest.dir/cmake_clean.cmake
 .PHONY : src/modules/preservefiles/CMakeFiles/preservefilestest.dir/clean
 
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles/CMakeFiles/preservefilestest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles/CMakeFiles/preservefilestest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/preservefiles/CMakeFiles/preservefilestest.dir/depend
 

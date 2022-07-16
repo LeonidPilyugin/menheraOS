@@ -1,15 +1,15 @@
-/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/fsresizer/calamares_job_fsresizer_autogen/EWIEGA46WW/moc_ResizeFSJob.cpp: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/fsresizer/ResizeFSJob.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/fsresizer/calamares_job_fsresizer_autogen/moc_predefs.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/CppJob.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMManager.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionSize.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedSuffix.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/PluginFactory.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Units.h \
+/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/fsresizer/calamares_job_fsresizer_autogen/EWIEGA46WW/moc_ResizeFSJob.cpp: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/fsresizer/ResizeFSJob.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/fsresizer/calamares_job_fsresizer_autogen/moc_predefs.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/CppJob.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMManager.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionSize.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedSuffix.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/PluginFactory.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Units.h \
   /usr/include/KF5/KCoreAddons/KPluginFactory \
   /usr/include/KF5/KCoreAddons/kcoreaddons_export.h \
   /usr/include/KF5/KCoreAddons/kexportplugin.h \

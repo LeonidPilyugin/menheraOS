@@ -1,12 +1,12 @@
 {
-	"BUILD_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/packagechoosertest_autogen",
-	"CMAKE_BINARY_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser",
+	"BUILD_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/packagechoosertest_autogen",
+	"CMAKE_BINARY_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser/CMakeLists.txt",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser/CMakeLists.txt",
 		"/usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/lib64/cmake/Qt5/Qt5Config.cmake",
 		"/usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake",
@@ -24,27 +24,27 @@
 		"/usr/lib64/cmake/AppStreamQt/AppStreamQtConfigVersion.cmake",
 		"/usr/lib64/cmake/AppStreamQt/AppStreamQtConfig.cmake",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser/packagechooser.conf",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser/packagechooser.qrc"
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser/packagechooser.conf",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser/packagechooser.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares",
+	"CMAKE_SOURCE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser/Tests.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser/Tests.h",
 			"Mu",
 			"EWIEGA46WW/moc_Tests.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/packagechoosertest_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/packagechoosertest_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/packagechoosertest_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/packagechoosertest_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
-		"BUILD_AS_TEST=\"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser\"",
+		"BUILD_AS_TEST=\"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser\"",
 		"HAVE_APPDATA",
 		"HAVE_APPSTREAM",
 		"KCOREADDONS_LIB",
@@ -61,7 +61,7 @@
 		"QT_SHAREDPOINTER_TRACK_POINTERS",
 		"QT_STRICT_ITERATORS",
 		"QT_SVG_LIB",
-		"QT_TESTCASE_BUILDDIR=\"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build\"",
+		"QT_TESTCASE_BUILDDIR=\"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build\"",
 		"QT_TESTLIB_LIB",
 		"QT_WIDGETS_LIB",
 		"QT_XML_LIB"
@@ -87,11 +87,11 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser",
 		"/usr/include/libcalamares",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
@@ -137,25 +137,25 @@
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/packagechoosertest_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/packagechoosertest_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/calamares_viewmodule_packagechooser_autogen/EWIEGA46WW/qrc_packagechooser.cpp",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/calamares_viewmodule_packagechooser_autogen/mocs_compilation.cpp"
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/calamares_viewmodule_packagechooser_autogen/EWIEGA46WW/qrc_packagechooser.cpp",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/calamares_viewmodule_packagechooser_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/CMakeFiles/packagechoosertest_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/CMakeFiles/packagechoosertest_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/CMakeFiles/packagechoosertest_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooser/CMakeFiles/packagechoosertest_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser/Tests.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/packagechooser/Tests.cpp",
 			"Mu",
 			null
 		]

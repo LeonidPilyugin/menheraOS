@@ -1,12 +1,12 @@
 {
-	"BUILD_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userstest_autogen",
-	"CMAKE_BINARY_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users",
+	"BUILD_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userstest_autogen",
+	"CMAKE_BINARY_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CMakeLists.txt",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CMakeLists.txt",
 		"/usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/lib64/cmake/Qt5/Qt5Config.cmake",
 		"/usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake",
@@ -16,10 +16,10 @@
 		"/usr/lib64/cmake/Qt5DBus/Qt5DBusConfig.cmake",
 		"/usr/lib64/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
 		"/usr/lib64/cmake/Qt5Network/Qt5NetworkConfig.cmake",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/FindCrypt.cmake",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/FindCrypt.cmake",
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/FindLibPWQuality.cmake",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/FindLibPWQuality.cmake",
 		"/usr/share/cmake/Modules/FindPkgConfig.cmake",
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
@@ -31,57 +31,57 @@
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/users.conf",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/users.qrc"
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/users.conf",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/users.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares",
+	"CMAKE_SOURCE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CheckPWQuality.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CheckPWQuality.h",
 			"Mu",
 			"EWIEGA46WW/moc_CheckPWQuality.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Config.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Config.h",
 			"Mu",
 			"EWIEGA46WW/moc_Config.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CreateUserJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CreateUserJob.h",
 			"Mu",
 			"EWIEGA46WW/moc_CreateUserJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/MiscJobs.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/MiscJobs.h",
 			"Mu",
 			"EWIEGA46WW/moc_MiscJobs.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetHostNameJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetHostNameJob.h",
 			"Mu",
 			"EWIEGA46WW/moc_SetHostNameJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetPasswordJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetPasswordJob.h",
 			"Mu",
 			"EWIEGA46WW/moc_SetPasswordJob.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userstest_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userstest_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userstest_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userstest_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
-		"BUILD_AS_TEST=\"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users\"",
+		"BUILD_AS_TEST=\"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users\"",
 		"CHECK_PWQUALITY",
 		"HAVE_ICU",
 		"HAVE_LIBPWQUALITY",
@@ -94,7 +94,7 @@
 		"QT_SHARED",
 		"QT_SHAREDPOINTER_TRACK_POINTERS",
 		"QT_STRICT_ITERATORS",
-		"QT_TESTCASE_BUILDDIR=\"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build\"",
+		"QT_TESTCASE_BUILDDIR=\"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build\"",
 		"QT_TESTLIB_LIB",
 		"QT_XML_LIB"
 	],
@@ -119,12 +119,12 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamaresui",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamaresui",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users",
 		"/usr/include/libcalamares",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
@@ -164,59 +164,59 @@
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userstest_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userstest_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/calamares_viewmodule_users_autogen/EWIEGA46WW/qrc_users.cpp",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/calamares_viewmodule_users_autogen/mocs_compilation.cpp",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/users_internal_autogen/mocs_compilation.cpp",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/mocs_compilation.cpp",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usershostnametest_autogen/mocs_compilation.cpp",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userspasswordtest_autogen/mocs_compilation.cpp"
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/calamares_viewmodule_users_autogen/EWIEGA46WW/qrc_users.cpp",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/calamares_viewmodule_users_autogen/mocs_compilation.cpp",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/users_internal_autogen/mocs_compilation.cpp",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/mocs_compilation.cpp",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usershostnametest_autogen/mocs_compilation.cpp",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userspasswordtest_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/CMakeFiles/userstest_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/CMakeFiles/userstest_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/CMakeFiles/userstest_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/CMakeFiles/userstest_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CheckPWQuality.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CheckPWQuality.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Config.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Config.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CreateUserJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CreateUserJob.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/MiscJobs.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/MiscJobs.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetHostNameJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetHostNameJob.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetPasswordJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetPasswordJob.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Tests.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Tests.cpp",
 			"Mu",
 			null
 		]

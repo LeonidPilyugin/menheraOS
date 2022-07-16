@@ -1,20 +1,20 @@
-/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/include/Tests.moc: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Tests.cpp \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/moc_predefs.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/GlobalStorage.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/JobQueue.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/CalamaresUtilsSystem.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Entropy.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/RAII.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Runner.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/String.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Traits.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/UMask.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Variant.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Yaml.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/moc-warnings.h \
+/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/include/Tests.moc: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Tests.cpp \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/moc_predefs.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/GlobalStorage.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/JobQueue.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/CalamaresUtilsSystem.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Entropy.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/RAII.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Runner.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/String.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Traits.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/UMask.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Variant.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Yaml.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/moc-warnings.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

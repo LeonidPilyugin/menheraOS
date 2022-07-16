@@ -1,7 +1,7 @@
 src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionPage.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionPage.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionPage.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionPage.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionPage.h \
  /usr/include/qt/QtCore/QMutex /usr/include/qt/QtCore/qmutex.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/12.1.0/type_traits \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -243,19 +243,19 @@ src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/Partitio
  /usr/include/qt/QtGui/qfontinfo.h \
  /usr/include/qt/QtWidgets/qsizepolicy.h /usr/include/qt/QtGui/qcursor.h \
  /usr/include/qt/QtGui/qkeysequence.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/BootLoaderModel.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/BootLoaderModel.h \
  /usr/include/qt/QtCore/QList /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtGui/QStandardItemModel \
  /usr/include/qt/QtGui/qstandarditemmodel.h \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
  /usr/include/c++/12.1.0/variant /usr/include/qt/QtGui/qicon.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/DeviceModel.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/DeviceModel.h \
  /usr/include/qt/QtCore/QAbstractListModel \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/KPMHelpers.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/KPMHelpers.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/qt/QtCore/QObject \
  /usr/include/qt/QtCore/qobject.h /usr/include/qt/QtCore/QSharedPointer \
  /usr/include/qt/QtCore/qsharedpointer.h \
@@ -270,37 +270,37 @@ src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/Partitio
  /usr/include/qt/QtCore/qstring.h /usr/include/qt/QtCore/QUrl \
  /usr/include/qt/QtCore/qurl.h /usr/include/kpmcore/ops/operation.h \
  /usr/include/kpmcore/util/report.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartUtils.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/OsproberEntry.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedSuffix.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Units.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartUtils.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/OsproberEntry.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedSuffix.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Units.h \
  /usr/include/qt/QtCore/QIntegerForSize \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionCoreModule.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionLayout.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionSize.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionCoreModule.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionLayout.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionSize.h \
  /usr/include/qt/QtCore/QVariantMap \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionModel.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionModel.h \
  /usr/include/qt/QtCore/QAbstractItemModel \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/PartitionJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMManager.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/PartitionJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMManager.h \
  /usr/include/kpmcore/core/lvmdevice.h /usr/include/kpmcore/core/device.h \
  /usr/include/kpmcore/core/volumemanagerdevice.h \
  /usr/include/qt/QtCore/QHash /usr/include/qt/QtCore/qhash.h \
  /usr/include/qt/QtCore/QVector /usr/include/qt/QtCore/qvector.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionInfo.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/CreatePartitionDialog.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionInfo.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/CreatePartitionDialog.h \
  /usr/include/kpmcore/core/partitionrole.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qwidget.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/CreateVolumeGroupDialog.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/CreateVolumeGroupDialog.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.h \
  /usr/include/kpmcore/core/partition.h \
  /usr/include/kpmcore/core/partitiontable.h \
  /usr/include/qt/QtCore/QPointer /usr/include/qt/QtCore/qpointer.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/EditExistingPartitionDialog.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ResizeVolumeGroupDialog.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ScanningDialog.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/EditExistingPartitionDialog.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ResizeVolumeGroupDialog.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ScanningDialog.h \
  /usr/include/qt/QtCore/QFuture /usr/include/qt/QtCore/qfuture.h \
  /usr/include/qt/QtCore/qfutureinterface.h \
  /usr/include/qt/QtCore/qrunnable.h /usr/include/qt/QtCore/qmutex.h \
@@ -310,7 +310,7 @@ src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/Partitio
  /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qcontiguouscache.h \
  /usr/include/c++/12.1.0/mutex /usr/include/c++/12.1.0/bits/std_mutex.h \
  /usr/include/c++/12.1.0/bits/unique_lock.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/include/ui_CreatePartitionTableDialog.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/include/ui_CreatePartitionTableDialog.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtWidgets/QApplication \
  /usr/include/qt/QtWidgets/qapplication.h \
  /usr/include/qt/QtCore/qcoreapplication.h \
@@ -332,7 +332,7 @@ src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/Partitio
  /usr/include/qt/QtWidgets/qlayoutitem.h \
  /usr/include/qt/QtWidgets/qboxlayout.h \
  /usr/include/qt/QtWidgets/qgridlayout.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/include/ui_PartitionPage.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/include/ui_PartitionPage.h \
  /usr/include/qt/QtWidgets/QComboBox \
  /usr/include/qt/QtWidgets/qcombobox.h \
  /usr/include/qt/QtWidgets/qabstractitemdelegate.h \
@@ -355,28 +355,28 @@ src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/Partitio
  /usr/include/qt/QtWidgets/qpushbutton.h \
  /usr/include/qt/QtWidgets/QTreeView \
  /usr/include/qt/QtWidgets/qtreeview.h /usr/include/qt/QtWidgets/QWidget \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionBarsView.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionViewSelectionFilter.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionBarsView.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionViewSelectionFilter.h \
  /usr/include/qt/QtCore/QModelIndex \
  /usr/include/qt/QtWidgets/QAbstractItemView \
  /usr/include/qt/QtWidgets/qabstractitemview.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionLabelsView.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/Branding.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CalamaresConfig.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionLabelsView.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/Branding.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CalamaresConfig.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/QMap /usr/include/qt/QtCore/qmap.h \
  /usr/include/qt/QtGui/QPixmap /usr/include/qt/QtGui/qpixmap.h \
  /usr/include/qt/QtCore/QSize /usr/include/qt/QtCore/qsize.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/GlobalStorage.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/JobQueue.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionQuery.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/GlobalStorage.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/JobQueue.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionQuery.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Retranslator.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/Translation.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Retranslator.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/Translation.h \
  /usr/include/qt/QtCore/QLocale /usr/include/qt/QtCore/qlocale.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/widgets/TranslationFix.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/widgets/TranslationFix.h \
  /usr/include/kpmcore/core/device.h \
  /usr/include/kpmcore/core/softwareraid.h \
  /usr/include/kpmcore/util/report.h \

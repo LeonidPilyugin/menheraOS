@@ -1,8 +1,8 @@
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/oemid/OEMViewStep.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/oemid/OEMViewStep.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/oemid/OEMViewStep.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/PluginFactory.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/oemid/OEMViewStep.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/PluginFactory.h \
  /usr/include/KF5/KCoreAddons/KPluginFactory \
  /usr/include/KF5/KCoreAddons/kpluginfactory.h \
  /usr/include/KF5/KCoreAddons/kcoreaddons_export.h \
@@ -250,21 +250,21 @@ src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o: \
  /usr/include/qt/QtCore/qjsonobject.h /usr/include/qt/QtCore/QtPlugin \
  /usr/include/qt/QtCore/qplugin.h \
  /usr/include/KF5/KCoreAddons/kcoreaddons_export.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/viewpages/ViewStep.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/viewpages/ViewStep.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/QList /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtCore/QSharedPointer \
  /usr/include/qt/QtCore/qsharedpointer.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/InstanceKey.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/InstanceKey.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/QPair /usr/include/qt/QtCore/qpair.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/Requirement.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/Requirement.h \
  /usr/include/qt/QtCore/QSize /usr/include/qt/QtCore/qsize.h \
  /usr/include/qt/QtCore/qmargins.h /usr/include/qt/QtCore/QVariantMap \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/include/ui_OEMPage.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/include/ui_OEMPage.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtWidgets/QApplication \
  /usr/include/qt/QtWidgets/qapplication.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -303,11 +303,11 @@ src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o: \
  /usr/include/qt/QtWidgets/QVBoxLayout \
  /usr/include/qt/QtWidgets/qboxlayout.h /usr/include/qt/QtWidgets/QWidget \
  /usr/include/qt/QtWidgets/qwidget.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/oemid/IDJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Retranslator.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/Translation.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/oemid/IDJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Retranslator.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/Translation.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
  /usr/include/qt/QtCore/QLocale /usr/include/qt/QtCore/qlocale.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Variant.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Variant.h \
  /usr/include/qt/QtCore/QDate /usr/include/qt/QtCore/qdatetime.h \
  /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/QWidget

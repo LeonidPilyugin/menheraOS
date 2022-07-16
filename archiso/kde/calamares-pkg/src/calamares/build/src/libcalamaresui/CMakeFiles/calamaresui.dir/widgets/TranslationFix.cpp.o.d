@@ -1,8 +1,8 @@
 src/libcalamaresui/CMakeFiles/calamaresui.dir/widgets/TranslationFix.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/widgets/TranslationFix.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/widgets/TranslationFix.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/widgets/TranslationFix.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/widgets/TranslationFix.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/12.1.0/type_traits \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \

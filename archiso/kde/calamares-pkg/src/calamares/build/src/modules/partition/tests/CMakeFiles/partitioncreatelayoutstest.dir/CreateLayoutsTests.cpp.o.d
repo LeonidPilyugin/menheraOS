@@ -1,8 +1,8 @@
 src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/CreateLayoutsTests.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/CreateLayoutsTests.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/CreateLayoutsTests.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/CreateLayoutsTests.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMHelper.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/CreateLayoutsTests.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMHelper.h \
  /usr/include/kpmcore/backend/corebackend.h \
  /usr/include/kpmcore/util/libpartitionmanagerexport.h \
  /usr/include/kpmcore/fs/filesystem.h /usr/include/qt/QtCore/QVariant \
@@ -244,26 +244,26 @@ src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/CreateLayo
  /usr/include/qt/QtCore/qsharedpointer_impl.h \
  /usr/include/kpmcore/fs/filesystemfactory.h /usr/include/qt/QtCore/QMap \
  /usr/include/qt/QtCore/qmap.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/../core/PartitionLayout.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionSize.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedSuffix.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Units.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/../core/PartitionLayout.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionSize.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedSuffix.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Units.h \
  /usr/include/qt/QtCore/QIntegerForSize \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/../core/PartUtils.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/../core/OsproberEntry.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/../core/PartUtils.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/../core/OsproberEntry.h \
  /usr/include/kpmcore/fs/filesystem.h \
  /usr/include/kpmcore/core/partitiontable.h \
  /usr/include/qt/QtCore/QVariantMap \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/JobQueue.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/JobQueue.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
  /usr/include/qt/QtCore/QSharedPointer \
  /usr/include/qt/QtCore/qsharedpointer.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMManager.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMManager.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/qtextstream.h /usr/include/qt/QtCore/qiodevice.h \
  /usr/include/qt/QtCore/qlocale.h /usr/include/qt/QtCore/qvariant.h \

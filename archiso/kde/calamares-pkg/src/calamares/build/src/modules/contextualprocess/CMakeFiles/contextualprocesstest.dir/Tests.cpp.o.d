@@ -1,7 +1,7 @@
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/Tests.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/contextualprocess/Tests.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/contextualprocess/Tests.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/contextualprocess/Tests.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/contextualprocess/Tests.h \
  /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
  /usr/include/qt/QtCore/qobjectdefs.h /usr/include/qt/QtCore/qnamespace.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/12.1.0/type_traits \
@@ -208,9 +208,9 @@ src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/Tests.cpp.o: 
  /usr/include/c++/12.1.0/bits/chrono.h /usr/include/c++/12.1.0/ratio \
  /usr/include/c++/12.1.0/limits /usr/include/c++/12.1.0/ctime \
  /usr/include/c++/12.1.0/bits/parse_numbers.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/contextualprocess/Binding.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/contextualprocess/Binding.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/qt/QtCore/QList \
  /usr/include/qt/QtCore/qlist.h /usr/include/qt/QtCore/QSharedPointer \
  /usr/include/qt/QtCore/qsharedpointer.h \
@@ -228,19 +228,19 @@ src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/Tests.cpp.o: 
  /usr/include/c++/12.1.0/pstl/glue_memory_defs.h \
  /usr/include/qt/QtCore/QPair /usr/include/qt/QtCore/qpair.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/contextualprocess/ContextualProcessJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/contextualprocess/ContextualProcessJob.h \
  /usr/include/qt/QtCore/QVariantMap /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtCore/qmap.h /usr/include/c++/12.1.0/variant \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/CppJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/InstanceKey.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/CppJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/InstanceKey.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/qtextstream.h /usr/include/qt/QtCore/qiodevice.h \
  /usr/include/qt/QtCore/qlocale.h /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qcontiguouscache.h \
  /usr/include/qt/QtCore/qsharedpointer.h /usr/include/qt/QtCore/QVariant \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/PluginFactory.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/PluginFactory.h \
  /usr/include/KF5/KCoreAddons/KPluginFactory \
  /usr/include/KF5/KCoreAddons/kpluginfactory.h \
  /usr/include/KF5/KCoreAddons/kcoreaddons_export.h \
@@ -261,13 +261,13 @@ src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/Tests.cpp.o: 
  /usr/include/qt/QtCore/qjsonobject.h /usr/include/qt/QtCore/QtPlugin \
  /usr/include/qt/QtCore/qplugin.h \
  /usr/include/KF5/KCoreAddons/kcoreaddons_export.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/GlobalStorage.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/GlobalStorage.h \
  /usr/include/qt/QtCore/QMutex /usr/include/qt/QtCore/qmutex.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/JobQueue.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/CalamaresUtilsSystem.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/CommandList.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Yaml.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/JobQueue.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/CalamaresUtilsSystem.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/CommandList.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Yaml.h \
  /usr/include/qt/QtCore/QVariantList /usr/include/yaml-cpp/yaml.h \
  /usr/include/yaml-cpp/parser.h /usr/include/c++/12.1.0/ios \
  /usr/include/c++/12.1.0/bits/basic_ios.h \

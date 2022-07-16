@@ -1,17 +1,17 @@
 {
-	"BUILD_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen",
-	"CMAKE_BINARY_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition",
+	"BUILD_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen",
+	"CMAKE_BINARY_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/CMakeLists.txt",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/CMakeLists.txt",
 		"/usr/share/ECM/cmake/ECMConfigVersion.cmake",
 		"/usr/share/ECM/cmake/ECMConfig.cmake",
 		"/usr/share/ECM/modules/ECMUseFindModules.cmake",
 		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/KPMcoreHelper.cmake",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/KPMcoreHelper.cmake",
 		"/usr/lib64/cmake/KPMcore/KPMcoreConfigVersion.cmake",
 		"/usr/lib64/cmake/KPMcore/KPMcoreConfig.cmake",
 		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
@@ -57,299 +57,299 @@
 		"/usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets-noconfig.cmake",
 		"/usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsQchTargets.cmake",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/partition.conf"
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/partition.conf"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares",
+	"CMAKE_SOURCE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/Config.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/Config.h",
 			"MU",
 			"EWIEGA46WW/moc_Config.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/PartitionViewStep.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/PartitionViewStep.h",
 			"MU",
 			"EWIEGA46WW/moc_PartitionViewStep.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/BootLoaderModel.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/BootLoaderModel.h",
 			"MU",
 			"TAC5DWH4SE/moc_BootLoaderModel.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/ColorUtils.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/ColorUtils.h",
 			"MU",
 			"TAC5DWH4SE/moc_ColorUtils.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/DeviceList.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/DeviceList.h",
 			"MU",
 			"TAC5DWH4SE/moc_DeviceList.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/DeviceModel.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/DeviceModel.h",
 			"MU",
 			"TAC5DWH4SE/moc_DeviceModel.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/KPMHelpers.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/KPMHelpers.h",
 			"MU",
 			"TAC5DWH4SE/moc_KPMHelpers.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartUtils.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartUtils.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartUtils.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionActions.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionActions.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionActions.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionCoreModule.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionCoreModule.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionCoreModule.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionInfo.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionInfo.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionInfo.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionLayout.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionLayout.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionLayout.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionModel.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionModel.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionModel.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/BootInfoWidget.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/BootInfoWidget.h",
 			"MU",
 			"DMHXEJ42XS/moc_BootInfoWidget.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ChoicePage.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ChoicePage.h",
 			"MU",
 			"DMHXEJ42XS/moc_ChoicePage.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/CreatePartitionDialog.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/CreatePartitionDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_CreatePartitionDialog.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/CreateVolumeGroupDialog.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/CreateVolumeGroupDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_CreateVolumeGroupDialog.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/DeviceInfoWidget.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/DeviceInfoWidget.h",
 			"MU",
 			"DMHXEJ42XS/moc_DeviceInfoWidget.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/EditExistingPartitionDialog.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/EditExistingPartitionDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_EditExistingPartitionDialog.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/EncryptWidget.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/EncryptWidget.h",
 			"MU",
 			"DMHXEJ42XS/moc_EncryptWidget.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.h",
 			"MU",
 			"DMHXEJ42XS/moc_ListPhysicalVolumeWidgetItem.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionBarsView.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionBarsView.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionBarsView.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionDialogHelpers.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionDialogHelpers.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionDialogHelpers.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionLabelsView.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionLabelsView.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionLabelsView.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionPage.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionPage.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionPage.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionSizeController.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionSizeController.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionSizeController.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionSplitterWidget.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionSplitterWidget.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionSplitterWidget.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ReplaceWidget.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ReplaceWidget.h",
 			"MU",
 			"DMHXEJ42XS/moc_ReplaceWidget.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ResizeVolumeGroupDialog.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ResizeVolumeGroupDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_ResizeVolumeGroupDialog.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ScanningDialog.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ScanningDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_ScanningDialog.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_VolumeGroupBaseDialog.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/AutoMountManagementJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/AutoMountManagementJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_AutoMountManagementJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ChangeFilesystemLabelJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ChangeFilesystemLabelJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ChangeFilesystemLabelJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ClearMountsJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ClearMountsJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ClearMountsJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ClearTempMountsJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ClearTempMountsJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ClearTempMountsJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/CreatePartitionJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/CreatePartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_CreatePartitionJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/CreatePartitionTableJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/CreatePartitionTableJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_CreatePartitionTableJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/CreateVolumeGroupJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/CreateVolumeGroupJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_CreateVolumeGroupJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/DeactivateVolumeGroupJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/DeactivateVolumeGroupJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_DeactivateVolumeGroupJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/DeletePartitionJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/DeletePartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_DeletePartitionJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/FillGlobalStorageJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/FillGlobalStorageJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_FillGlobalStorageJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/FormatPartitionJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/FormatPartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_FormatPartitionJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/PartitionJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/PartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_PartitionJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/RemoveVolumeGroupJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/RemoveVolumeGroupJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_RemoveVolumeGroupJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ResizePartitionJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ResizePartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ResizePartitionJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ResizeVolumeGroupJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ResizeVolumeGroupJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ResizeVolumeGroupJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/SetPartitionFlagsJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/SetPartitionFlagsJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_SetPartitionFlagsJob.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"KCOREADDONS_LIB",
@@ -394,13 +394,13 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamaresui",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamaresui",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition",
 		"/usr/include/libcalamares",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
@@ -446,251 +446,251 @@
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/Config.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/Config.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/PartitionViewStep.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/PartitionViewStep.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/BootLoaderModel.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/BootLoaderModel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/ColorUtils.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/ColorUtils.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/DeviceList.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/DeviceList.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/DeviceModel.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/DeviceModel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/KPMHelpers.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/KPMHelpers.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartUtils.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartUtils.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionActions.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionActions.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionCoreModule.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionCoreModule.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionInfo.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionInfo.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionLayout.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionLayout.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionModel.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/PartitionModel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/BootInfoWidget.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/BootInfoWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ChoicePage.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ChoicePage.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/CreatePartitionDialog.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/CreatePartitionDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/CreateVolumeGroupDialog.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/CreateVolumeGroupDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/DeviceInfoWidget.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/DeviceInfoWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/EditExistingPartitionDialog.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/EditExistingPartitionDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/EncryptWidget.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/EncryptWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionBarsView.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionBarsView.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionDialogHelpers.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionDialogHelpers.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionLabelsView.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionLabelsView.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionPage.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionPage.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionSizeController.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionSizeController.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionSplitterWidget.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/PartitionSplitterWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ReplaceWidget.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ReplaceWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ResizeVolumeGroupDialog.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ResizeVolumeGroupDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ScanningDialog.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ScanningDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/AutoMountManagementJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/AutoMountManagementJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ChangeFilesystemLabelJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ChangeFilesystemLabelJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ClearMountsJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ClearMountsJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ClearTempMountsJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ClearTempMountsJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/CreatePartitionJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/CreatePartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/CreatePartitionTableJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/CreatePartitionTableJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/CreateVolumeGroupJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/CreateVolumeGroupJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/DeactivateVolumeGroupJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/DeactivateVolumeGroupJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/DeletePartitionJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/DeletePartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/FillGlobalStorageJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/FillGlobalStorageJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/FormatPartitionJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/FormatPartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/PartitionJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/PartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/RemoveVolumeGroupJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/RemoveVolumeGroupJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ResizePartitionJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ResizePartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ResizeVolumeGroupJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ResizeVolumeGroupJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/SetPartitionFlagsJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/SetPartitionFlagsJob.cpp",
 			"MU",
 			null
 		]

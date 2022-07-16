@@ -1,9 +1,9 @@
 src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/__/jobs/ClearMountsJob.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ClearMountsJob.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ClearMountsJob.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ClearMountsJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/ClearMountsJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/12.1.0/type_traits \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -225,7 +225,7 @@ src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/__/jobs/C
  /usr/include/c++/12.1.0/bits/shared_ptr_atomic.h \
  /usr/include/c++/12.1.0/backward/auto_ptr.h \
  /usr/include/c++/12.1.0/pstl/glue_memory_defs.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/../core/PartitionInfo.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/../core/PartitionInfo.h \
  /usr/include/qt/QtCore/QHash /usr/include/qt/QtCore/qhash.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/kpmcore/core/partitiontable.h \
@@ -234,17 +234,17 @@ src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/__/jobs/C
  /usr/include/qt/QtCore/QtGlobal /usr/include/qt/QtCore/qglobal.h \
  /usr/include/kpmcore/core/partitionrole.h \
  /usr/include/qt/QtCore/QStringList /usr/include/qt/QtCore/qstringlist.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionIterator.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/Sync.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionIterator.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/Sync.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/qmap.h /usr/include/qt/QtCore/qtextstream.h \
  /usr/include/qt/QtCore/qiodevice.h /usr/include/qt/QtCore/qlocale.h \
  /usr/include/qt/QtCore/qvariant.h /usr/include/c++/12.1.0/variant \
  /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qcontiguouscache.h \
  /usr/include/qt/QtCore/qsharedpointer.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/String.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/String.h \
  /usr/include/kpmcore/core/device.h /usr/include/kpmcore/core/partition.h \
  /usr/include/kpmcore/core/partitiontable.h \
  /usr/include/qt/QtCore/QPointer /usr/include/qt/QtCore/qpointer.h \

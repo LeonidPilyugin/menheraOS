@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall//CMakeFiles/progress.marks
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall//CMakeFiles/progress.marks
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/clean
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/rule
 .PHONY : src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_viewmodule_netinstall: src/modules/netinstall/CMakeFiles/calamares_vie
 
 # fast build rule for target.
 calamares_viewmodule_netinstall/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build
 .PHONY : calamares_viewmodule_netinstall/fast
 
 # Convenience name for target.
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/CMakeFiles/netinstalltest.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/CMakeFiles/netinstalltest.dir/rule
 .PHONY : src/modules/netinstall/CMakeFiles/netinstalltest.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ netinstalltest: src/modules/netinstall/CMakeFiles/netinstalltest.dir/rule
 
 # fast build rule for target.
 netinstalltest/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/build
 .PHONY : netinstalltest/fast
 
 # Convenience name for target.
 src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall_autogen.dir/rule
 .PHONY : src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall_autogen.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ calamares_viewmodule_netinstall_autogen: src/modules/netinstall/CMakeFiles/calam
 
 # fast build rule for target.
 calamares_viewmodule_netinstall_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall_autogen.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall_autogen.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall_autogen.dir/build
 .PHONY : calamares_viewmodule_netinstall_autogen/fast
 
 # Convenience name for target.
 src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/rule
 .PHONY : src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/rule
 
 # Convenience name for target.
@@ -244,7 +244,7 @@ netinstalltest_autogen: src/modules/netinstall/CMakeFiles/netinstalltest_autogen
 
 # fast build rule for target.
 netinstalltest_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/build
 .PHONY : netinstalltest_autogen/fast
 
 Config.o: Config.cpp.o
@@ -252,8 +252,8 @@ Config.o: Config.cpp.o
 
 # target to build an object file
 Config.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/Config.cpp.o
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/Config.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o
 .PHONY : Config.cpp.o
 
 Config.i: Config.cpp.i
@@ -261,8 +261,8 @@ Config.i: Config.cpp.i
 
 # target to preprocess a source file
 Config.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/Config.cpp.i
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/Config.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.i
 .PHONY : Config.cpp.i
 
 Config.s: Config.cpp.s
@@ -270,8 +270,8 @@ Config.s: Config.cpp.s
 
 # target to generate assembly for a file
 Config.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/Config.cpp.s
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/Config.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.s
 .PHONY : Config.cpp.s
 
 LoaderQueue.o: LoaderQueue.cpp.o
@@ -279,8 +279,8 @@ LoaderQueue.o: LoaderQueue.cpp.o
 
 # target to build an object file
 LoaderQueue.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/LoaderQueue.cpp.o
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/LoaderQueue.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o
 .PHONY : LoaderQueue.cpp.o
 
 LoaderQueue.i: LoaderQueue.cpp.i
@@ -288,8 +288,8 @@ LoaderQueue.i: LoaderQueue.cpp.i
 
 # target to preprocess a source file
 LoaderQueue.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/LoaderQueue.cpp.i
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/LoaderQueue.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.i
 .PHONY : LoaderQueue.cpp.i
 
 LoaderQueue.s: LoaderQueue.cpp.s
@@ -297,8 +297,8 @@ LoaderQueue.s: LoaderQueue.cpp.s
 
 # target to generate assembly for a file
 LoaderQueue.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/LoaderQueue.cpp.s
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/LoaderQueue.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.s
 .PHONY : LoaderQueue.cpp.s
 
 NetInstallPage.o: NetInstallPage.cpp.o
@@ -306,7 +306,7 @@ NetInstallPage.o: NetInstallPage.cpp.o
 
 # target to build an object file
 NetInstallPage.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/NetInstallPage.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/NetInstallPage.cpp.o
 .PHONY : NetInstallPage.cpp.o
 
 NetInstallPage.i: NetInstallPage.cpp.i
@@ -314,7 +314,7 @@ NetInstallPage.i: NetInstallPage.cpp.i
 
 # target to preprocess a source file
 NetInstallPage.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/NetInstallPage.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/NetInstallPage.cpp.i
 .PHONY : NetInstallPage.cpp.i
 
 NetInstallPage.s: NetInstallPage.cpp.s
@@ -322,7 +322,7 @@ NetInstallPage.s: NetInstallPage.cpp.s
 
 # target to generate assembly for a file
 NetInstallPage.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/NetInstallPage.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/NetInstallPage.cpp.s
 .PHONY : NetInstallPage.cpp.s
 
 NetInstallViewStep.o: NetInstallViewStep.cpp.o
@@ -330,7 +330,7 @@ NetInstallViewStep.o: NetInstallViewStep.cpp.o
 
 # target to build an object file
 NetInstallViewStep.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/NetInstallViewStep.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/NetInstallViewStep.cpp.o
 .PHONY : NetInstallViewStep.cpp.o
 
 NetInstallViewStep.i: NetInstallViewStep.cpp.i
@@ -338,7 +338,7 @@ NetInstallViewStep.i: NetInstallViewStep.cpp.i
 
 # target to preprocess a source file
 NetInstallViewStep.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/NetInstallViewStep.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/NetInstallViewStep.cpp.i
 .PHONY : NetInstallViewStep.cpp.i
 
 NetInstallViewStep.s: NetInstallViewStep.cpp.s
@@ -346,7 +346,7 @@ NetInstallViewStep.s: NetInstallViewStep.cpp.s
 
 # target to generate assembly for a file
 NetInstallViewStep.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/NetInstallViewStep.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/NetInstallViewStep.cpp.s
 .PHONY : NetInstallViewStep.cpp.s
 
 PackageModel.o: PackageModel.cpp.o
@@ -354,8 +354,8 @@ PackageModel.o: PackageModel.cpp.o
 
 # target to build an object file
 PackageModel.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/PackageModel.cpp.o
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/PackageModel.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o
 .PHONY : PackageModel.cpp.o
 
 PackageModel.i: PackageModel.cpp.i
@@ -363,8 +363,8 @@ PackageModel.i: PackageModel.cpp.i
 
 # target to preprocess a source file
 PackageModel.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/PackageModel.cpp.i
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/PackageModel.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.i
 .PHONY : PackageModel.cpp.i
 
 PackageModel.s: PackageModel.cpp.s
@@ -372,8 +372,8 @@ PackageModel.s: PackageModel.cpp.s
 
 # target to generate assembly for a file
 PackageModel.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/PackageModel.cpp.s
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/PackageModel.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.s
 .PHONY : PackageModel.cpp.s
 
 PackageTreeItem.o: PackageTreeItem.cpp.o
@@ -381,8 +381,8 @@ PackageTreeItem.o: PackageTreeItem.cpp.o
 
 # target to build an object file
 PackageTreeItem.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/PackageTreeItem.cpp.o
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/PackageTreeItem.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o
 .PHONY : PackageTreeItem.cpp.o
 
 PackageTreeItem.i: PackageTreeItem.cpp.i
@@ -390,8 +390,8 @@ PackageTreeItem.i: PackageTreeItem.cpp.i
 
 # target to preprocess a source file
 PackageTreeItem.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/PackageTreeItem.cpp.i
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/PackageTreeItem.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.i
 .PHONY : PackageTreeItem.cpp.i
 
 PackageTreeItem.s: PackageTreeItem.cpp.s
@@ -399,8 +399,8 @@ PackageTreeItem.s: PackageTreeItem.cpp.s
 
 # target to generate assembly for a file
 PackageTreeItem.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/PackageTreeItem.cpp.s
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/PackageTreeItem.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.s
 .PHONY : PackageTreeItem.cpp.s
 
 Tests.o: Tests.cpp.o
@@ -408,7 +408,7 @@ Tests.o: Tests.cpp.o
 
 # target to build an object file
 Tests.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o
 .PHONY : Tests.cpp.o
 
 Tests.i: Tests.cpp.i
@@ -416,7 +416,7 @@ Tests.i: Tests.cpp.i
 
 # target to preprocess a source file
 Tests.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.i
 .PHONY : Tests.cpp.i
 
 Tests.s: Tests.cpp.s
@@ -424,7 +424,7 @@ Tests.s: Tests.cpp.s
 
 # target to generate assembly for a file
 Tests.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.s
 .PHONY : Tests.cpp.s
 
 calamares_viewmodule_netinstall_autogen/mocs_compilation.o: calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.o
@@ -432,7 +432,7 @@ calamares_viewmodule_netinstall_autogen/mocs_compilation.o: calamares_viewmodule
 
 # target to build an object file
 calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.o
 
 calamares_viewmodule_netinstall_autogen/mocs_compilation.i: calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.i
@@ -440,7 +440,7 @@ calamares_viewmodule_netinstall_autogen/mocs_compilation.i: calamares_viewmodule
 
 # target to preprocess a source file
 calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.i
 
 calamares_viewmodule_netinstall_autogen/mocs_compilation.s: calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.s
@@ -448,7 +448,7 @@ calamares_viewmodule_netinstall_autogen/mocs_compilation.s: calamares_viewmodule
 
 # target to generate assembly for a file
 calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp.s
 
 groupstreeview.o: groupstreeview.cpp.o
@@ -456,7 +456,7 @@ groupstreeview.o: groupstreeview.cpp.o
 
 # target to build an object file
 groupstreeview.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/groupstreeview.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/groupstreeview.cpp.o
 .PHONY : groupstreeview.cpp.o
 
 groupstreeview.i: groupstreeview.cpp.i
@@ -464,7 +464,7 @@ groupstreeview.i: groupstreeview.cpp.i
 
 # target to preprocess a source file
 groupstreeview.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/groupstreeview.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/groupstreeview.cpp.i
 .PHONY : groupstreeview.cpp.i
 
 groupstreeview.s: groupstreeview.cpp.s
@@ -472,7 +472,7 @@ groupstreeview.s: groupstreeview.cpp.s
 
 # target to generate assembly for a file
 groupstreeview.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/groupstreeview.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/build.make src/modules/netinstall/CMakeFiles/calamares_viewmodule_netinstall.dir/groupstreeview.cpp.s
 .PHONY : groupstreeview.cpp.s
 
 netinstalltest_autogen/mocs_compilation.o: netinstalltest_autogen/mocs_compilation.cpp.o
@@ -480,7 +480,7 @@ netinstalltest_autogen/mocs_compilation.o: netinstalltest_autogen/mocs_compilati
 
 # target to build an object file
 netinstalltest_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o
 .PHONY : netinstalltest_autogen/mocs_compilation.cpp.o
 
 netinstalltest_autogen/mocs_compilation.i: netinstalltest_autogen/mocs_compilation.cpp.i
@@ -488,7 +488,7 @@ netinstalltest_autogen/mocs_compilation.i: netinstalltest_autogen/mocs_compilati
 
 # target to preprocess a source file
 netinstalltest_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.i
 .PHONY : netinstalltest_autogen/mocs_compilation.cpp.i
 
 netinstalltest_autogen/mocs_compilation.s: netinstalltest_autogen/mocs_compilation.cpp.s
@@ -496,7 +496,7 @@ netinstalltest_autogen/mocs_compilation.s: netinstalltest_autogen/mocs_compilati
 
 # target to generate assembly for a file
 netinstalltest_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/netinstall/CMakeFiles/netinstalltest.dir/build.make src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.s
 .PHONY : netinstalltest_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -559,6 +559,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,52 +1,52 @@
 {
-	"BUILD_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/localetest_autogen",
-	"CMAKE_BINARY_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale",
+	"BUILD_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/localetest_autogen",
+	"CMAKE_BINARY_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/CMakeLists.txt",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/CMakeLists.txt",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/locale.conf",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/locale.qrc"
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/locale.conf",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/locale.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares",
+	"CMAKE_SOURCE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/Config.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/Config.h",
 			"Mu",
 			"EWIEGA46WW/moc_Config.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/LocaleConfiguration.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/LocaleConfiguration.h",
 			"Mu",
 			"EWIEGA46WW/moc_LocaleConfiguration.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/SetTimezoneJob.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/SetTimezoneJob.h",
 			"Mu",
 			"EWIEGA46WW/moc_SetTimezoneJob.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/timezonewidget/TimeZoneImage.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/timezonewidget/TimeZoneImage.h",
 			"Mu",
 			"KOI7P2B5DO/moc_TimeZoneImage.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/localetest_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/localetest_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/localetest_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/localetest_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
-		"BUILD_AS_TEST=\"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale\"",
+		"BUILD_AS_TEST=\"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale\"",
 		"DEBUG_TIMEZONES=1",
 		"KCOREADDONS_LIB",
 		"QT_CORE_LIB",
@@ -57,10 +57,10 @@
 		"QT_SHARED",
 		"QT_SHAREDPOINTER_TRACK_POINTERS",
 		"QT_STRICT_ITERATORS",
-		"QT_TESTCASE_BUILDDIR=\"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build\"",
+		"QT_TESTCASE_BUILDDIR=\"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build\"",
 		"QT_TESTLIB_LIB",
 		"QT_XML_LIB",
-		"SOURCE_DIR=\"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/images\""
+		"SOURCE_DIR=\"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/images\""
 	],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -83,12 +83,12 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamaresui",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamaresui",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale",
 		"/usr/include/libcalamares",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
@@ -128,45 +128,45 @@
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/localetest_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/localetest_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/calamares_viewmodule_locale_autogen/EWIEGA46WW/qrc_locale.cpp",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/calamares_viewmodule_locale_autogen/mocs_compilation.cpp"
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/calamares_viewmodule_locale_autogen/EWIEGA46WW/qrc_locale.cpp",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/calamares_viewmodule_locale_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/CMakeFiles/localetest_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/CMakeFiles/localetest_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/CMakeFiles/localetest_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/CMakeFiles/localetest_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/Config.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/Config.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/LocaleConfiguration.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/LocaleConfiguration.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/SetTimezoneJob.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/SetTimezoneJob.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/Tests.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/Tests.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/timezonewidget/TimeZoneImage.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/timezonewidget/TimeZoneImage.cpp",
 			"Mu",
 			null
 		]

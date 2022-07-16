@@ -1,4 +1,4 @@
-# Install script for directory: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/luksopenswaphookcfg
+# Install script for directory: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/luksopenswaphookcfg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/calamares/modules/luksopenswaphookcfg/libcalamares_job_luksopenswaphookcfg.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/calamares/modules/luksopenswaphookcfg" TYPE SHARED_LIBRARY FILES "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/luksopenswaphookcfg/libcalamares_job_luksopenswaphookcfg.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/calamares/modules/luksopenswaphookcfg" TYPE SHARED_LIBRARY FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/luksopenswaphookcfg/libcalamares_job_luksopenswaphookcfg.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/calamares/modules/luksopenswaphookcfg/libcalamares_job_luksopenswaphookcfg.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/calamares/modules/luksopenswaphookcfg/libcalamares_job_luksopenswaphookcfg.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/calamares/modules/luksopenswaphookcfg/libcalamares_job_luksopenswaphookcfg.so"
-         OLD_RPATH "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build:"
+         OLD_RPATH "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/calamares/modules/luksopenswaphookcfg/libcalamares_job_luksopenswaphookcfg.so")
@@ -66,10 +66,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_CO
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/calamares/modules/luksopenswaphookcfg" TYPE FILE FILES "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/luksopenswaphookcfg/module.desc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/calamares/modules/luksopenswaphookcfg" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/luksopenswaphookcfg/module.desc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/modules" TYPE FILE FILES "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/luksopenswaphookcfg/luksopenswaphookcfg.conf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/modules" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/luksopenswaphookcfg/luksopenswaphookcfg.conf")
 endif()
 

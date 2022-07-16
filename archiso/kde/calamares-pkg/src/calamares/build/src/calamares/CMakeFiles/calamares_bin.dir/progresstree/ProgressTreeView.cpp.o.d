@@ -1,7 +1,7 @@
 src/calamares/CMakeFiles/calamares_bin.dir/progresstree/ProgressTreeView.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/progresstree/ProgressTreeView.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/progresstree/ProgressTreeView.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/progresstree/ProgressTreeView.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/progresstree/ProgressTreeView.h \
  /usr/include/qt/QtWidgets/QListView \
  /usr/include/qt/QtWidgets/qlistview.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -261,15 +261,15 @@ src/calamares/CMakeFiles/calamares_bin.dir/progresstree/ProgressTreeView.cpp.o: 
  /usr/include/qt/QtWidgets/qstyle.h /usr/include/qt/QtWidgets/qtabbar.h \
  /usr/include/qt/QtWidgets/qtabwidget.h \
  /usr/include/qt/QtWidgets/qrubberband.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/progresstree/ProgressTreeDelegate.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/progresstree/ProgressTreeDelegate.h \
  /usr/include/qt/QtWidgets/QStyledItemDelegate \
  /usr/include/qt/QtWidgets/qstyleditemdelegate.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/Branding.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CalamaresConfig.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/Branding.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CalamaresConfig.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedSuffix.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedSuffix.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtCore/QMap /usr/include/qt/QtCore/qmap.h \
  /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
@@ -277,19 +277,19 @@ src/calamares/CMakeFiles/calamares_bin.dir/progresstree/ProgressTreeView.cpp.o: 
  /usr/include/qt/QtCore/QSize /usr/include/qt/QtCore/qsize.h \
  /usr/include/qt/QtCore/QStringList /usr/include/qt/QtCore/qstringlist.h \
  /usr/include/qt/QtCore/QUrl /usr/include/qt/QtCore/qurl.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/ViewManager.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/viewpages/ViewStep.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/ViewManager.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/viewpages/ViewStep.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/QList /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtCore/QSharedPointer \
  /usr/include/qt/QtCore/qsharedpointer.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/InstanceKey.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/InstanceKey.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/qtextstream.h \
  /usr/include/qt/QtCore/qcontiguouscache.h /usr/include/qt/QtCore/QPair \
  /usr/include/qt/QtCore/qpair.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/Requirement.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/Requirement.h \
  /usr/include/qt/QtCore/QMetaType /usr/include/qt/QtCore/qmetatype.h \
  /usr/include/qt/QtCore/QAbstractListModel \
  /usr/include/qt/QtCore/qabstractitemmodel.h \

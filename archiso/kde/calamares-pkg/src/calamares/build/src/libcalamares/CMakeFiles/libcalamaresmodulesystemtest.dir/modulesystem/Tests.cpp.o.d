@@ -1,8 +1,8 @@
 src/libcalamares/CMakeFiles/libcalamaresmodulesystemtest.dir/modulesystem/Tests.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/Tests.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/Tests.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/Descriptor.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/Descriptor.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtCore/qchar.h /usr/include/qt/QtCore/qglobal.h \
  /usr/include/c++/12.1.0/type_traits \
@@ -214,7 +214,7 @@ src/libcalamares/CMakeFiles/libcalamaresmodulesystemtest.dir/modulesystem/Tests.
  /usr/include/c++/12.1.0/limits /usr/include/c++/12.1.0/ctime \
  /usr/include/c++/12.1.0/bits/parse_numbers.h \
  /usr/include/c++/12.1.0/variant \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/InstanceKey.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/InstanceKey.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/qtextstream.h /usr/include/qt/QtCore/qiodevice.h \
  /usr/include/qt/QtCore/qlocale.h /usr/include/qt/QtCore/qvariant.h \
@@ -485,5 +485,5 @@ src/libcalamares/CMakeFiles/libcalamaresmodulesystemtest.dir/modulesystem/Tests.
  /usr/include/qt/QtTest/qtesteventloop.h \
  /usr/include/qt/QtTest/qtestsystem.h \
  /usr/include/qt/QtTest/qttestversion.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/moc-warnings.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresmodulesystemtest_autogen/include/Tests.moc
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/moc-warnings.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresmodulesystemtest_autogen/include/Tests.moc

@@ -1,7 +1,7 @@
 src/modules/plasmalnf/CMakeFiles/calamares_viewmodule_plasmalnf.dir/ThemeInfo.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/plasmalnf/ThemeInfo.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/plasmalnf/ThemeInfo.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/plasmalnf/ThemeInfo.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/plasmalnf/ThemeInfo.h \
  /usr/include/qt/QtCore/QAbstractListModel \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qatomic.h \
@@ -215,12 +215,12 @@ src/modules/plasmalnf/CMakeFiles/calamares_viewmodule_plasmalnf.dir/ThemeInfo.cp
  /usr/include/c++/12.1.0/variant /usr/include/qt/QtCore/QList \
  /usr/include/qt/QtCore/qlist.h /usr/include/qt/QtCore/QString \
  /usr/include/qt/QtCore/qstring.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/Branding.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CalamaresConfig.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/Branding.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CalamaresConfig.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedSuffix.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedSuffix.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
  /usr/include/qt/QtCore/QMap /usr/include/qt/QtCore/qmap.h \
  /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
  /usr/include/qt/QtGui/QPixmap /usr/include/qt/QtGui/qpixmap.h \
@@ -250,8 +250,8 @@ src/modules/plasmalnf/CMakeFiles/calamares_viewmodule_plasmalnf.dir/ThemeInfo.cp
  /usr/include/qt/QtCore/qsize.h /usr/include/qt/QtCore/QStringList \
  /usr/include/qt/QtCore/qstringlist.h /usr/include/qt/QtCore/QUrl \
  /usr/include/qt/QtCore/qurl.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/utils/CalamaresUtilsGui.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/utils/CalamaresUtilsGui.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/qtextstream.h /usr/include/qt/QtCore/qlocale.h \
  /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qcontiguouscache.h \

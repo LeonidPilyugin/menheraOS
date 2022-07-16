@@ -1,17 +1,17 @@
-/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/notesqml/calamares_viewmodule_notesqml_autogen/EWIEGA46WW/moc_NotesQmlViewStep.cpp: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/notesqml/NotesQmlViewStep.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/notesqml/calamares_viewmodule_notesqml_autogen/moc_predefs.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/TranslatableConfiguration.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/InstanceKey.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/Requirement.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/CalamaresUtilsSystem.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/PluginFactory.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Variant.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/utils/Qml.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/viewpages/QmlViewStep.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/viewpages/ViewStep.h \
+/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/notesqml/calamares_viewmodule_notesqml_autogen/EWIEGA46WW/moc_NotesQmlViewStep.cpp: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/notesqml/NotesQmlViewStep.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/notesqml/calamares_viewmodule_notesqml_autogen/moc_predefs.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/TranslatableConfiguration.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/InstanceKey.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/Requirement.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/CalamaresUtilsSystem.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/PluginFactory.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Variant.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/utils/Qml.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/viewpages/QmlViewStep.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui/viewpages/ViewStep.h \
   /usr/include/KF5/KCoreAddons/KPluginFactory \
   /usr/include/KF5/KCoreAddons/kcoreaddons_export.h \
   /usr/include/KF5/KCoreAddons/kexportplugin.h \

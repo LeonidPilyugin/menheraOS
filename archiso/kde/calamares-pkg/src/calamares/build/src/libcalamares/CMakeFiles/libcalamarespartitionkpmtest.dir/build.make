@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Include any dependencies generated for this target.
 include src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/depend.make
@@ -72,30 +72,30 @@ include src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/flags.make
 src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.o: src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/flags.make
 src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.o: src/libcalamares/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp
 src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.o: src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp
 
 src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp > CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp > CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.i
 
 src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp -o CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp -o CMakeFiles/libcalamarespartitionkpmtest.dir/libcalamarespartitionkpmtest_autogen/mocs_compilation.cpp.s
 
 src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.o: src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/flags.make
 src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.o: ../src/libcalamares/partition/KPMTests.cpp
 src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.o: src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.o -MF CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.o.d -o CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.o -MF CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.o.d -o CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMTests.cpp
 
 src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMTests.cpp > CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMTests.cpp > CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.i
 
 src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMTests.cpp -o CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMTests.cpp -o CMakeFiles/libcalamarespartitionkpmtest.dir/partition/KPMTests.cpp.s
 
 # Object files for target libcalamarespartitionkpmtest
 libcalamarespartitionkpmtest_OBJECTS = \
@@ -120,18 +120,18 @@ libcalamarespartitionkpmtest: /usr/lib/libQt5Network.so.5.15.5
 libcalamarespartitionkpmtest: /usr/lib/libQt5Xml.so.5.15.5
 libcalamarespartitionkpmtest: /usr/lib/libQt5Core.so.5.15.5
 libcalamarespartitionkpmtest: src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../libcalamarespartitionkpmtest"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libcalamarespartitionkpmtest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../libcalamarespartitionkpmtest"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libcalamarespartitionkpmtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/build: libcalamarespartitionkpmtest
 .PHONY : src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/build
 
 src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && $(CMAKE_COMMAND) -P CMakeFiles/libcalamarespartitionkpmtest.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && $(CMAKE_COMMAND) -P CMakeFiles/libcalamarespartitionkpmtest.dir/cmake_clean.cmake
 .PHONY : src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/clean
 
 src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/libcalamares/CMakeFiles/libcalamarespartitionkpmtest.dir/depend
 

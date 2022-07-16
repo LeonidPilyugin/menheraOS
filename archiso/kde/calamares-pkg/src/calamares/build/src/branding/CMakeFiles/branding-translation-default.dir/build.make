@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Utility rule file for branding-translation-default.
 
@@ -71,28 +71,28 @@ src/branding/CMakeFiles/branding-translation-default: src/branding/calamares-def
 src/branding/CMakeFiles/branding-translation-default: src/branding/calamares-default_eo.qm
 src/branding/CMakeFiles/branding-translation-default: src/branding/calamares-default_fr.qm
 src/branding/CMakeFiles/branding-translation-default: src/branding/calamares-default_nl.qm
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && /usr/bin/cmake -E make_directory /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/default/lang/
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && /usr/bin/cmake -E copy /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_ar.qm /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_en.qm /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_eo.qm /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_fr.qm /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_nl.qm /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/default/lang/
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && /usr/bin/cmake -E make_directory /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/default/lang/
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && /usr/bin/cmake -E copy /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_ar.qm /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_en.qm /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_eo.qm /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_fr.qm /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_nl.qm /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/default/lang/
 
 src/branding/calamares-default_ar.qm: ../src/branding/default/lang/calamares-default_ar.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating calamares-default_ar.qm"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && /usr/bin/lrelease /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/branding/default/lang/calamares-default_ar.ts -qm /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_ar.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating calamares-default_ar.qm"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && /usr/bin/lrelease /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/branding/default/lang/calamares-default_ar.ts -qm /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_ar.qm
 
 src/branding/calamares-default_en.qm: ../src/branding/default/lang/calamares-default_en.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating calamares-default_en.qm"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && /usr/bin/lrelease /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/branding/default/lang/calamares-default_en.ts -qm /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_en.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating calamares-default_en.qm"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && /usr/bin/lrelease /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/branding/default/lang/calamares-default_en.ts -qm /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_en.qm
 
 src/branding/calamares-default_eo.qm: ../src/branding/default/lang/calamares-default_eo.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating calamares-default_eo.qm"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && /usr/bin/lrelease /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/branding/default/lang/calamares-default_eo.ts -qm /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_eo.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating calamares-default_eo.qm"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && /usr/bin/lrelease /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/branding/default/lang/calamares-default_eo.ts -qm /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_eo.qm
 
 src/branding/calamares-default_fr.qm: ../src/branding/default/lang/calamares-default_fr.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating calamares-default_fr.qm"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && /usr/bin/lrelease /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/branding/default/lang/calamares-default_fr.ts -qm /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_fr.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating calamares-default_fr.qm"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && /usr/bin/lrelease /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/branding/default/lang/calamares-default_fr.ts -qm /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_fr.qm
 
 src/branding/calamares-default_nl.qm: ../src/branding/default/lang/calamares-default_nl.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating calamares-default_nl.qm"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && /usr/bin/lrelease /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/branding/default/lang/calamares-default_nl.ts -qm /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_nl.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating calamares-default_nl.qm"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && /usr/bin/lrelease /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/branding/default/lang/calamares-default_nl.ts -qm /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/calamares-default_nl.qm
 
 branding-translation-default: src/branding/CMakeFiles/branding-translation-default
 branding-translation-default: src/branding/calamares-default_ar.qm
@@ -108,10 +108,10 @@ src/branding/CMakeFiles/branding-translation-default.dir/build: branding-transla
 .PHONY : src/branding/CMakeFiles/branding-translation-default.dir/build
 
 src/branding/CMakeFiles/branding-translation-default.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && $(CMAKE_COMMAND) -P CMakeFiles/branding-translation-default.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding && $(CMAKE_COMMAND) -P CMakeFiles/branding-translation-default.dir/cmake_clean.cmake
 .PHONY : src/branding/CMakeFiles/branding-translation-default.dir/clean
 
 src/branding/CMakeFiles/branding-translation-default.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/branding /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/CMakeFiles/branding-translation-default.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/branding /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/CMakeFiles/branding-translation-default.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/branding/CMakeFiles/branding-translation-default.dir/depend
 

@@ -1,7 +1,7 @@
 src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard.dir/keyboardwidget/keyboardpreview.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/keyboardwidget/keyboardpreview.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/keyboardwidget/keyboardpreview.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/keyboardwidget/keyboardpreview.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/keyboardwidget/keyboardpreview.h \
  /usr/include/qt/QtGui/QColor /usr/include/qt/QtGui/qcolor.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
  /usr/include/c++/12.1.0/type_traits \
@@ -248,8 +248,8 @@ src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard.dir/keyboardwidget
  /usr/include/qt/QtWidgets/qtwidgets-config.h \
  /usr/include/qt/QtGui/qpalette.h /usr/include/qt/QtWidgets/qsizepolicy.h \
  /usr/include/qt/QtGui/qcursor.h /usr/include/qt/QtGui/qkeysequence.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/qt/QtCore/QDebug \
  /usr/include/qt/QtCore/qdebug.h /usr/include/qt/QtCore/qmap.h \
  /usr/include/qt/QtCore/qtextstream.h /usr/include/qt/QtCore/qlocale.h \
@@ -257,5 +257,5 @@ src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard.dir/keyboardwidget
  /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qcontiguouscache.h \
  /usr/include/qt/QtCore/QSharedPointer \
  /usr/include/qt/QtCore/qsharedpointer.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/String.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/String.h \
  /usr/include/qt/QtCore/QProcess /usr/include/qt/QtCore/qprocess.h

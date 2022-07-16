@@ -1,7 +1,7 @@
 src/libcalamares/CMakeFiles/calamares.dir/partition/PartitionQuery.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionQuery.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionQuery.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionQuery.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionQuery.h \
  /usr/include/qt/QtCore/QList /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtCore/qalgorithms.h /usr/include/qt/QtCore/qglobal.h \
  /usr/include/c++/12.1.0/type_traits \
@@ -195,7 +195,7 @@ src/libcalamares/CMakeFiles/calamares.dir/partition/PartitionQuery.cpp.o: \
  /usr/include/bits/uio_lim.h /usr/include/qt/QtCore/qbytearraylist.h \
  /usr/include/qt/QtCore/qlist.h /usr/include/qt/QtCore/qstringlist.h \
  /usr/include/qt/QtCore/qregexp.h /usr/include/qt/QtCore/qstringmatcher.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionIterator.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionIterator.h \
  /usr/include/kpmcore/core/device.h \
  /usr/include/kpmcore/util/libpartitionmanagerexport.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \

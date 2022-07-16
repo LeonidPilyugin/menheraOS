@@ -1,51 +1,51 @@
 {
-	"BUILD_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen",
-	"CMAKE_BINARY_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall",
+	"BUILD_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen",
+	"CMAKE_BINARY_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/CMakeLists.txt",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/CMakeLists.txt",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/netinstall.conf"
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/netinstall.conf"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares",
+	"CMAKE_SOURCE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/Config.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/Config.h",
 			"Mu",
 			"EWIEGA46WW/moc_Config.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/LoaderQueue.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/LoaderQueue.h",
 			"Mu",
 			"EWIEGA46WW/moc_LoaderQueue.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/PackageModel.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/PackageModel.h",
 			"Mu",
 			"EWIEGA46WW/moc_PackageModel.cpp",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/PackageTreeItem.h",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/PackageTreeItem.h",
 			"Mu",
 			"EWIEGA46WW/moc_PackageTreeItem.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
-		"BUILD_AS_TEST=\"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall\"",
+		"BUILD_AS_TEST=\"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall\"",
 		"KCOREADDONS_LIB",
 		"QT_CORE_LIB",
 		"QT_FORCE_ASSERTS",
@@ -55,7 +55,7 @@
 		"QT_SHARED",
 		"QT_SHAREDPOINTER_TRACK_POINTERS",
 		"QT_STRICT_ITERATORS",
-		"QT_TESTCASE_BUILDDIR=\"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build\"",
+		"QT_TESTCASE_BUILDDIR=\"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build\"",
 		"QT_TESTLIB_LIB",
 		"QT_XML_LIB"
 	],
@@ -80,11 +80,11 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall",
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamaresui",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall",
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall",
 		"/usr/include/libcalamares",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
@@ -124,44 +124,44 @@
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp"
+		"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/Config.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/Config.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/LoaderQueue.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/LoaderQueue.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/PackageModel.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/PackageModel.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/PackageTreeItem.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/PackageTreeItem.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/Tests.cpp",
+			"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/Tests.cpp",
 			"Mu",
 			null
 		]

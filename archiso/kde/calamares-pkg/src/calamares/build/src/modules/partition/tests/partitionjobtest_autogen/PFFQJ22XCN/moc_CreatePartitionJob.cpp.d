@@ -1,9 +1,9 @@
-/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/moc_CreatePartitionJob.cpp: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/CreatePartitionJob.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/moc_predefs.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMManager.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/PartitionJob.h \
+/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/moc_CreatePartitionJob.cpp: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/CreatePartitionJob.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/moc_predefs.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMManager.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/jobs/PartitionJob.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

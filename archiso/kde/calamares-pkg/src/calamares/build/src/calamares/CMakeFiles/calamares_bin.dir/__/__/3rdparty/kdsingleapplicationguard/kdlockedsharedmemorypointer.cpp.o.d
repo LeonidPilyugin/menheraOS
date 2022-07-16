@@ -1,7 +1,7 @@
 src/calamares/CMakeFiles/calamares_bin.dir/__/__/3rdparty/kdsingleapplicationguard/kdlockedsharedmemorypointer.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdlockedsharedmemorypointer.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdlockedsharedmemorypointer.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdlockedsharedmemorypointer.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdlockedsharedmemorypointer.h \
  /usr/include/qt/QtCore/QtGlobal /usr/include/qt/QtCore/qglobal.h \
  /usr/include/c++/12.1.0/type_traits \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -83,8 +83,8 @@ src/calamares/CMakeFiles/calamares_bin.dir/__/__/3rdparty/kdsingleapplicationgua
  /usr/include/c++/12.1.0/bits/atomic_lockfree_defines.h \
  /usr/include/qt/QtCore/qglobalstatic.h /usr/include/qt/QtCore/qnumeric.h \
  /usr/include/qt/QtCore/qversiontagging.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdsharedmemorylocker.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdtoolsglobal.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdsharedmemorylocker.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdtoolsglobal.h \
  /usr/include/qt/QtCore/QSharedMemory \
  /usr/include/qt/QtCore/qsharedmemory.h /usr/include/qt/QtCore/qobject.h \
  /usr/include/qt/QtCore/qobjectdefs.h /usr/include/qt/QtCore/qnamespace.h \

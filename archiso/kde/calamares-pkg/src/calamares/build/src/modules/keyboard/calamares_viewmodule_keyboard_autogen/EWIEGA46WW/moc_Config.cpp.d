@@ -1,10 +1,10 @@
-/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/calamares_viewmodule_keyboard_autogen/EWIEGA46WW/moc_Config.cpp: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/Config.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/calamares_viewmodule_keyboard_autogen/moc_predefs.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/AdditionalLayoutInfo.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/KeyboardLayoutModel.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/keyboardwidget/keyboardglobal.h \
+/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/calamares_viewmodule_keyboard_autogen/EWIEGA46WW/moc_Config.cpp: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/Config.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/calamares_viewmodule_keyboard_autogen/moc_predefs.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/AdditionalLayoutInfo.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/KeyboardLayoutModel.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/keyboardwidget/keyboardglobal.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

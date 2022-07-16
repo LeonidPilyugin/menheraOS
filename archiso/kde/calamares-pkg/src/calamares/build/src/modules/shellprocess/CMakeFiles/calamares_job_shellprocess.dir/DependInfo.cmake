@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/shellprocess/ShellProcessJob.cpp" "src/modules/shellprocess/CMakeFiles/calamares_job_shellprocess.dir/ShellProcessJob.cpp.o" "gcc" "src/modules/shellprocess/CMakeFiles/calamares_job_shellprocess.dir/ShellProcessJob.cpp.o.d"
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/shellprocess/calamares_job_shellprocess_autogen/mocs_compilation.cpp" "src/modules/shellprocess/CMakeFiles/calamares_job_shellprocess.dir/calamares_job_shellprocess_autogen/mocs_compilation.cpp.o" "gcc" "src/modules/shellprocess/CMakeFiles/calamares_job_shellprocess.dir/calamares_job_shellprocess_autogen/mocs_compilation.cpp.o.d"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/shellprocess/ShellProcessJob.cpp" "src/modules/shellprocess/CMakeFiles/calamares_job_shellprocess.dir/ShellProcessJob.cpp.o" "gcc" "src/modules/shellprocess/CMakeFiles/calamares_job_shellprocess.dir/ShellProcessJob.cpp.o.d"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/shellprocess/calamares_job_shellprocess_autogen/mocs_compilation.cpp" "src/modules/shellprocess/CMakeFiles/calamares_job_shellprocess.dir/calamares_job_shellprocess_autogen/mocs_compilation.cpp.o" "gcc" "src/modules/shellprocess/CMakeFiles/calamares_job_shellprocess.dir/calamares_job_shellprocess_autogen/mocs_compilation.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CMakeFiles/calamares.dir/DependInfo.cmake"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CMakeFiles/calamares.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,7 +1,7 @@
 src/modules/keyboardq/CMakeFiles/calamares_viewmodule_keyboardq.dir/__/keyboard/keyboardwidget/keyboardglobal.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/keyboardwidget/keyboardglobal.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/keyboardwidget/keyboardglobal.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/keyboardwidget/keyboardglobal.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/keyboardwidget/keyboardglobal.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/qalgorithms.h /usr/include/qt/QtCore/qglobal.h \
  /usr/include/c++/12.1.0/type_traits \
@@ -236,7 +236,7 @@ src/modules/keyboardq/CMakeFiles/calamares_viewmodule_keyboardq.dir/__/keyboard/
  /usr/include/qt/QtCore/qstring.h /usr/include/qt/QtCore/QStringList \
  /usr/include/qt/QtCore/qstringlist.h /usr/include/qt/QtCore/QTextStream \
  /usr/include/qt/QtCore/qtextstream.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/qt/QtCore/QSharedPointer \
  /usr/include/qt/QtCore/qsharedpointer.h

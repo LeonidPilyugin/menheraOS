@@ -1,7 +1,7 @@
 src/calamares/CMakeFiles/calamares_bin.dir/__/__/3rdparty/kdsingleapplicationguard/kdsingleapplicationguard.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdsingleapplicationguard.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdsingleapplicationguard.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdsingleapplicationguard.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdsingleapplicationguard.h \
  /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
  /usr/include/qt/QtCore/qobjectdefs.h /usr/include/qt/QtCore/qnamespace.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/12.1.0/type_traits \
@@ -210,13 +210,13 @@ src/calamares/CMakeFiles/calamares_bin.dir/__/__/3rdparty/kdsingleapplicationgua
  /usr/include/c++/12.1.0/bits/parse_numbers.h \
  /usr/include/qt/QtCore/QStringList /usr/include/qt/QtCore/qstringlist.h \
  /usr/include/qt/QtCore/QMetaType /usr/include/qt/QtCore/qmetatype.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/pimpl_ptr.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdtoolsglobal.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/pimpl_ptr.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdtoolsglobal.h \
  /usr/include/qt/QtCore/QtGlobal /usr/include/qt/QtCore/qglobal.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdsharedmemorylocker.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdlockedsharedmemorypointer.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdsharedmemorylocker.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdlockedsharedmemorypointer.h \
  /usr/include/qt/QtCore/QSharedMemory \
  /usr/include/qt/QtCore/qsharedmemory.h /usr/include/qt/QtCore/qobject.h \
  /usr/include/c++/12.1.0/cassert /usr/include/qt/QtCore/QVector \

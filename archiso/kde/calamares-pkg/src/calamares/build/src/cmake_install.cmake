@@ -1,4 +1,4 @@
-# Install script for directory: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src
+# Install script for directory: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/cmake_install.cmake")
-  include("/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamaresui/cmake_install.cmake")
-  include("/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/qml/calamares/cmake_install.cmake")
-  include("/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/cmake_install.cmake")
-  include("/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/cmake_install.cmake")
-  include("/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/cmake_install.cmake")
+  include("/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/cmake_install.cmake")
+  include("/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamaresui/cmake_install.cmake")
+  include("/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/qml/calamares/cmake_install.cmake")
+  include("/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/cmake_install.cmake")
+  include("/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/cmake_install.cmake")
+  include("/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/cmake_install.cmake")
 
 endif()
 

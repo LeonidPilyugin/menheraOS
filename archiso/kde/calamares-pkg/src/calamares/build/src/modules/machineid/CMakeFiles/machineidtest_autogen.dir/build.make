@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Utility rule file for machineidtest_autogen.
 
@@ -67,8 +67,8 @@ include src/modules/machineid/CMakeFiles/machineidtest_autogen.dir/compiler_depe
 include src/modules/machineid/CMakeFiles/machineidtest_autogen.dir/progress.make
 
 src/modules/machineid/CMakeFiles/machineidtest_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target machineidtest"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/cmake -E cmake_autogen /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid/CMakeFiles/machineidtest_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target machineidtest"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/cmake -E cmake_autogen /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid/CMakeFiles/machineidtest_autogen.dir/AutogenInfo.json Release
 
 machineidtest_autogen: src/modules/machineid/CMakeFiles/machineidtest_autogen
 machineidtest_autogen: src/modules/machineid/CMakeFiles/machineidtest_autogen.dir/build.make
@@ -79,10 +79,10 @@ src/modules/machineid/CMakeFiles/machineidtest_autogen.dir/build: machineidtest_
 .PHONY : src/modules/machineid/CMakeFiles/machineidtest_autogen.dir/build
 
 src/modules/machineid/CMakeFiles/machineidtest_autogen.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && $(CMAKE_COMMAND) -P CMakeFiles/machineidtest_autogen.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && $(CMAKE_COMMAND) -P CMakeFiles/machineidtest_autogen.dir/cmake_clean.cmake
 .PHONY : src/modules/machineid/CMakeFiles/machineidtest_autogen.dir/clean
 
 src/modules/machineid/CMakeFiles/machineidtest_autogen.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid/CMakeFiles/machineidtest_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid/CMakeFiles/machineidtest_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/machineid/CMakeFiles/machineidtest_autogen.dir/depend
 

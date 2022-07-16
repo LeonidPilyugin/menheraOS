@@ -1,7 +1,7 @@
 src/calamares/CMakeFiles/calamares_bin.dir/VariantModel.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/VariantModel.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/VariantModel.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/VariantModel.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/VariantModel.h \
  /usr/include/qt/QtCore/QAbstractItemModel \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qatomic.h \

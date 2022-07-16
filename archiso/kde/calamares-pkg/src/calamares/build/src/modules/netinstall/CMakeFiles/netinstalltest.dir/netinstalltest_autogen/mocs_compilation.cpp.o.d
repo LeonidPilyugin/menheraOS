@@ -1,7 +1,7 @@
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/moc_Config.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/moc_Config.cpp \
  /usr/include/c++/12.1.0/memory \
  /usr/include/c++/12.1.0/bits/stl_algobase.h \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -101,9 +101,9 @@ src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs
  /usr/include/c++/12.1.0/backward/auto_ptr.h \
  /usr/include/c++/12.1.0/pstl/glue_memory_defs.h \
  /usr/include/c++/12.1.0/pstl/execution_defs.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/../../../../../../src/modules/netinstall/Config.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/../../../../../../src/modules/netinstall/PackageModel.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/../../../../../../src/modules/netinstall/PackageTreeItem.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/../../../../../../src/modules/netinstall/Config.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/../../../../../../src/modules/netinstall/PackageModel.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/../../../../../../src/modules/netinstall/PackageTreeItem.h \
  /usr/include/qt/QtCore/QList /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtCore/qalgorithms.h /usr/include/qt/QtCore/qglobal.h \
  /usr/include/c++/12.1.0/cstddef /usr/include/c++/12.1.0/utility \
@@ -246,21 +246,21 @@ src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/TranslatableConfiguration.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/TranslatableConfiguration.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/qt/QtCore/QLocale \
  /usr/include/qt/QtCore/qlocale.h /usr/include/qt/QtCore/QMap \
  /usr/include/qt/QtCore/qmap.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/InstanceKey.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/InstanceKey.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/qtextstream.h /usr/include/qt/QtCore/qlocale.h \
  /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qcontiguouscache.h \
  /usr/include/qt/QtCore/QPair /usr/include/qt/QtCore/qpair.h \
  /usr/include/qt/QtCore/QVariantMap \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/moc_LoaderQueue.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/../../../../../../src/modules/netinstall/LoaderQueue.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/moc_LoaderQueue.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/../../../../../../src/modules/netinstall/LoaderQueue.h \
  /usr/include/qt/QtCore/QQueue /usr/include/qt/QtCore/qqueue.h \
  /usr/include/qt/QtCore/QUrl /usr/include/qt/QtCore/qurl.h \
  /usr/include/qt/QtCore/QVariantList \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/moc_PackageModel.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/../../../../../../src/modules/netinstall/PackageModel.h
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/moc_PackageModel.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/netinstalltest_autogen/EWIEGA46WW/../../../../../../src/modules/netinstall/PackageModel.h

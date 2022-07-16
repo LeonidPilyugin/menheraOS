@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Include any dependencies generated for this target.
 include src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/depend.make
@@ -72,30 +72,30 @@ include src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/flags.make
 src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.o: src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/flags.make
 src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.o: src/modules/initcpio/calamares_job_initcpio_autogen/mocs_compilation.cpp
 src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.o: src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio/calamares_job_initcpio_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio/calamares_job_initcpio_autogen/mocs_compilation.cpp
 
 src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio/calamares_job_initcpio_autogen/mocs_compilation.cpp > CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio/calamares_job_initcpio_autogen/mocs_compilation.cpp > CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.i
 
 src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio/calamares_job_initcpio_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio/calamares_job_initcpio_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_job_initcpio.dir/calamares_job_initcpio_autogen/mocs_compilation.cpp.s
 
 src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.o: src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/flags.make
 src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.o: ../src/modules/initcpio/InitcpioJob.cpp
 src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.o: src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.o -MF CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.o.d -o CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/initcpio/InitcpioJob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.o -MF CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.o.d -o CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/initcpio/InitcpioJob.cpp
 
 src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/initcpio/InitcpioJob.cpp > CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/initcpio/InitcpioJob.cpp > CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.i
 
 src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/initcpio/InitcpioJob.cpp -o CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/initcpio/InitcpioJob.cpp -o CMakeFiles/calamares_job_initcpio.dir/InitcpioJob.cpp.s
 
 # Object files for target calamares_job_initcpio
 calamares_job_initcpio_OBJECTS = \
@@ -117,18 +117,18 @@ src/modules/initcpio/libcalamares_job_initcpio.so: /usr/lib/libQt5Widgets.so.5.1
 src/modules/initcpio/libcalamares_job_initcpio.so: /usr/lib/libQt5Gui.so.5.15.5
 src/modules/initcpio/libcalamares_job_initcpio.so: /usr/lib/libQt5Core.so.5.15.5
 src/modules/initcpio/libcalamares_job_initcpio.so: src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libcalamares_job_initcpio.so"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_job_initcpio.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libcalamares_job_initcpio.so"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_job_initcpio.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/build: src/modules/initcpio/libcalamares_job_initcpio.so
 .PHONY : src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/build
 
 src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && $(CMAKE_COMMAND) -P CMakeFiles/calamares_job_initcpio.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && $(CMAKE_COMMAND) -P CMakeFiles/calamares_job_initcpio.dir/cmake_clean.cmake
 .PHONY : src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/clean
 
 src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/initcpio /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/initcpio /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/depend
 

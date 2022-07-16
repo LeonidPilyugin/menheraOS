@@ -1,8 +1,8 @@
 src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ResizeVolumeGroupDialog.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ResizeVolumeGroupDialog.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ResizeVolumeGroupDialog.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ResizeVolumeGroupDialog.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ResizeVolumeGroupDialog.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.h \
  /usr/include/kpmcore/core/partition.h \
  /usr/include/kpmcore/core/partitionnode.h \
  /usr/include/kpmcore/util/libpartitionmanagerexport.h \
@@ -250,7 +250,7 @@ src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ResizeVo
  /usr/include/qt/QtGui/qfontinfo.h \
  /usr/include/qt/QtWidgets/qsizepolicy.h /usr/include/qt/QtGui/qcursor.h \
  /usr/include/qt/QtGui/qkeysequence.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.h \
  /usr/include/qt/QtWidgets/QListWidgetItem \
  /usr/include/qt/QtWidgets/qlistwidget.h \
  /usr/include/qt/QtWidgets/qlistview.h \

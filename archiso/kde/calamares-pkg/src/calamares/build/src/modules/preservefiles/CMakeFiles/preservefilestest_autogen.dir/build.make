@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Utility rule file for preservefilestest_autogen.
 
@@ -67,8 +67,8 @@ include src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/compi
 include src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/progress.make
 
 src/modules/preservefiles/CMakeFiles/preservefilestest_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target preservefilestest"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/cmake -E cmake_autogen /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target preservefilestest"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && /usr/bin/cmake -E cmake_autogen /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/AutogenInfo.json Release
 
 preservefilestest_autogen: src/modules/preservefiles/CMakeFiles/preservefilestest_autogen
 preservefilestest_autogen: src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/build.make
@@ -79,10 +79,10 @@ src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/build: preser
 .PHONY : src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/build
 
 src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && $(CMAKE_COMMAND) -P CMakeFiles/preservefilestest_autogen.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles && $(CMAKE_COMMAND) -P CMakeFiles/preservefilestest_autogen.dir/cmake_clean.cmake
 .PHONY : src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/clean
 
 src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/preservefiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/depend
 

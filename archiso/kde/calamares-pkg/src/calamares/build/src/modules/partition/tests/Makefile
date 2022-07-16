@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests//CMakeFiles/progress.marks
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests//CMakeFiles/progress.marks
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/clean
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/rule
 .PHONY : src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ partitionjobtest: src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/ru
 
 # fast build rule for target.
 partitionjobtest/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build
 .PHONY : partitionjobtest/fast
 
 # Convenience name for target.
 src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/rule
 .PHONY : src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ partitionclearmountsjobtest: src/modules/partition/tests/CMakeFiles/partitioncle
 
 # fast build rule for target.
 partitionclearmountsjobtest/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build
 .PHONY : partitionclearmountsjobtest/fast
 
 # Convenience name for target.
 src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/rule
 .PHONY : src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ partitioncreatelayoutstest: src/modules/partition/tests/CMakeFiles/partitioncrea
 
 # fast build rule for target.
 partitioncreatelayoutstest/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build
 .PHONY : partitioncreatelayoutstest/fast
 
 # Convenience name for target.
 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/rule
 .PHONY : src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ partitionautomounttest: src/modules/partition/tests/CMakeFiles/partitionautomoun
 
 # fast build rule for target.
 partitionautomounttest/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build
 .PHONY : partitionautomounttest/fast
 
 # Convenience name for target.
 src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/rule
 .PHONY : src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ partitiondevicestest: src/modules/partition/tests/CMakeFiles/partitiondevicestes
 
 # fast build rule for target.
 partitiondevicestest/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build
 .PHONY : partitiondevicestest/fast
 
 # Convenience name for target.
 src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/rule
 .PHONY : src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ partitionjobtest_autogen: src/modules/partition/tests/CMakeFiles/partitionjobtes
 
 # fast build rule for target.
 partitionjobtest_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest_autogen.dir/build
 .PHONY : partitionjobtest_autogen/fast
 
 # Convenience name for target.
 src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest_autogen.dir/rule
 .PHONY : src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest_autogen.dir/rule
 
 # Convenience name for target.
@@ -286,12 +286,12 @@ partitionclearmountsjobtest_autogen: src/modules/partition/tests/CMakeFiles/part
 
 # fast build rule for target.
 partitionclearmountsjobtest_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest_autogen.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest_autogen.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest_autogen.dir/build
 .PHONY : partitionclearmountsjobtest_autogen/fast
 
 # Convenience name for target.
 src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest_autogen.dir/rule
 .PHONY : src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest_autogen.dir/rule
 
 # Convenience name for target.
@@ -300,12 +300,12 @@ partitioncreatelayoutstest_autogen: src/modules/partition/tests/CMakeFiles/parti
 
 # fast build rule for target.
 partitioncreatelayoutstest_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest_autogen.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest_autogen.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest_autogen.dir/build
 .PHONY : partitioncreatelayoutstest_autogen/fast
 
 # Convenience name for target.
 src/modules/partition/tests/CMakeFiles/partitionautomounttest_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitionautomounttest_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitionautomounttest_autogen.dir/rule
 .PHONY : src/modules/partition/tests/CMakeFiles/partitionautomounttest_autogen.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ partitionautomounttest_autogen: src/modules/partition/tests/CMakeFiles/partition
 
 # fast build rule for target.
 partitionautomounttest_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest_autogen.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest_autogen.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest_autogen.dir/build
 .PHONY : partitionautomounttest_autogen/fast
 
 # Convenience name for target.
 src/modules/partition/tests/CMakeFiles/partitiondevicestest_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitiondevicestest_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/tests/CMakeFiles/partitiondevicestest_autogen.dir/rule
 .PHONY : src/modules/partition/tests/CMakeFiles/partitiondevicestest_autogen.dir/rule
 
 # Convenience name for target.
@@ -328,7 +328,7 @@ partitiondevicestest_autogen: src/modules/partition/tests/CMakeFiles/partitionde
 
 # fast build rule for target.
 partitiondevicestest_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest_autogen.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest_autogen.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest_autogen.dir/build
 .PHONY : partitiondevicestest_autogen/fast
 
 AutoMountTests.o: AutoMountTests.cpp.o
@@ -336,7 +336,7 @@ AutoMountTests.o: AutoMountTests.cpp.o
 
 # target to build an object file
 AutoMountTests.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.o
 .PHONY : AutoMountTests.cpp.o
 
 AutoMountTests.i: AutoMountTests.cpp.i
@@ -344,7 +344,7 @@ AutoMountTests.i: AutoMountTests.cpp.i
 
 # target to preprocess a source file
 AutoMountTests.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.i
 .PHONY : AutoMountTests.cpp.i
 
 AutoMountTests.s: AutoMountTests.cpp.s
@@ -352,7 +352,7 @@ AutoMountTests.s: AutoMountTests.cpp.s
 
 # target to generate assembly for a file
 AutoMountTests.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/AutoMountTests.cpp.s
 .PHONY : AutoMountTests.cpp.s
 
 ClearMountsJobTests.o: ClearMountsJobTests.cpp.o
@@ -360,7 +360,7 @@ ClearMountsJobTests.o: ClearMountsJobTests.cpp.o
 
 # target to build an object file
 ClearMountsJobTests.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/ClearMountsJobTests.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/ClearMountsJobTests.cpp.o
 .PHONY : ClearMountsJobTests.cpp.o
 
 ClearMountsJobTests.i: ClearMountsJobTests.cpp.i
@@ -368,7 +368,7 @@ ClearMountsJobTests.i: ClearMountsJobTests.cpp.i
 
 # target to preprocess a source file
 ClearMountsJobTests.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/ClearMountsJobTests.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/ClearMountsJobTests.cpp.i
 .PHONY : ClearMountsJobTests.cpp.i
 
 ClearMountsJobTests.s: ClearMountsJobTests.cpp.s
@@ -376,7 +376,7 @@ ClearMountsJobTests.s: ClearMountsJobTests.cpp.s
 
 # target to generate assembly for a file
 ClearMountsJobTests.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/ClearMountsJobTests.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/ClearMountsJobTests.cpp.s
 .PHONY : ClearMountsJobTests.cpp.s
 
 CreateLayoutsTests.o: CreateLayoutsTests.cpp.o
@@ -384,7 +384,7 @@ CreateLayoutsTests.o: CreateLayoutsTests.cpp.o
 
 # target to build an object file
 CreateLayoutsTests.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/CreateLayoutsTests.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/CreateLayoutsTests.cpp.o
 .PHONY : CreateLayoutsTests.cpp.o
 
 CreateLayoutsTests.i: CreateLayoutsTests.cpp.i
@@ -392,7 +392,7 @@ CreateLayoutsTests.i: CreateLayoutsTests.cpp.i
 
 # target to preprocess a source file
 CreateLayoutsTests.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/CreateLayoutsTests.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/CreateLayoutsTests.cpp.i
 .PHONY : CreateLayoutsTests.cpp.i
 
 CreateLayoutsTests.s: CreateLayoutsTests.cpp.s
@@ -400,7 +400,7 @@ CreateLayoutsTests.s: CreateLayoutsTests.cpp.s
 
 # target to generate assembly for a file
 CreateLayoutsTests.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/CreateLayoutsTests.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/CreateLayoutsTests.cpp.s
 .PHONY : CreateLayoutsTests.cpp.s
 
 DevicesTests.o: DevicesTests.cpp.o
@@ -408,7 +408,7 @@ DevicesTests.o: DevicesTests.cpp.o
 
 # target to build an object file
 DevicesTests.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/DevicesTests.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/DevicesTests.cpp.o
 .PHONY : DevicesTests.cpp.o
 
 DevicesTests.i: DevicesTests.cpp.i
@@ -416,7 +416,7 @@ DevicesTests.i: DevicesTests.cpp.i
 
 # target to preprocess a source file
 DevicesTests.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/DevicesTests.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/DevicesTests.cpp.i
 .PHONY : DevicesTests.cpp.i
 
 DevicesTests.s: DevicesTests.cpp.s
@@ -424,7 +424,7 @@ DevicesTests.s: DevicesTests.cpp.s
 
 # target to generate assembly for a file
 DevicesTests.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/DevicesTests.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/DevicesTests.cpp.s
 .PHONY : DevicesTests.cpp.s
 
 PartitionJobTests.o: PartitionJobTests.cpp.o
@@ -432,7 +432,7 @@ PartitionJobTests.o: PartitionJobTests.cpp.o
 
 # target to build an object file
 PartitionJobTests.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/PartitionJobTests.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/PartitionJobTests.cpp.o
 .PHONY : PartitionJobTests.cpp.o
 
 PartitionJobTests.i: PartitionJobTests.cpp.i
@@ -440,7 +440,7 @@ PartitionJobTests.i: PartitionJobTests.cpp.i
 
 # target to preprocess a source file
 PartitionJobTests.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/PartitionJobTests.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/PartitionJobTests.cpp.i
 .PHONY : PartitionJobTests.cpp.i
 
 PartitionJobTests.s: PartitionJobTests.cpp.s
@@ -448,7 +448,7 @@ PartitionJobTests.s: PartitionJobTests.cpp.s
 
 # target to generate assembly for a file
 PartitionJobTests.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/PartitionJobTests.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/PartitionJobTests.cpp.s
 .PHONY : PartitionJobTests.cpp.s
 
 __/core/DeviceList.o: __/core/DeviceList.cpp.o
@@ -456,7 +456,7 @@ __/core/DeviceList.o: __/core/DeviceList.cpp.o
 
 # target to build an object file
 __/core/DeviceList.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/__/core/DeviceList.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/__/core/DeviceList.cpp.o
 .PHONY : __/core/DeviceList.cpp.o
 
 __/core/DeviceList.i: __/core/DeviceList.cpp.i
@@ -464,7 +464,7 @@ __/core/DeviceList.i: __/core/DeviceList.cpp.i
 
 # target to preprocess a source file
 __/core/DeviceList.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/__/core/DeviceList.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/__/core/DeviceList.cpp.i
 .PHONY : __/core/DeviceList.cpp.i
 
 __/core/DeviceList.s: __/core/DeviceList.cpp.s
@@ -472,7 +472,7 @@ __/core/DeviceList.s: __/core/DeviceList.cpp.s
 
 # target to generate assembly for a file
 __/core/DeviceList.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/__/core/DeviceList.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/__/core/DeviceList.cpp.s
 .PHONY : __/core/DeviceList.cpp.s
 
 __/core/DeviceModel.o: __/core/DeviceModel.cpp.o
@@ -480,7 +480,7 @@ __/core/DeviceModel.o: __/core/DeviceModel.cpp.o
 
 # target to build an object file
 __/core/DeviceModel.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/DeviceModel.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/DeviceModel.cpp.o
 .PHONY : __/core/DeviceModel.cpp.o
 
 __/core/DeviceModel.i: __/core/DeviceModel.cpp.i
@@ -488,7 +488,7 @@ __/core/DeviceModel.i: __/core/DeviceModel.cpp.i
 
 # target to preprocess a source file
 __/core/DeviceModel.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/DeviceModel.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/DeviceModel.cpp.i
 .PHONY : __/core/DeviceModel.cpp.i
 
 __/core/DeviceModel.s: __/core/DeviceModel.cpp.s
@@ -496,7 +496,7 @@ __/core/DeviceModel.s: __/core/DeviceModel.cpp.s
 
 # target to generate assembly for a file
 __/core/DeviceModel.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/DeviceModel.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/DeviceModel.cpp.s
 .PHONY : __/core/DeviceModel.cpp.s
 
 __/core/KPMHelpers.o: __/core/KPMHelpers.cpp.o
@@ -504,8 +504,8 @@ __/core/KPMHelpers.o: __/core/KPMHelpers.cpp.o
 
 # target to build an object file
 __/core/KPMHelpers.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/core/KPMHelpers.cpp.o
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/KPMHelpers.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/core/KPMHelpers.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/KPMHelpers.cpp.o
 .PHONY : __/core/KPMHelpers.cpp.o
 
 __/core/KPMHelpers.i: __/core/KPMHelpers.cpp.i
@@ -513,8 +513,8 @@ __/core/KPMHelpers.i: __/core/KPMHelpers.cpp.i
 
 # target to preprocess a source file
 __/core/KPMHelpers.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/core/KPMHelpers.cpp.i
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/KPMHelpers.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/core/KPMHelpers.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/KPMHelpers.cpp.i
 .PHONY : __/core/KPMHelpers.cpp.i
 
 __/core/KPMHelpers.s: __/core/KPMHelpers.cpp.s
@@ -522,8 +522,8 @@ __/core/KPMHelpers.s: __/core/KPMHelpers.cpp.s
 
 # target to generate assembly for a file
 __/core/KPMHelpers.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/core/KPMHelpers.cpp.s
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/KPMHelpers.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/core/KPMHelpers.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/KPMHelpers.cpp.s
 .PHONY : __/core/KPMHelpers.cpp.s
 
 __/core/PartUtils.o: __/core/PartUtils.cpp.o
@@ -531,7 +531,7 @@ __/core/PartUtils.o: __/core/PartUtils.cpp.o
 
 # target to build an object file
 __/core/PartUtils.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartUtils.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartUtils.cpp.o
 .PHONY : __/core/PartUtils.cpp.o
 
 __/core/PartUtils.i: __/core/PartUtils.cpp.i
@@ -539,7 +539,7 @@ __/core/PartUtils.i: __/core/PartUtils.cpp.i
 
 # target to preprocess a source file
 __/core/PartUtils.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartUtils.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartUtils.cpp.i
 .PHONY : __/core/PartUtils.cpp.i
 
 __/core/PartUtils.s: __/core/PartUtils.cpp.s
@@ -547,7 +547,7 @@ __/core/PartUtils.s: __/core/PartUtils.cpp.s
 
 # target to generate assembly for a file
 __/core/PartUtils.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartUtils.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartUtils.cpp.s
 .PHONY : __/core/PartUtils.cpp.s
 
 __/core/PartitionInfo.o: __/core/PartitionInfo.cpp.o
@@ -555,8 +555,8 @@ __/core/PartitionInfo.o: __/core/PartitionInfo.cpp.o
 
 # target to build an object file
 __/core/PartitionInfo.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/core/PartitionInfo.cpp.o
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartitionInfo.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/core/PartitionInfo.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartitionInfo.cpp.o
 .PHONY : __/core/PartitionInfo.cpp.o
 
 __/core/PartitionInfo.i: __/core/PartitionInfo.cpp.i
@@ -564,8 +564,8 @@ __/core/PartitionInfo.i: __/core/PartitionInfo.cpp.i
 
 # target to preprocess a source file
 __/core/PartitionInfo.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/core/PartitionInfo.cpp.i
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartitionInfo.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/core/PartitionInfo.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartitionInfo.cpp.i
 .PHONY : __/core/PartitionInfo.cpp.i
 
 __/core/PartitionInfo.s: __/core/PartitionInfo.cpp.s
@@ -573,8 +573,8 @@ __/core/PartitionInfo.s: __/core/PartitionInfo.cpp.s
 
 # target to generate assembly for a file
 __/core/PartitionInfo.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/core/PartitionInfo.cpp.s
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartitionInfo.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/core/PartitionInfo.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartitionInfo.cpp.s
 .PHONY : __/core/PartitionInfo.cpp.s
 
 __/core/PartitionLayout.o: __/core/PartitionLayout.cpp.o
@@ -582,7 +582,7 @@ __/core/PartitionLayout.o: __/core/PartitionLayout.cpp.o
 
 # target to build an object file
 __/core/PartitionLayout.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartitionLayout.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartitionLayout.cpp.o
 .PHONY : __/core/PartitionLayout.cpp.o
 
 __/core/PartitionLayout.i: __/core/PartitionLayout.cpp.i
@@ -590,7 +590,7 @@ __/core/PartitionLayout.i: __/core/PartitionLayout.cpp.i
 
 # target to preprocess a source file
 __/core/PartitionLayout.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartitionLayout.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartitionLayout.cpp.i
 .PHONY : __/core/PartitionLayout.cpp.i
 
 __/core/PartitionLayout.s: __/core/PartitionLayout.cpp.s
@@ -598,7 +598,7 @@ __/core/PartitionLayout.s: __/core/PartitionLayout.cpp.s
 
 # target to generate assembly for a file
 __/core/PartitionLayout.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartitionLayout.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/__/core/PartitionLayout.cpp.s
 .PHONY : __/core/PartitionLayout.cpp.s
 
 __/jobs/AutoMountManagementJob.o: __/jobs/AutoMountManagementJob.cpp.o
@@ -606,7 +606,7 @@ __/jobs/AutoMountManagementJob.o: __/jobs/AutoMountManagementJob.cpp.o
 
 # target to build an object file
 __/jobs/AutoMountManagementJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.o
 .PHONY : __/jobs/AutoMountManagementJob.cpp.o
 
 __/jobs/AutoMountManagementJob.i: __/jobs/AutoMountManagementJob.cpp.i
@@ -614,7 +614,7 @@ __/jobs/AutoMountManagementJob.i: __/jobs/AutoMountManagementJob.cpp.i
 
 # target to preprocess a source file
 __/jobs/AutoMountManagementJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.i
 .PHONY : __/jobs/AutoMountManagementJob.cpp.i
 
 __/jobs/AutoMountManagementJob.s: __/jobs/AutoMountManagementJob.cpp.s
@@ -622,7 +622,7 @@ __/jobs/AutoMountManagementJob.s: __/jobs/AutoMountManagementJob.cpp.s
 
 # target to generate assembly for a file
 __/jobs/AutoMountManagementJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/__/jobs/AutoMountManagementJob.cpp.s
 .PHONY : __/jobs/AutoMountManagementJob.cpp.s
 
 __/jobs/ClearMountsJob.o: __/jobs/ClearMountsJob.cpp.o
@@ -630,7 +630,7 @@ __/jobs/ClearMountsJob.o: __/jobs/ClearMountsJob.cpp.o
 
 # target to build an object file
 __/jobs/ClearMountsJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/__/jobs/ClearMountsJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/__/jobs/ClearMountsJob.cpp.o
 .PHONY : __/jobs/ClearMountsJob.cpp.o
 
 __/jobs/ClearMountsJob.i: __/jobs/ClearMountsJob.cpp.i
@@ -638,7 +638,7 @@ __/jobs/ClearMountsJob.i: __/jobs/ClearMountsJob.cpp.i
 
 # target to preprocess a source file
 __/jobs/ClearMountsJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/__/jobs/ClearMountsJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/__/jobs/ClearMountsJob.cpp.i
 .PHONY : __/jobs/ClearMountsJob.cpp.i
 
 __/jobs/ClearMountsJob.s: __/jobs/ClearMountsJob.cpp.s
@@ -646,7 +646,7 @@ __/jobs/ClearMountsJob.s: __/jobs/ClearMountsJob.cpp.s
 
 # target to generate assembly for a file
 __/jobs/ClearMountsJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/__/jobs/ClearMountsJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/__/jobs/ClearMountsJob.cpp.s
 .PHONY : __/jobs/ClearMountsJob.cpp.s
 
 __/jobs/CreatePartitionJob.o: __/jobs/CreatePartitionJob.cpp.o
@@ -654,7 +654,7 @@ __/jobs/CreatePartitionJob.o: __/jobs/CreatePartitionJob.cpp.o
 
 # target to build an object file
 __/jobs/CreatePartitionJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/CreatePartitionJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/CreatePartitionJob.cpp.o
 .PHONY : __/jobs/CreatePartitionJob.cpp.o
 
 __/jobs/CreatePartitionJob.i: __/jobs/CreatePartitionJob.cpp.i
@@ -662,7 +662,7 @@ __/jobs/CreatePartitionJob.i: __/jobs/CreatePartitionJob.cpp.i
 
 # target to preprocess a source file
 __/jobs/CreatePartitionJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/CreatePartitionJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/CreatePartitionJob.cpp.i
 .PHONY : __/jobs/CreatePartitionJob.cpp.i
 
 __/jobs/CreatePartitionJob.s: __/jobs/CreatePartitionJob.cpp.s
@@ -670,7 +670,7 @@ __/jobs/CreatePartitionJob.s: __/jobs/CreatePartitionJob.cpp.s
 
 # target to generate assembly for a file
 __/jobs/CreatePartitionJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/CreatePartitionJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/CreatePartitionJob.cpp.s
 .PHONY : __/jobs/CreatePartitionJob.cpp.s
 
 __/jobs/CreatePartitionTableJob.o: __/jobs/CreatePartitionTableJob.cpp.o
@@ -678,7 +678,7 @@ __/jobs/CreatePartitionTableJob.o: __/jobs/CreatePartitionTableJob.cpp.o
 
 # target to build an object file
 __/jobs/CreatePartitionTableJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/CreatePartitionTableJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/CreatePartitionTableJob.cpp.o
 .PHONY : __/jobs/CreatePartitionTableJob.cpp.o
 
 __/jobs/CreatePartitionTableJob.i: __/jobs/CreatePartitionTableJob.cpp.i
@@ -686,7 +686,7 @@ __/jobs/CreatePartitionTableJob.i: __/jobs/CreatePartitionTableJob.cpp.i
 
 # target to preprocess a source file
 __/jobs/CreatePartitionTableJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/CreatePartitionTableJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/CreatePartitionTableJob.cpp.i
 .PHONY : __/jobs/CreatePartitionTableJob.cpp.i
 
 __/jobs/CreatePartitionTableJob.s: __/jobs/CreatePartitionTableJob.cpp.s
@@ -694,7 +694,7 @@ __/jobs/CreatePartitionTableJob.s: __/jobs/CreatePartitionTableJob.cpp.s
 
 # target to generate assembly for a file
 __/jobs/CreatePartitionTableJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/CreatePartitionTableJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/CreatePartitionTableJob.cpp.s
 .PHONY : __/jobs/CreatePartitionTableJob.cpp.s
 
 __/jobs/DeletePartitionJob.o: __/jobs/DeletePartitionJob.cpp.o
@@ -702,7 +702,7 @@ __/jobs/DeletePartitionJob.o: __/jobs/DeletePartitionJob.cpp.o
 
 # target to build an object file
 __/jobs/DeletePartitionJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/DeletePartitionJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/DeletePartitionJob.cpp.o
 .PHONY : __/jobs/DeletePartitionJob.cpp.o
 
 __/jobs/DeletePartitionJob.i: __/jobs/DeletePartitionJob.cpp.i
@@ -710,7 +710,7 @@ __/jobs/DeletePartitionJob.i: __/jobs/DeletePartitionJob.cpp.i
 
 # target to preprocess a source file
 __/jobs/DeletePartitionJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/DeletePartitionJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/DeletePartitionJob.cpp.i
 .PHONY : __/jobs/DeletePartitionJob.cpp.i
 
 __/jobs/DeletePartitionJob.s: __/jobs/DeletePartitionJob.cpp.s
@@ -718,7 +718,7 @@ __/jobs/DeletePartitionJob.s: __/jobs/DeletePartitionJob.cpp.s
 
 # target to generate assembly for a file
 __/jobs/DeletePartitionJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/DeletePartitionJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/DeletePartitionJob.cpp.s
 .PHONY : __/jobs/DeletePartitionJob.cpp.s
 
 __/jobs/PartitionJob.o: __/jobs/PartitionJob.cpp.o
@@ -726,7 +726,7 @@ __/jobs/PartitionJob.o: __/jobs/PartitionJob.cpp.o
 
 # target to build an object file
 __/jobs/PartitionJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/PartitionJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/PartitionJob.cpp.o
 .PHONY : __/jobs/PartitionJob.cpp.o
 
 __/jobs/PartitionJob.i: __/jobs/PartitionJob.cpp.i
@@ -734,7 +734,7 @@ __/jobs/PartitionJob.i: __/jobs/PartitionJob.cpp.i
 
 # target to preprocess a source file
 __/jobs/PartitionJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/PartitionJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/PartitionJob.cpp.i
 .PHONY : __/jobs/PartitionJob.cpp.i
 
 __/jobs/PartitionJob.s: __/jobs/PartitionJob.cpp.s
@@ -742,7 +742,7 @@ __/jobs/PartitionJob.s: __/jobs/PartitionJob.cpp.s
 
 # target to generate assembly for a file
 __/jobs/PartitionJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/PartitionJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/PartitionJob.cpp.s
 .PHONY : __/jobs/PartitionJob.cpp.s
 
 __/jobs/ResizePartitionJob.o: __/jobs/ResizePartitionJob.cpp.o
@@ -750,7 +750,7 @@ __/jobs/ResizePartitionJob.o: __/jobs/ResizePartitionJob.cpp.o
 
 # target to build an object file
 __/jobs/ResizePartitionJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/ResizePartitionJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/ResizePartitionJob.cpp.o
 .PHONY : __/jobs/ResizePartitionJob.cpp.o
 
 __/jobs/ResizePartitionJob.i: __/jobs/ResizePartitionJob.cpp.i
@@ -758,7 +758,7 @@ __/jobs/ResizePartitionJob.i: __/jobs/ResizePartitionJob.cpp.i
 
 # target to preprocess a source file
 __/jobs/ResizePartitionJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/ResizePartitionJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/ResizePartitionJob.cpp.i
 .PHONY : __/jobs/ResizePartitionJob.cpp.i
 
 __/jobs/ResizePartitionJob.s: __/jobs/ResizePartitionJob.cpp.s
@@ -766,7 +766,7 @@ __/jobs/ResizePartitionJob.s: __/jobs/ResizePartitionJob.cpp.s
 
 # target to generate assembly for a file
 __/jobs/ResizePartitionJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/ResizePartitionJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/__/jobs/ResizePartitionJob.cpp.s
 .PHONY : __/jobs/ResizePartitionJob.cpp.s
 
 partitionautomounttest_autogen/mocs_compilation.o: partitionautomounttest_autogen/mocs_compilation.cpp.o
@@ -774,7 +774,7 @@ partitionautomounttest_autogen/mocs_compilation.o: partitionautomounttest_autoge
 
 # target to build an object file
 partitionautomounttest_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.o
 .PHONY : partitionautomounttest_autogen/mocs_compilation.cpp.o
 
 partitionautomounttest_autogen/mocs_compilation.i: partitionautomounttest_autogen/mocs_compilation.cpp.i
@@ -782,7 +782,7 @@ partitionautomounttest_autogen/mocs_compilation.i: partitionautomounttest_autoge
 
 # target to preprocess a source file
 partitionautomounttest_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.i
 .PHONY : partitionautomounttest_autogen/mocs_compilation.cpp.i
 
 partitionautomounttest_autogen/mocs_compilation.s: partitionautomounttest_autogen/mocs_compilation.cpp.s
@@ -790,7 +790,7 @@ partitionautomounttest_autogen/mocs_compilation.s: partitionautomounttest_autoge
 
 # target to generate assembly for a file
 partitionautomounttest_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionautomounttest.dir/partitionautomounttest_autogen/mocs_compilation.cpp.s
 .PHONY : partitionautomounttest_autogen/mocs_compilation.cpp.s
 
 partitionclearmountsjobtest_autogen/mocs_compilation.o: partitionclearmountsjobtest_autogen/mocs_compilation.cpp.o
@@ -798,7 +798,7 @@ partitionclearmountsjobtest_autogen/mocs_compilation.o: partitionclearmountsjobt
 
 # target to build an object file
 partitionclearmountsjobtest_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/partitionclearmountsjobtest_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/partitionclearmountsjobtest_autogen/mocs_compilation.cpp.o
 .PHONY : partitionclearmountsjobtest_autogen/mocs_compilation.cpp.o
 
 partitionclearmountsjobtest_autogen/mocs_compilation.i: partitionclearmountsjobtest_autogen/mocs_compilation.cpp.i
@@ -806,7 +806,7 @@ partitionclearmountsjobtest_autogen/mocs_compilation.i: partitionclearmountsjobt
 
 # target to preprocess a source file
 partitionclearmountsjobtest_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/partitionclearmountsjobtest_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/partitionclearmountsjobtest_autogen/mocs_compilation.cpp.i
 .PHONY : partitionclearmountsjobtest_autogen/mocs_compilation.cpp.i
 
 partitionclearmountsjobtest_autogen/mocs_compilation.s: partitionclearmountsjobtest_autogen/mocs_compilation.cpp.s
@@ -814,7 +814,7 @@ partitionclearmountsjobtest_autogen/mocs_compilation.s: partitionclearmountsjobt
 
 # target to generate assembly for a file
 partitionclearmountsjobtest_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/partitionclearmountsjobtest_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/partitionclearmountsjobtest_autogen/mocs_compilation.cpp.s
 .PHONY : partitionclearmountsjobtest_autogen/mocs_compilation.cpp.s
 
 partitioncreatelayoutstest_autogen/mocs_compilation.o: partitioncreatelayoutstest_autogen/mocs_compilation.cpp.o
@@ -822,7 +822,7 @@ partitioncreatelayoutstest_autogen/mocs_compilation.o: partitioncreatelayoutstes
 
 # target to build an object file
 partitioncreatelayoutstest_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/partitioncreatelayoutstest_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/partitioncreatelayoutstest_autogen/mocs_compilation.cpp.o
 .PHONY : partitioncreatelayoutstest_autogen/mocs_compilation.cpp.o
 
 partitioncreatelayoutstest_autogen/mocs_compilation.i: partitioncreatelayoutstest_autogen/mocs_compilation.cpp.i
@@ -830,7 +830,7 @@ partitioncreatelayoutstest_autogen/mocs_compilation.i: partitioncreatelayoutstes
 
 # target to preprocess a source file
 partitioncreatelayoutstest_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/partitioncreatelayoutstest_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/partitioncreatelayoutstest_autogen/mocs_compilation.cpp.i
 .PHONY : partitioncreatelayoutstest_autogen/mocs_compilation.cpp.i
 
 partitioncreatelayoutstest_autogen/mocs_compilation.s: partitioncreatelayoutstest_autogen/mocs_compilation.cpp.s
@@ -838,7 +838,7 @@ partitioncreatelayoutstest_autogen/mocs_compilation.s: partitioncreatelayoutstes
 
 # target to generate assembly for a file
 partitioncreatelayoutstest_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/partitioncreatelayoutstest_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/build.make src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/partitioncreatelayoutstest_autogen/mocs_compilation.cpp.s
 .PHONY : partitioncreatelayoutstest_autogen/mocs_compilation.cpp.s
 
 partitiondevicestest_autogen/mocs_compilation.o: partitiondevicestest_autogen/mocs_compilation.cpp.o
@@ -846,7 +846,7 @@ partitiondevicestest_autogen/mocs_compilation.o: partitiondevicestest_autogen/mo
 
 # target to build an object file
 partitiondevicestest_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/partitiondevicestest_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/partitiondevicestest_autogen/mocs_compilation.cpp.o
 .PHONY : partitiondevicestest_autogen/mocs_compilation.cpp.o
 
 partitiondevicestest_autogen/mocs_compilation.i: partitiondevicestest_autogen/mocs_compilation.cpp.i
@@ -854,7 +854,7 @@ partitiondevicestest_autogen/mocs_compilation.i: partitiondevicestest_autogen/mo
 
 # target to preprocess a source file
 partitiondevicestest_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/partitiondevicestest_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/partitiondevicestest_autogen/mocs_compilation.cpp.i
 .PHONY : partitiondevicestest_autogen/mocs_compilation.cpp.i
 
 partitiondevicestest_autogen/mocs_compilation.s: partitiondevicestest_autogen/mocs_compilation.cpp.s
@@ -862,7 +862,7 @@ partitiondevicestest_autogen/mocs_compilation.s: partitiondevicestest_autogen/mo
 
 # target to generate assembly for a file
 partitiondevicestest_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/partitiondevicestest_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/build.make src/modules/partition/tests/CMakeFiles/partitiondevicestest.dir/partitiondevicestest_autogen/mocs_compilation.cpp.s
 .PHONY : partitiondevicestest_autogen/mocs_compilation.cpp.s
 
 partitionjobtest_autogen/mocs_compilation.o: partitionjobtest_autogen/mocs_compilation.cpp.o
@@ -870,7 +870,7 @@ partitionjobtest_autogen/mocs_compilation.o: partitionjobtest_autogen/mocs_compi
 
 # target to build an object file
 partitionjobtest_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/partitionjobtest_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/partitionjobtest_autogen/mocs_compilation.cpp.o
 .PHONY : partitionjobtest_autogen/mocs_compilation.cpp.o
 
 partitionjobtest_autogen/mocs_compilation.i: partitionjobtest_autogen/mocs_compilation.cpp.i
@@ -878,7 +878,7 @@ partitionjobtest_autogen/mocs_compilation.i: partitionjobtest_autogen/mocs_compi
 
 # target to preprocess a source file
 partitionjobtest_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/partitionjobtest_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/partitionjobtest_autogen/mocs_compilation.cpp.i
 .PHONY : partitionjobtest_autogen/mocs_compilation.cpp.i
 
 partitionjobtest_autogen/mocs_compilation.s: partitionjobtest_autogen/mocs_compilation.cpp.s
@@ -886,7 +886,7 @@ partitionjobtest_autogen/mocs_compilation.s: partitionjobtest_autogen/mocs_compi
 
 # target to generate assembly for a file
 partitionjobtest_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/partitionjobtest_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/build.make src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/partitionjobtest_autogen/mocs_compilation.cpp.s
 .PHONY : partitionjobtest_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -994,6 +994,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

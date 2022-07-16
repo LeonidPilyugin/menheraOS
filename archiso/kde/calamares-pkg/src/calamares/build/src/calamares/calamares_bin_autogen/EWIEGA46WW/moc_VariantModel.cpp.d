@@ -1,5 +1,5 @@
-/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/moc_VariantModel.cpp: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/VariantModel.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/moc_predefs.h \
+/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/moc_VariantModel.cpp: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/VariantModel.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \

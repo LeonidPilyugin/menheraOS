@@ -1,7 +1,7 @@
 src/libcalamares/CMakeFiles/calamares.dir/calamares_autogen/mocs_compilation.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/mocs_compilation.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_CppJob.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_CppJob.cpp \
  /usr/include/c++/12.1.0/memory \
  /usr/include/c++/12.1.0/bits/stl_algobase.h \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -101,8 +101,8 @@ src/libcalamares/CMakeFiles/calamares.dir/calamares_autogen/mocs_compilation.cpp
  /usr/include/c++/12.1.0/backward/auto_ptr.h \
  /usr/include/c++/12.1.0/pstl/glue_memory_defs.h \
  /usr/include/c++/12.1.0/pstl/execution_defs.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/CppJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/CppJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/12.1.0/cstddef \
  /usr/include/c++/12.1.0/utility \
  /usr/include/c++/12.1.0/bits/stl_relops.h \
@@ -134,7 +134,7 @@ src/libcalamares/CMakeFiles/calamares.dir/calamares_autogen/mocs_compilation.cpp
  /usr/include/qt/QtCore/qgenericatomic.h /usr/include/c++/12.1.0/atomic \
  /usr/include/qt/QtCore/qglobalstatic.h /usr/include/qt/QtCore/qnumeric.h \
  /usr/include/qt/QtCore/qversiontagging.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/Job.h \
  /usr/include/qt/QtCore/QList /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtCore/qalgorithms.h /usr/include/qt/QtCore/qiterator.h \
  /usr/include/qt/QtCore/qrefcount.h /usr/include/qt/QtCore/qarraydata.h \
@@ -229,7 +229,7 @@ src/libcalamares/CMakeFiles/calamares.dir/calamares_autogen/mocs_compilation.cpp
  /usr/include/qt/QtCore/qshareddata.h /usr/include/qt/QtCore/qhash.h \
  /usr/include/qt/QtCore/qsharedpointer_impl.h \
  /usr/include/qt/QtCore/qobject.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/modulesystem/InstanceKey.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/modulesystem/InstanceKey.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/qmap.h /usr/include/qt/QtCore/qtextstream.h \
  /usr/include/qt/QtCore/qiodevice.h /usr/include/qt/QtCore/qlocale.h \
@@ -239,22 +239,22 @@ src/libcalamares/CMakeFiles/calamares.dir/calamares_autogen/mocs_compilation.cpp
  /usr/include/qt/QtCore/qpair.h /usr/include/qt/QtCore/QString \
  /usr/include/qt/QtCore/qstring.h /usr/include/qt/QtCore/QVariant \
  /usr/include/qt/QtCore/qvariant.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_GlobalStorage.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/GlobalStorage.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_GlobalStorage.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/GlobalStorage.h \
  /usr/include/qt/QtCore/QMutex /usr/include/qt/QtCore/qmutex.h \
  /usr/include/qt/QtCore/QVariantMap \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_Job.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_JobExample.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/JobExample.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_JobQueue.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/JobQueue.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_ProcessJob.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/ProcessJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_PythonHelper.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/PythonHelper.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/PythonJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/utils/BoostPython.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_Job.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_JobExample.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/JobExample.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_JobQueue.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/JobQueue.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_ProcessJob.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/ProcessJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_PythonHelper.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/PythonHelper.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/PythonJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/utils/BoostPython.h \
  /usr/include/boost/python.hpp /usr/include/boost/python/args.hpp \
  /usr/include/boost/python/detail/prefix.hpp \
  /usr/include/boost/python/detail/wrap_python.hpp \
@@ -1201,15 +1201,15 @@ src/libcalamares/CMakeFiles/calamares.dir/calamares_autogen/mocs_compilation.cpp
  /usr/include/boost/python/stl_iterator.hpp \
  /usr/include/boost/python/object/stl_iterator_core.hpp \
  /usr/include/qt/QtCore/QStringList /usr/include/qt/QtCore/qstringlist.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_PythonJob.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/PythonJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_Settings.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/Settings.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/modulesystem/Actions.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/3LBKYZJTZU/moc_TimeZone.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/3LBKYZJTZU/../../../../../src/libcalamares/locale/TimeZone.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/TranslatableString.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_PythonJob.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/PythonJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/moc_Settings.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/Settings.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/EWIEGA46WW/../../../../../src/libcalamares/modulesystem/Actions.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/3LBKYZJTZU/moc_TimeZone.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/3LBKYZJTZU/../../../../../src/libcalamares/locale/TimeZone.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/TranslatableString.h \
  /usr/include/qt/QtCore/QAbstractListModel \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/QSortFilterProxyModel \
@@ -1217,19 +1217,19 @@ src/libcalamares/CMakeFiles/calamares.dir/calamares_autogen/mocs_compilation.cpp
  /usr/include/qt/QtCore/qabstractproxymodel.h \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/qregularexpression.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/3LBKYZJTZU/moc_Translation.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/3LBKYZJTZU/../../../../../src/libcalamares/locale/Translation.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/3LBKYZJTZU/moc_Translation.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/3LBKYZJTZU/../../../../../src/libcalamares/locale/Translation.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
  /usr/include/qt/QtCore/QLocale /usr/include/qt/QtCore/qlocale.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/3LBKYZJTZU/moc_TranslationsModel.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/3LBKYZJTZU/../../../../../src/libcalamares/locale/TranslationsModel.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/3LBKYZJTZU/../../../../../src/libcalamares/locale/Translation.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/3LBKYZJTZU/moc_TranslationsModel.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/3LBKYZJTZU/../../../../../src/libcalamares/locale/TranslationsModel.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/3LBKYZJTZU/../../../../../src/libcalamares/locale/Translation.h \
  /usr/include/qt/QtCore/QVector /usr/include/qt/QtCore/qvector.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/RUACCQ4MTV/moc_Config.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/RUACCQ4MTV/../../../../../src/libcalamares/modulesystem/Config.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/RUACCQ4MTV/moc_RequirementsChecker.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/RUACCQ4MTV/../../../../../src/libcalamares/modulesystem/RequirementsChecker.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/Requirement.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/RUACCQ4MTV/moc_Config.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/RUACCQ4MTV/../../../../../src/libcalamares/modulesystem/Config.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/RUACCQ4MTV/moc_RequirementsChecker.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/RUACCQ4MTV/../../../../../src/libcalamares/modulesystem/RequirementsChecker.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/Requirement.h \
  /usr/include/qt/QtCore/QMetaType /usr/include/qt/QtCore/qmetatype.h \
  /usr/include/qt/QtCore/QFutureWatcher \
  /usr/include/qt/QtCore/qfuturewatcher.h /usr/include/qt/QtCore/qfuture.h \
@@ -1240,19 +1240,19 @@ src/libcalamares/CMakeFiles/calamares.dir/calamares_autogen/mocs_compilation.cpp
  /usr/include/c++/12.1.0/mutex /usr/include/c++/12.1.0/bits/std_mutex.h \
  /usr/include/c++/12.1.0/bits/unique_lock.h /usr/include/qt/QtCore/QTimer \
  /usr/include/qt/QtCore/qtimer.h /usr/include/qt/QtCore/qbasictimer.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/RUACCQ4MTV/moc_RequirementsModel.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/RUACCQ4MTV/../../../../../src/libcalamares/modulesystem/RequirementsModel.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/RUACCQ4MTV/../../../../../src/libcalamares/modulesystem/Requirement.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/5SSUPNRDSB/moc_Manager.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/5SSUPNRDSB/../../../../../src/libcalamares/network/Manager.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/RUACCQ4MTV/moc_RequirementsModel.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/RUACCQ4MTV/../../../../../src/libcalamares/modulesystem/RequirementsModel.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/RUACCQ4MTV/../../../../../src/libcalamares/modulesystem/Requirement.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/5SSUPNRDSB/moc_Manager.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/5SSUPNRDSB/../../../../../src/libcalamares/network/Manager.h \
  /usr/include/qt/QtCore/QByteArray /usr/include/qt/QtCore/qbytearray.h \
  /usr/include/qt/QtCore/QUrl /usr/include/qt/QtCore/qurl.h \
  /usr/include/qt/QtCore/QVector \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/moc_CalamaresUtilsSystem.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/../../../../../src/libcalamares/utils/CalamaresUtilsSystem.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/moc_PluginFactory.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/../../../../../src/libcalamares/utils/PluginFactory.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/moc_CalamaresUtilsSystem.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/../../../../../src/libcalamares/utils/CalamaresUtilsSystem.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/moc_PluginFactory.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/../../../../../src/libcalamares/utils/PluginFactory.h \
  /usr/include/KF5/KCoreAddons/KPluginFactory \
  /usr/include/KF5/KCoreAddons/kpluginfactory.h \
  /usr/include/KF5/KCoreAddons/kcoreaddons_export.h \
@@ -1270,12 +1270,12 @@ src/libcalamares/CMakeFiles/calamares.dir/calamares_autogen/mocs_compilation.cpp
  /usr/include/qt/QtCore/qjsonobject.h /usr/include/qt/QtCore/QtPlugin \
  /usr/include/qt/QtCore/qplugin.h \
  /usr/include/KF5/KCoreAddons/kcoreaddons_export.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/moc_Retranslator.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/../../../../../src/libcalamares/utils/Retranslator.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/Translation.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/moc_Runner.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/../../../../../src/libcalamares/utils/Runner.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/../../../../../src/libcalamares/utils/CalamaresUtilsSystem.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/moc_Retranslator.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/../../../../../src/libcalamares/utils/Retranslator.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/Translation.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/moc_Runner.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/../../../../../src/libcalamares/utils/Runner.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/calamares_autogen/7HEHEGDA3T/../../../../../src/libcalamares/utils/CalamaresUtilsSystem.h \
  /usr/include/qt/QtCore/QDir /usr/include/qt/QtCore/qdir.h \
  /usr/include/qt/QtCore/qfileinfo.h /usr/include/qt/QtCore/qfile.h \
  /usr/include/qt/QtCore/qfiledevice.h /usr/include/c++/12.1.0/optional

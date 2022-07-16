@@ -1,7 +1,7 @@
 src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/VolumeGroupBaseDialog.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.h \
  /usr/include/kpmcore/core/partition.h \
  /usr/include/kpmcore/core/partitionnode.h \
  /usr/include/kpmcore/util/libpartitionmanagerexport.h \
@@ -249,7 +249,7 @@ src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/VolumeGr
  /usr/include/qt/QtGui/qfontinfo.h \
  /usr/include/qt/QtWidgets/qsizepolicy.h /usr/include/qt/QtGui/qcursor.h \
  /usr/include/qt/QtGui/qkeysequence.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/include/ui_VolumeGroupBaseDialog.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/include/ui_VolumeGroupBaseDialog.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtCore/qmap.h /usr/include/c++/12.1.0/variant \
  /usr/include/qt/QtWidgets/QApplication \
@@ -293,9 +293,9 @@ src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/VolumeGr
  /usr/include/qt/QtCore/qitemselectionmodel.h \
  /usr/include/qt/QtCore/qset.h /usr/include/qt/QtWidgets/QSpinBox \
  /usr/include/qt/QtWidgets/qspinbox.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/SizeUtils.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/core/SizeUtils.h \
  /usr/include/kpmcore/util/capacity.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.h \
  /usr/include/qt/QtWidgets/QListWidgetItem \
  /usr/include/qt/QtWidgets/QComboBox \
  /usr/include/qt/QtWidgets/QDialogButtonBox \

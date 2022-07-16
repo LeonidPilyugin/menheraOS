@@ -1,11 +1,11 @@
 #   SPDX-FileCopyrightText: 2014 Teo Mrnjavac <teo@kde.org>
 #   SPDX-License-Identifier: BSD-2-Clause
 
-IF(NOT EXISTS "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/install_manifest.txt")
-  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/install_manifest.txt\"")
-ENDIF(NOT EXISTS "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/install_manifest.txt")
+IF(NOT EXISTS "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/install_manifest.txt")
+  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/install_manifest.txt\"")
+ENDIF(NOT EXISTS "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/install_manifest.txt")
 
-FILE(READ "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/install_manifest.txt" files)
+FILE(READ "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 FOREACH(file ${files})
   MESSAGE(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

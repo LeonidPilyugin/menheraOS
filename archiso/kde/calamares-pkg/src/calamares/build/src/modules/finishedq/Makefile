@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/finishedq//CMakeFiles/progress.marks
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/finishedq/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/finishedq//CMakeFiles/progress.marks
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/finishedq/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/finishedq/clean
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/finishedq/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/finishedq/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/finishedq/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/finishedq/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/finishedq/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/rule
 .PHONY : src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_viewmodule_finishedq: src/modules/finishedq/CMakeFiles/calamares_viewm
 
 # fast build rule for target.
 calamares_viewmodule_finishedq/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build
 .PHONY : calamares_viewmodule_finishedq/fast
 
 # Convenience name for target.
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq_autogen.dir/rule
 .PHONY : src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq_autogen.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ calamares_viewmodule_finishedq_autogen: src/modules/finishedq/CMakeFiles/calamar
 
 # fast build rule for target.
 calamares_viewmodule_finishedq_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq_autogen.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq_autogen.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq_autogen.dir/build
 .PHONY : calamares_viewmodule_finishedq_autogen/fast
 
 FinishedQmlViewStep.o: FinishedQmlViewStep.cpp.o
@@ -224,7 +224,7 @@ FinishedQmlViewStep.o: FinishedQmlViewStep.cpp.o
 
 # target to build an object file
 FinishedQmlViewStep.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.o
 .PHONY : FinishedQmlViewStep.cpp.o
 
 FinishedQmlViewStep.i: FinishedQmlViewStep.cpp.i
@@ -232,7 +232,7 @@ FinishedQmlViewStep.i: FinishedQmlViewStep.cpp.i
 
 # target to preprocess a source file
 FinishedQmlViewStep.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.i
 .PHONY : FinishedQmlViewStep.cpp.i
 
 FinishedQmlViewStep.s: FinishedQmlViewStep.cpp.s
@@ -240,7 +240,7 @@ FinishedQmlViewStep.s: FinishedQmlViewStep.cpp.s
 
 # target to generate assembly for a file
 FinishedQmlViewStep.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.s
 .PHONY : FinishedQmlViewStep.cpp.s
 
 __/finished/Config.o: __/finished/Config.cpp.o
@@ -248,7 +248,7 @@ __/finished/Config.o: __/finished/Config.cpp.o
 
 # target to build an object file
 __/finished/Config.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.o
 .PHONY : __/finished/Config.cpp.o
 
 __/finished/Config.i: __/finished/Config.cpp.i
@@ -256,7 +256,7 @@ __/finished/Config.i: __/finished/Config.cpp.i
 
 # target to preprocess a source file
 __/finished/Config.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.i
 .PHONY : __/finished/Config.cpp.i
 
 __/finished/Config.s: __/finished/Config.cpp.s
@@ -264,7 +264,7 @@ __/finished/Config.s: __/finished/Config.cpp.s
 
 # target to generate assembly for a file
 __/finished/Config.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.s
 .PHONY : __/finished/Config.cpp.s
 
 calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.o: calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o
@@ -272,7 +272,7 @@ calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.o: calamares_vie
 
 # target to build an object file
 calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o
 .PHONY : calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o
 
 calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.i: calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.i
@@ -280,7 +280,7 @@ calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.i: calamares_vie
 
 # target to preprocess a source file
 calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.i
 .PHONY : calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.i
 
 calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.s: calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.s
@@ -288,7 +288,7 @@ calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.s: calamares_vie
 
 # target to generate assembly for a file
 calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.s
 .PHONY : calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.s
 
 calamares_viewmodule_finishedq_autogen/mocs_compilation.o: calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o
@@ -296,7 +296,7 @@ calamares_viewmodule_finishedq_autogen/mocs_compilation.o: calamares_viewmodule_
 
 # target to build an object file
 calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o
 
 calamares_viewmodule_finishedq_autogen/mocs_compilation.i: calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.i
@@ -304,7 +304,7 @@ calamares_viewmodule_finishedq_autogen/mocs_compilation.i: calamares_viewmodule_
 
 # target to preprocess a source file
 calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.i
 
 calamares_viewmodule_finishedq_autogen/mocs_compilation.s: calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.s
@@ -312,7 +312,7 @@ calamares_viewmodule_finishedq_autogen/mocs_compilation.s: calamares_viewmodule_
 
 # target to generate assembly for a file
 calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build.make src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -355,6 +355,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

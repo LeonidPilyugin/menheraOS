@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Include any dependencies generated for this target.
 include src/modules/welcome/CMakeFiles/welcometest.dir/depend.make
@@ -72,72 +72,72 @@ include src/modules/welcome/CMakeFiles/welcometest.dir/flags.make
 src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/flags.make
 src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o: src/modules/welcome/welcometest_autogen/mocs_compilation.cpp
 src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome/welcometest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome/welcometest_autogen/mocs_compilation.cpp
 
 src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome/welcometest_autogen/mocs_compilation.cpp > CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome/welcometest_autogen/mocs_compilation.cpp > CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.i
 
 src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome/welcometest_autogen/mocs_compilation.cpp -o CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome/welcometest_autogen/mocs_compilation.cpp -o CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.s
 
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/flags.make
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o: ../src/modules/welcome/checker/GeneralRequirements.cpp
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o -MF CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o.d -o CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/checker/GeneralRequirements.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o -MF CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o.d -o CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/checker/GeneralRequirements.cpp
 
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/checker/GeneralRequirements.cpp > CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/checker/GeneralRequirements.cpp > CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.i
 
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/checker/GeneralRequirements.cpp -o CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/checker/GeneralRequirements.cpp -o CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.s
 
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o: src/modules/welcome/CMakeFiles/welcometest.dir/flags.make
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o: ../src/modules/welcome/checker/partman_devices.c
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o: src/modules/welcome/CMakeFiles/welcometest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o -MF CMakeFiles/welcometest.dir/checker/partman_devices.c.o.d -o CMakeFiles/welcometest.dir/checker/partman_devices.c.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/checker/partman_devices.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o -MF CMakeFiles/welcometest.dir/checker/partman_devices.c.o.d -o CMakeFiles/welcometest.dir/checker/partman_devices.c.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/checker/partman_devices.c
 
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/welcometest.dir/checker/partman_devices.c.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/checker/partman_devices.c > CMakeFiles/welcometest.dir/checker/partman_devices.c.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/checker/partman_devices.c > CMakeFiles/welcometest.dir/checker/partman_devices.c.i
 
 src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/welcometest.dir/checker/partman_devices.c.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/checker/partman_devices.c -o CMakeFiles/welcometest.dir/checker/partman_devices.c.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/checker/partman_devices.c -o CMakeFiles/welcometest.dir/checker/partman_devices.c.s
 
 src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/flags.make
 src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o: ../src/modules/welcome/Config.cpp
 src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o -MF CMakeFiles/welcometest.dir/Config.cpp.o.d -o CMakeFiles/welcometest.dir/Config.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/Config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o -MF CMakeFiles/welcometest.dir/Config.cpp.o.d -o CMakeFiles/welcometest.dir/Config.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/Config.cpp
 
 src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/welcometest.dir/Config.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/Config.cpp > CMakeFiles/welcometest.dir/Config.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/Config.cpp > CMakeFiles/welcometest.dir/Config.cpp.i
 
 src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/welcometest.dir/Config.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/Config.cpp -o CMakeFiles/welcometest.dir/Config.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/Config.cpp -o CMakeFiles/welcometest.dir/Config.cpp.s
 
 src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/flags.make
 src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o: ../src/modules/welcome/Tests.cpp
 src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o: src/modules/welcome/CMakeFiles/welcometest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o -MF CMakeFiles/welcometest.dir/Tests.cpp.o.d -o CMakeFiles/welcometest.dir/Tests.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o -MF CMakeFiles/welcometest.dir/Tests.cpp.o.d -o CMakeFiles/welcometest.dir/Tests.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/Tests.cpp
 
 src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/welcometest.dir/Tests.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/Tests.cpp > CMakeFiles/welcometest.dir/Tests.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/Tests.cpp > CMakeFiles/welcometest.dir/Tests.cpp.i
 
 src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/welcometest.dir/Tests.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/Tests.cpp -o CMakeFiles/welcometest.dir/Tests.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome/Tests.cpp -o CMakeFiles/welcometest.dir/Tests.cpp.s
 
 # Object files for target welcometest
 welcometest_OBJECTS = \
@@ -174,18 +174,18 @@ welcometest: /usr/lib/libQt5Qml.so.5.15.5
 welcometest: /usr/lib/libQt5Network.so.5.15.5
 welcometest: /usr/lib/libQt5Core.so.5.15.5
 welcometest: src/modules/welcome/CMakeFiles/welcometest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../../welcometest"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/welcometest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../../welcometest"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/welcometest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/welcome/CMakeFiles/welcometest.dir/build: welcometest
 .PHONY : src/modules/welcome/CMakeFiles/welcometest.dir/build
 
 src/modules/welcome/CMakeFiles/welcometest.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && $(CMAKE_COMMAND) -P CMakeFiles/welcometest.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && $(CMAKE_COMMAND) -P CMakeFiles/welcometest.dir/cmake_clean.cmake
 .PHONY : src/modules/welcome/CMakeFiles/welcometest.dir/clean
 
 src/modules/welcome/CMakeFiles/welcometest.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome/CMakeFiles/welcometest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome/CMakeFiles/welcometest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/welcome/CMakeFiles/welcometest.dir/depend
 

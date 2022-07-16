@@ -1,7 +1,7 @@
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/mocs_compilation.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/7HEHEGDA3T/moc_Runner.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/7HEHEGDA3T/moc_Runner.cpp \
  /usr/include/c++/12.1.0/memory \
  /usr/include/c++/12.1.0/bits/stl_algobase.h \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -101,9 +101,9 @@ src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_auto
  /usr/include/c++/12.1.0/backward/auto_ptr.h \
  /usr/include/c++/12.1.0/pstl/glue_memory_defs.h \
  /usr/include/c++/12.1.0/pstl/execution_defs.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/7HEHEGDA3T/../../../../../src/libcalamares/utils/Runner.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/7HEHEGDA3T/../../../../../src/libcalamares/utils/CalamaresUtilsSystem.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/7HEHEGDA3T/../../../../../src/libcalamares/utils/Runner.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/7HEHEGDA3T/../../../../../src/libcalamares/utils/CalamaresUtilsSystem.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/12.1.0/cstddef \
  /usr/include/c++/12.1.0/utility \
  /usr/include/c++/12.1.0/bits/stl_relops.h \
@@ -135,8 +135,8 @@ src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_auto
  /usr/include/qt/QtCore/qgenericatomic.h /usr/include/c++/12.1.0/atomic \
  /usr/include/qt/QtCore/qglobalstatic.h /usr/include/qt/QtCore/qnumeric.h \
  /usr/include/qt/QtCore/qversiontagging.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/QList /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtCore/qalgorithms.h /usr/include/qt/QtCore/qiterator.h \
  /usr/include/qt/QtCore/qrefcount.h /usr/include/qt/QtCore/qarraydata.h \

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/test_conf.cpp" "src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o" "gcc" "src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o.d"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/test_conf.cpp" "src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o" "gcc" "src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,6 +1,6 @@
-/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/moc_DebugWindow.cpp: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/DebugWindow.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/moc_predefs.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/VariantModel.h \
+/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/moc_DebugWindow.cpp: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/DebugWindow.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/moc_predefs.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/calamares/VariantModel.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

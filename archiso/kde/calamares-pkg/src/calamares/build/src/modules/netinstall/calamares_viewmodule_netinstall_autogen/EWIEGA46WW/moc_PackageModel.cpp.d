@@ -1,6 +1,6 @@
-/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/calamares_viewmodule_netinstall_autogen/EWIEGA46WW/moc_PackageModel.cpp: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/PackageModel.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/calamares_viewmodule_netinstall_autogen/moc_predefs.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/PackageTreeItem.h \
+/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/calamares_viewmodule_netinstall_autogen/EWIEGA46WW/moc_PackageModel.cpp: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/PackageModel.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/calamares_viewmodule_netinstall_autogen/moc_predefs.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/PackageTreeItem.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

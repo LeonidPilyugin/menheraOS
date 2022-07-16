@@ -1,6 +1,6 @@
-/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/EWIEGA46WW/moc_CreateLayoutsTests.cpp: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/CreateLayoutsTests.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/moc_predefs.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMHelper.h \
+/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/EWIEGA46WW/moc_CreateLayoutsTests.cpp: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/CreateLayoutsTests.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/moc_predefs.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMHelper.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

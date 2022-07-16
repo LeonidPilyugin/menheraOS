@@ -1,8 +1,8 @@
-/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/63WDX6XJKF/moc_kdsingleapplicationguard.cpp: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdsingleapplicationguard.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/moc_predefs.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdtoolsglobal.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/pimpl_ptr.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/63WDX6XJKF/moc_kdsingleapplicationguard.cpp: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdsingleapplicationguard.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/moc_predefs.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdtoolsglobal.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/pimpl_ptr.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \

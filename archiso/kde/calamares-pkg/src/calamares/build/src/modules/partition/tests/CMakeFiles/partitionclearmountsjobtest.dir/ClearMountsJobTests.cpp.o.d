@@ -1,7 +1,7 @@
 src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/ClearMountsJobTests.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/ClearMountsJobTests.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/ClearMountsJobTests.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/ClearMountsJobTests.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/partition/tests/ClearMountsJobTests.h \
  /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
  /usr/include/qt/QtCore/qobjectdefs.h /usr/include/qt/QtCore/qnamespace.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/12.1.0/type_traits \
@@ -208,8 +208,8 @@ src/modules/partition/tests/CMakeFiles/partitionclearmountsjobtest.dir/ClearMoun
  /usr/include/c++/12.1.0/bits/chrono.h /usr/include/c++/12.1.0/ratio \
  /usr/include/c++/12.1.0/limits /usr/include/c++/12.1.0/ctime \
  /usr/include/c++/12.1.0/bits/parse_numbers.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/qt/QtCore/QDebug \
  /usr/include/qt/QtCore/qdebug.h /usr/include/qt/QtCore/qhash.h \
  /usr/include/qt/QtCore/qmap.h /usr/include/qt/QtCore/qtextstream.h \

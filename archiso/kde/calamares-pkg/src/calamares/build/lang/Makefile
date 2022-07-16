@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang//CMakeFiles/progress.marks
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang//CMakeFiles/progress.marks
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/clean
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lang/CMakeFiles/txload.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/txload.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/txload.dir/rule
 .PHONY : lang/CMakeFiles/txload.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ txload: lang/CMakeFiles/txload.dir/rule
 
 # fast build rule for target.
 txload/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/txload.dir/build.make lang/CMakeFiles/txload.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/txload.dir/build.make lang/CMakeFiles/txload.dir/build
 .PHONY : txload/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares-gettext-translations-python.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares-gettext-translations-python.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares-gettext-translations-python.dir/rule
 .PHONY : lang/CMakeFiles/calamares-gettext-translations-python.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ calamares-gettext-translations-python: lang/CMakeFiles/calamares-gettext-transla
 
 # fast build rule for target.
 calamares-gettext-translations-python/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares-gettext-translations-python.dir/build.make lang/CMakeFiles/calamares-gettext-translations-python.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares-gettext-translations-python.dir/build.make lang/CMakeFiles/calamares-gettext-translations-python.dir/build
 .PHONY : calamares-gettext-translations-python/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ calamares_gettext_translations_python_ar: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_ar/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/build
 .PHONY : calamares_gettext_translations_python_ar/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_as.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_as.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_as.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_as.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ calamares_gettext_translations_python_as: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_as/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_as.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_as.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_as.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_as.dir/build
 .PHONY : calamares_gettext_translations_python_as/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ calamares_gettext_translations_python_ast: lang/CMakeFiles/calamares_gettext_tra
 
 # fast build rule for target.
 calamares_gettext_translations_python_ast/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ast.dir/build
 .PHONY : calamares_gettext_translations_python_ast/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_az.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_az.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_az.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_az.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ calamares_gettext_translations_python_az: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_az/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_az.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_az.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_az.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_az.dir/build
 .PHONY : calamares_gettext_translations_python_az/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_az_AZ.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_az_AZ.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_az_AZ.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_az_AZ.dir/rule
 
 # Convenience name for target.
@@ -286,12 +286,12 @@ calamares_gettext_translations_python_az_AZ: lang/CMakeFiles/calamares_gettext_t
 
 # fast build rule for target.
 calamares_gettext_translations_python_az_AZ/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_az_AZ.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_az_AZ.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_az_AZ.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_az_AZ.dir/build
 .PHONY : calamares_gettext_translations_python_az_AZ/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_be.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_be.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_be.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_be.dir/rule
 
 # Convenience name for target.
@@ -300,12 +300,12 @@ calamares_gettext_translations_python_be: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_be/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_be.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_be.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_be.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_be.dir/build
 .PHONY : calamares_gettext_translations_python_be/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_bg.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_bg.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_bg.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_bg.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ calamares_gettext_translations_python_bg: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_bg/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_bg.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_bg.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_bg.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_bg.dir/build
 .PHONY : calamares_gettext_translations_python_bg/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_bn.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_bn.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_bn.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_bn.dir/rule
 
 # Convenience name for target.
@@ -328,12 +328,12 @@ calamares_gettext_translations_python_bn: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_bn/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_bn.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_bn.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_bn.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_bn.dir/build
 .PHONY : calamares_gettext_translations_python_bn/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_ca.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ca.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ca.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ca.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ calamares_gettext_translations_python_ca: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_ca/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ca.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ca.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ca.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ca.dir/build
 .PHONY : calamares_gettext_translations_python_ca/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_ca_valencia.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ca_valencia.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ca_valencia.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ca_valencia.dir/rule
 
 # Convenience name for target.
@@ -356,12 +356,12 @@ calamares_gettext_translations_python_ca_valencia: lang/CMakeFiles/calamares_get
 
 # fast build rule for target.
 calamares_gettext_translations_python_ca_valencia/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ca_valencia.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ca_valencia.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ca_valencia.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ca_valencia.dir/build
 .PHONY : calamares_gettext_translations_python_ca_valencia/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_cs_CZ.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_cs_CZ.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_cs_CZ.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_cs_CZ.dir/rule
 
 # Convenience name for target.
@@ -370,12 +370,12 @@ calamares_gettext_translations_python_cs_CZ: lang/CMakeFiles/calamares_gettext_t
 
 # fast build rule for target.
 calamares_gettext_translations_python_cs_CZ/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_cs_CZ.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_cs_CZ.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_cs_CZ.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_cs_CZ.dir/build
 .PHONY : calamares_gettext_translations_python_cs_CZ/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_da.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_da.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_da.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_da.dir/rule
 
 # Convenience name for target.
@@ -384,12 +384,12 @@ calamares_gettext_translations_python_da: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_da/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_da.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_da.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_da.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_da.dir/build
 .PHONY : calamares_gettext_translations_python_da/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_de.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_de.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_de.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_de.dir/rule
 
 # Convenience name for target.
@@ -398,12 +398,12 @@ calamares_gettext_translations_python_de: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_de/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_de.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_de.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_de.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_de.dir/build
 .PHONY : calamares_gettext_translations_python_de/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_el.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_el.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_el.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_el.dir/rule
 
 # Convenience name for target.
@@ -412,12 +412,12 @@ calamares_gettext_translations_python_el: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_el/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_el.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_el.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_el.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_el.dir/build
 .PHONY : calamares_gettext_translations_python_el/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_en_GB.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_en_GB.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_en_GB.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_en_GB.dir/rule
 
 # Convenience name for target.
@@ -426,12 +426,12 @@ calamares_gettext_translations_python_en_GB: lang/CMakeFiles/calamares_gettext_t
 
 # fast build rule for target.
 calamares_gettext_translations_python_en_GB/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_en_GB.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_en_GB.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_en_GB.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_en_GB.dir/build
 .PHONY : calamares_gettext_translations_python_en_GB/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_eo.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_eo.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_eo.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_eo.dir/rule
 
 # Convenience name for target.
@@ -440,12 +440,12 @@ calamares_gettext_translations_python_eo: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_eo/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_eo.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_eo.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_eo.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_eo.dir/build
 .PHONY : calamares_gettext_translations_python_eo/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_es.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_es.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_es.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_es.dir/rule
 
 # Convenience name for target.
@@ -454,12 +454,12 @@ calamares_gettext_translations_python_es: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_es/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_es.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_es.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_es.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_es.dir/build
 .PHONY : calamares_gettext_translations_python_es/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_es_MX.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_es_MX.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_es_MX.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_es_MX.dir/rule
 
 # Convenience name for target.
@@ -468,12 +468,12 @@ calamares_gettext_translations_python_es_MX: lang/CMakeFiles/calamares_gettext_t
 
 # fast build rule for target.
 calamares_gettext_translations_python_es_MX/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_es_MX.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_es_MX.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_es_MX.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_es_MX.dir/build
 .PHONY : calamares_gettext_translations_python_es_MX/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_et.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_et.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_et.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_et.dir/rule
 
 # Convenience name for target.
@@ -482,12 +482,12 @@ calamares_gettext_translations_python_et: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_et/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_et.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_et.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_et.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_et.dir/build
 .PHONY : calamares_gettext_translations_python_et/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_eu.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_eu.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_eu.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_eu.dir/rule
 
 # Convenience name for target.
@@ -496,12 +496,12 @@ calamares_gettext_translations_python_eu: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_eu/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_eu.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_eu.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_eu.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_eu.dir/build
 .PHONY : calamares_gettext_translations_python_eu/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_fa.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_fa.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_fa.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_fa.dir/rule
 
 # Convenience name for target.
@@ -510,12 +510,12 @@ calamares_gettext_translations_python_fa: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_fa/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_fa.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_fa.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_fa.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_fa.dir/build
 .PHONY : calamares_gettext_translations_python_fa/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_fi_FI.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_fi_FI.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_fi_FI.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_fi_FI.dir/rule
 
 # Convenience name for target.
@@ -524,12 +524,12 @@ calamares_gettext_translations_python_fi_FI: lang/CMakeFiles/calamares_gettext_t
 
 # fast build rule for target.
 calamares_gettext_translations_python_fi_FI/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_fi_FI.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_fi_FI.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_fi_FI.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_fi_FI.dir/build
 .PHONY : calamares_gettext_translations_python_fi_FI/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_fr.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_fr.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_fr.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_fr.dir/rule
 
 # Convenience name for target.
@@ -538,12 +538,12 @@ calamares_gettext_translations_python_fr: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_fr/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_fr.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_fr.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_fr.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_fr.dir/build
 .PHONY : calamares_gettext_translations_python_fr/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/rule
 
 # Convenience name for target.
@@ -552,12 +552,12 @@ calamares_gettext_translations_python_fur: lang/CMakeFiles/calamares_gettext_tra
 
 # fast build rule for target.
 calamares_gettext_translations_python_fur/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/build
 .PHONY : calamares_gettext_translations_python_fur/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_gl.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_gl.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_gl.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_gl.dir/rule
 
 # Convenience name for target.
@@ -566,12 +566,12 @@ calamares_gettext_translations_python_gl: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_gl/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_gl.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_gl.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_gl.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_gl.dir/build
 .PHONY : calamares_gettext_translations_python_gl/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_he.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_he.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_he.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_he.dir/rule
 
 # Convenience name for target.
@@ -580,12 +580,12 @@ calamares_gettext_translations_python_he: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_he/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_he.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_he.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_he.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_he.dir/build
 .PHONY : calamares_gettext_translations_python_he/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_hi.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_hi.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_hi.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_hi.dir/rule
 
 # Convenience name for target.
@@ -594,12 +594,12 @@ calamares_gettext_translations_python_hi: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_hi/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_hi.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_hi.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_hi.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_hi.dir/build
 .PHONY : calamares_gettext_translations_python_hi/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_hr.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_hr.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_hr.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_hr.dir/rule
 
 # Convenience name for target.
@@ -608,12 +608,12 @@ calamares_gettext_translations_python_hr: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_hr/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_hr.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_hr.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_hr.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_hr.dir/build
 .PHONY : calamares_gettext_translations_python_hr/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_hu.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_hu.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_hu.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_hu.dir/rule
 
 # Convenience name for target.
@@ -622,12 +622,12 @@ calamares_gettext_translations_python_hu: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_hu/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_hu.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_hu.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_hu.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_hu.dir/build
 .PHONY : calamares_gettext_translations_python_hu/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_id.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_id.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_id.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_id.dir/rule
 
 # Convenience name for target.
@@ -636,12 +636,12 @@ calamares_gettext_translations_python_id: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_id/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_id.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_id.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_id.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_id.dir/build
 .PHONY : calamares_gettext_translations_python_id/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_is.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_is.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_is.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_is.dir/rule
 
 # Convenience name for target.
@@ -650,12 +650,12 @@ calamares_gettext_translations_python_is: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_is/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_is.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_is.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_is.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_is.dir/build
 .PHONY : calamares_gettext_translations_python_is/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_it_IT.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_it_IT.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_it_IT.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_it_IT.dir/rule
 
 # Convenience name for target.
@@ -664,12 +664,12 @@ calamares_gettext_translations_python_it_IT: lang/CMakeFiles/calamares_gettext_t
 
 # fast build rule for target.
 calamares_gettext_translations_python_it_IT/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_it_IT.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_it_IT.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_it_IT.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_it_IT.dir/build
 .PHONY : calamares_gettext_translations_python_it_IT/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_ja.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ja.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ja.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ja.dir/rule
 
 # Convenience name for target.
@@ -678,12 +678,12 @@ calamares_gettext_translations_python_ja: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_ja/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ja.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ja.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ja.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ja.dir/build
 .PHONY : calamares_gettext_translations_python_ja/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_ko.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ko.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ko.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ko.dir/rule
 
 # Convenience name for target.
@@ -692,12 +692,12 @@ calamares_gettext_translations_python_ko: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_ko/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ko.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ko.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ko.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ko.dir/build
 .PHONY : calamares_gettext_translations_python_ko/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_lt.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_lt.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_lt.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_lt.dir/rule
 
 # Convenience name for target.
@@ -706,12 +706,12 @@ calamares_gettext_translations_python_lt: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_lt/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_lt.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_lt.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_lt.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_lt.dir/build
 .PHONY : calamares_gettext_translations_python_lt/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_ml.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ml.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ml.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ml.dir/rule
 
 # Convenience name for target.
@@ -720,12 +720,12 @@ calamares_gettext_translations_python_ml: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_ml/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ml.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ml.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ml.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ml.dir/build
 .PHONY : calamares_gettext_translations_python_ml/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_mr.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_mr.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_mr.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_mr.dir/rule
 
 # Convenience name for target.
@@ -734,12 +734,12 @@ calamares_gettext_translations_python_mr: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_mr/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_mr.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_mr.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_mr.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_mr.dir/build
 .PHONY : calamares_gettext_translations_python_mr/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_nb.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_nb.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_nb.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_nb.dir/rule
 
 # Convenience name for target.
@@ -748,12 +748,12 @@ calamares_gettext_translations_python_nb: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_nb/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_nb.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_nb.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_nb.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_nb.dir/build
 .PHONY : calamares_gettext_translations_python_nb/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_nl.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_nl.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_nl.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_nl.dir/rule
 
 # Convenience name for target.
@@ -762,12 +762,12 @@ calamares_gettext_translations_python_nl: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_nl/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_nl.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_nl.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_nl.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_nl.dir/build
 .PHONY : calamares_gettext_translations_python_nl/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_oc.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_oc.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_oc.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_oc.dir/rule
 
 # Convenience name for target.
@@ -776,12 +776,12 @@ calamares_gettext_translations_python_oc: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_oc/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_oc.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_oc.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_oc.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_oc.dir/build
 .PHONY : calamares_gettext_translations_python_oc/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_pl.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_pl.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_pl.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_pl.dir/rule
 
 # Convenience name for target.
@@ -790,12 +790,12 @@ calamares_gettext_translations_python_pl: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_pl/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_pl.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_pl.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_pl.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_pl.dir/build
 .PHONY : calamares_gettext_translations_python_pl/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_pt_BR.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_pt_BR.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_pt_BR.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_pt_BR.dir/rule
 
 # Convenience name for target.
@@ -804,12 +804,12 @@ calamares_gettext_translations_python_pt_BR: lang/CMakeFiles/calamares_gettext_t
 
 # fast build rule for target.
 calamares_gettext_translations_python_pt_BR/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_pt_BR.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_pt_BR.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_pt_BR.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_pt_BR.dir/build
 .PHONY : calamares_gettext_translations_python_pt_BR/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_pt_PT.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_pt_PT.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_pt_PT.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_pt_PT.dir/rule
 
 # Convenience name for target.
@@ -818,12 +818,12 @@ calamares_gettext_translations_python_pt_PT: lang/CMakeFiles/calamares_gettext_t
 
 # fast build rule for target.
 calamares_gettext_translations_python_pt_PT/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_pt_PT.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_pt_PT.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_pt_PT.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_pt_PT.dir/build
 .PHONY : calamares_gettext_translations_python_pt_PT/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_ro.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ro.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ro.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ro.dir/rule
 
 # Convenience name for target.
@@ -832,12 +832,12 @@ calamares_gettext_translations_python_ro: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_ro/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ro.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ro.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ro.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ro.dir/build
 .PHONY : calamares_gettext_translations_python_ro/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_ru.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ru.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_ru.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ru.dir/rule
 
 # Convenience name for target.
@@ -846,12 +846,12 @@ calamares_gettext_translations_python_ru: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_ru/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ru.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ru.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_ru.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_ru.dir/build
 .PHONY : calamares_gettext_translations_python_ru/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_si.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_si.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_si.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_si.dir/rule
 
 # Convenience name for target.
@@ -860,12 +860,12 @@ calamares_gettext_translations_python_si: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_si/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_si.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_si.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_si.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_si.dir/build
 .PHONY : calamares_gettext_translations_python_si/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_sk.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_sk.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_sk.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_sk.dir/rule
 
 # Convenience name for target.
@@ -874,12 +874,12 @@ calamares_gettext_translations_python_sk: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_sk/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_sk.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_sk.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_sk.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_sk.dir/build
 .PHONY : calamares_gettext_translations_python_sk/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_sl.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_sl.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_sl.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_sl.dir/rule
 
 # Convenience name for target.
@@ -888,12 +888,12 @@ calamares_gettext_translations_python_sl: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_sl/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_sl.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_sl.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_sl.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_sl.dir/build
 .PHONY : calamares_gettext_translations_python_sl/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_sq.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_sq.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_sq.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_sq.dir/rule
 
 # Convenience name for target.
@@ -902,12 +902,12 @@ calamares_gettext_translations_python_sq: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_sq/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_sq.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_sq.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_sq.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_sq.dir/build
 .PHONY : calamares_gettext_translations_python_sq/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_sr.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_sr.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_sr.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_sr.dir/rule
 
 # Convenience name for target.
@@ -916,12 +916,12 @@ calamares_gettext_translations_python_sr: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_sr/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_sr.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_sr.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_sr.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_sr.dir/build
 .PHONY : calamares_gettext_translations_python_sr/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_sr_latin.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_sr_latin.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_sr_latin.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_sr_latin.dir/rule
 
 # Convenience name for target.
@@ -930,12 +930,12 @@ calamares_gettext_translations_python_sr_latin: lang/CMakeFiles/calamares_gettex
 
 # fast build rule for target.
 calamares_gettext_translations_python_sr_latin/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_sr_latin.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_sr_latin.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_sr_latin.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_sr_latin.dir/build
 .PHONY : calamares_gettext_translations_python_sr_latin/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_sv.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_sv.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_sv.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_sv.dir/rule
 
 # Convenience name for target.
@@ -944,12 +944,12 @@ calamares_gettext_translations_python_sv: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_sv/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_sv.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_sv.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_sv.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_sv.dir/build
 .PHONY : calamares_gettext_translations_python_sv/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_tg.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_tg.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_tg.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_tg.dir/rule
 
 # Convenience name for target.
@@ -958,12 +958,12 @@ calamares_gettext_translations_python_tg: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_tg/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_tg.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_tg.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_tg.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_tg.dir/build
 .PHONY : calamares_gettext_translations_python_tg/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_th.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_th.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_th.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_th.dir/rule
 
 # Convenience name for target.
@@ -972,12 +972,12 @@ calamares_gettext_translations_python_th: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_th/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_th.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_th.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_th.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_th.dir/build
 .PHONY : calamares_gettext_translations_python_th/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_tr_TR.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_tr_TR.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_tr_TR.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_tr_TR.dir/rule
 
 # Convenience name for target.
@@ -986,12 +986,12 @@ calamares_gettext_translations_python_tr_TR: lang/CMakeFiles/calamares_gettext_t
 
 # fast build rule for target.
 calamares_gettext_translations_python_tr_TR/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_tr_TR.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_tr_TR.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_tr_TR.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_tr_TR.dir/build
 .PHONY : calamares_gettext_translations_python_tr_TR/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_uk.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_uk.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_uk.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_uk.dir/rule
 
 # Convenience name for target.
@@ -1000,12 +1000,12 @@ calamares_gettext_translations_python_uk: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_uk/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_uk.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_uk.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_uk.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_uk.dir/build
 .PHONY : calamares_gettext_translations_python_uk/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_vi.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_vi.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_vi.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_vi.dir/rule
 
 # Convenience name for target.
@@ -1014,12 +1014,12 @@ calamares_gettext_translations_python_vi: lang/CMakeFiles/calamares_gettext_tran
 
 # fast build rule for target.
 calamares_gettext_translations_python_vi/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_vi.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_vi.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_vi.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_vi.dir/build
 .PHONY : calamares_gettext_translations_python_vi/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_zh_CN.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_zh_CN.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_zh_CN.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_zh_CN.dir/rule
 
 # Convenience name for target.
@@ -1028,12 +1028,12 @@ calamares_gettext_translations_python_zh_CN: lang/CMakeFiles/calamares_gettext_t
 
 # fast build rule for target.
 calamares_gettext_translations_python_zh_CN/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_zh_CN.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_zh_CN.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_zh_CN.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_zh_CN.dir/build
 .PHONY : calamares_gettext_translations_python_zh_CN/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares_gettext_translations_python_zh_TW.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_zh_TW.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares_gettext_translations_python_zh_TW.dir/rule
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_zh_TW.dir/rule
 
 # Convenience name for target.
@@ -1042,12 +1042,12 @@ calamares_gettext_translations_python_zh_TW: lang/CMakeFiles/calamares_gettext_t
 
 # fast build rule for target.
 calamares_gettext_translations_python_zh_TW/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_zh_TW.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_zh_TW.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares_gettext_translations_python_zh_TW.dir/build.make lang/CMakeFiles/calamares_gettext_translations_python_zh_TW.dir/build
 .PHONY : calamares_gettext_translations_python_zh_TW/fast
 
 # Convenience name for target.
 lang/CMakeFiles/calamares-i18n.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares-i18n.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lang/CMakeFiles/calamares-i18n.dir/rule
 .PHONY : lang/CMakeFiles/calamares-i18n.dir/rule
 
 # Convenience name for target.
@@ -1056,7 +1056,7 @@ calamares-i18n: lang/CMakeFiles/calamares-i18n.dir/rule
 
 # fast build rule for target.
 calamares-i18n/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares-i18n.dir/build.make lang/CMakeFiles/calamares-i18n.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares-i18n.dir/build.make lang/CMakeFiles/calamares-i18n.dir/build
 .PHONY : calamares-i18n/fast
 
 calamares-i18n.o: calamares-i18n.cxx.o
@@ -1064,7 +1064,7 @@ calamares-i18n.o: calamares-i18n.cxx.o
 
 # target to build an object file
 calamares-i18n.cxx.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares-i18n.dir/build.make lang/CMakeFiles/calamares-i18n.dir/calamares-i18n.cxx.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares-i18n.dir/build.make lang/CMakeFiles/calamares-i18n.dir/calamares-i18n.cxx.o
 .PHONY : calamares-i18n.cxx.o
 
 calamares-i18n.i: calamares-i18n.cxx.i
@@ -1072,7 +1072,7 @@ calamares-i18n.i: calamares-i18n.cxx.i
 
 # target to preprocess a source file
 calamares-i18n.cxx.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares-i18n.dir/build.make lang/CMakeFiles/calamares-i18n.dir/calamares-i18n.cxx.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares-i18n.dir/build.make lang/CMakeFiles/calamares-i18n.dir/calamares-i18n.cxx.i
 .PHONY : calamares-i18n.cxx.i
 
 calamares-i18n.s: calamares-i18n.cxx.s
@@ -1080,7 +1080,7 @@ calamares-i18n.s: calamares-i18n.cxx.s
 
 # target to generate assembly for a file
 calamares-i18n.cxx.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares-i18n.dir/build.make lang/CMakeFiles/calamares-i18n.dir/calamares-i18n.cxx.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/calamares-i18n.dir/build.make lang/CMakeFiles/calamares-i18n.dir/calamares-i18n.cxx.s
 .PHONY : calamares-i18n.cxx.s
 
 txload.o: txload.cpp.o
@@ -1088,7 +1088,7 @@ txload.o: txload.cpp.o
 
 # target to build an object file
 txload.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/txload.dir/build.make lang/CMakeFiles/txload.dir/txload.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/txload.dir/build.make lang/CMakeFiles/txload.dir/txload.cpp.o
 .PHONY : txload.cpp.o
 
 txload.i: txload.cpp.i
@@ -1096,7 +1096,7 @@ txload.i: txload.cpp.i
 
 # target to preprocess a source file
 txload.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/txload.dir/build.make lang/CMakeFiles/txload.dir/txload.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/txload.dir/build.make lang/CMakeFiles/txload.dir/txload.cpp.i
 .PHONY : txload.cpp.i
 
 txload.s: txload.cpp.s
@@ -1104,7 +1104,7 @@ txload.s: txload.cpp.s
 
 # target to generate assembly for a file
 txload.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/txload.dir/build.make lang/CMakeFiles/txload.dir/txload.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f lang/CMakeFiles/txload.dir/build.make lang/CMakeFiles/txload.dir/txload.cpp.s
 .PHONY : txload.cpp.s
 
 # Help Target
@@ -1201,6 +1201,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

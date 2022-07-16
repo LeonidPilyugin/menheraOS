@@ -1,8 +1,8 @@
 src/modules/locale/CMakeFiles/localetest.dir/Tests.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/Tests.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/Tests.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/Config.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/LocaleConfiguration.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/Config.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/LocaleConfiguration.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/qalgorithms.h /usr/include/qt/QtCore/qglobal.h \
  /usr/include/c++/12.1.0/type_traits \
@@ -228,15 +228,15 @@ src/modules/locale/CMakeFiles/localetest.dir/Tests.cpp.o: \
  /usr/include/c++/12.1.0/pstl/glue_memory_defs.h \
  /usr/include/qt/QtCore/QMap /usr/include/qt/QtCore/qmap.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/qt/QtCore/QList \
  /usr/include/qt/QtCore/qlist.h /usr/include/qt/QtCore/QObject \
  /usr/include/qt/QtCore/qobject.h /usr/include/qt/QtCore/QSharedPointer \
  /usr/include/qt/QtCore/qsharedpointer.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/geoip/Handler.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/geoip/Interface.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/geoip/Handler.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/geoip/Interface.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/QPair /usr/include/qt/QtCore/qpair.h \
  /usr/include/qt/QtCore/QUrl /usr/include/qt/QtCore/qurl.h \
  /usr/include/qt/QtCore/QVariantMap /usr/include/qt/QtCore/qvariant.h \
@@ -259,9 +259,9 @@ src/modules/locale/CMakeFiles/localetest.dir/Tests.cpp.o: \
  /usr/include/c++/12.1.0/bits/atomic_futex.h \
  /usr/include/c++/12.1.0/bits/std_thread.h \
  /usr/include/qt/QtConcurrent/qtconcurrentstoredfunctioncall.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/geoip/Interface.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/TimeZone.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/TranslatableString.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/geoip/Interface.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/TimeZone.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/locale/TranslatableString.h \
  /usr/include/qt/QtCore/QAbstractListModel \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/QSortFilterProxyModel \
@@ -271,7 +271,7 @@ src/modules/locale/CMakeFiles/localetest.dir/Tests.cpp.o: \
  /usr/include/qt/QtCore/qregularexpression.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/QFutureWatcher \
  /usr/include/qt/QtCore/qfuturewatcher.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/timezonewidget/TimeZoneImage.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/locale/timezonewidget/TimeZoneImage.h \
  /usr/include/qt/QtGui/QImage /usr/include/qt/QtGui/qimage.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtGui/qtgui-config.h \
  /usr/include/qt/QtGui/qcolor.h /usr/include/qt/QtGui/qrgb.h \
@@ -282,7 +282,7 @@ src/modules/locale/CMakeFiles/localetest.dir/Tests.cpp.o: \
  /usr/include/qt/QtGui/qtransform.h /usr/include/qt/QtGui/qmatrix.h \
  /usr/include/qt/QtGui/qpolygon.h /usr/include/qt/QtGui/qregion.h \
  /usr/include/qt/QtCore/qdatastream.h /usr/include/qt/QtCore/qline.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Logger.h \
  /usr/include/qt/QtTest/QtTest /usr/include/qt/QtTest/QtTestDepends \
  /usr/include/qt/QtCore/QtCore /usr/include/qt/QtCore/QtCoreDepends \
  /usr/include/qt/QtCore/qglobal.h \
@@ -533,5 +533,5 @@ src/modules/locale/CMakeFiles/localetest.dir/Tests.cpp.o: \
  /usr/include/qt/QtTest/qttestversion.h /usr/include/c++/12.1.0/set \
  /usr/include/c++/12.1.0/bits/stl_set.h \
  /usr/include/c++/12.1.0/bits/stl_multiset.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/moc-warnings.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/localetest_autogen/include/Tests.moc
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/moc-warnings.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/locale/localetest_autogen/include/Tests.moc

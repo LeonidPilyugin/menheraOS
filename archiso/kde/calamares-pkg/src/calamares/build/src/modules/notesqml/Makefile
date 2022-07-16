@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/notesqml//CMakeFiles/progress.marks
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/notesqml/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/notesqml//CMakeFiles/progress.marks
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/notesqml/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/notesqml/clean
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/notesqml/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/notesqml/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/notesqml/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/notesqml/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/notesqml/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/rule
 .PHONY : src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_viewmodule_notesqml: src/modules/notesqml/CMakeFiles/calamares_viewmod
 
 # fast build rule for target.
 calamares_viewmodule_notesqml/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build
 .PHONY : calamares_viewmodule_notesqml/fast
 
 # Convenience name for target.
 src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml_autogen.dir/rule
 .PHONY : src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml_autogen.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ calamares_viewmodule_notesqml_autogen: src/modules/notesqml/CMakeFiles/calamares
 
 # fast build rule for target.
 calamares_viewmodule_notesqml_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml_autogen.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml_autogen.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml_autogen.dir/build
 .PHONY : calamares_viewmodule_notesqml_autogen/fast
 
 NotesQmlViewStep.o: NotesQmlViewStep.cpp.o
@@ -224,7 +224,7 @@ NotesQmlViewStep.o: NotesQmlViewStep.cpp.o
 
 # target to build an object file
 NotesQmlViewStep.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/NotesQmlViewStep.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/NotesQmlViewStep.cpp.o
 .PHONY : NotesQmlViewStep.cpp.o
 
 NotesQmlViewStep.i: NotesQmlViewStep.cpp.i
@@ -232,7 +232,7 @@ NotesQmlViewStep.i: NotesQmlViewStep.cpp.i
 
 # target to preprocess a source file
 NotesQmlViewStep.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/NotesQmlViewStep.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/NotesQmlViewStep.cpp.i
 .PHONY : NotesQmlViewStep.cpp.i
 
 NotesQmlViewStep.s: NotesQmlViewStep.cpp.s
@@ -240,7 +240,7 @@ NotesQmlViewStep.s: NotesQmlViewStep.cpp.s
 
 # target to generate assembly for a file
 NotesQmlViewStep.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/NotesQmlViewStep.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/NotesQmlViewStep.cpp.s
 .PHONY : NotesQmlViewStep.cpp.s
 
 calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.o: calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.o
@@ -248,7 +248,7 @@ calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.o: calamares_viewm
 
 # target to build an object file
 calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.o
 .PHONY : calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.o
 
 calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.i: calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.i
@@ -256,7 +256,7 @@ calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.i: calamares_viewm
 
 # target to preprocess a source file
 calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.i
 .PHONY : calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.i
 
 calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.s: calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.s
@@ -264,7 +264,7 @@ calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.s: calamares_viewm
 
 # target to generate assembly for a file
 calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.s
 .PHONY : calamares_viewmodule_notesqml_autogen/EWIEGA46WW/qrc_notesqml.cpp.s
 
 calamares_viewmodule_notesqml_autogen/mocs_compilation.o: calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.o
@@ -272,7 +272,7 @@ calamares_viewmodule_notesqml_autogen/mocs_compilation.o: calamares_viewmodule_n
 
 # target to build an object file
 calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.o
 
 calamares_viewmodule_notesqml_autogen/mocs_compilation.i: calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.i
@@ -280,7 +280,7 @@ calamares_viewmodule_notesqml_autogen/mocs_compilation.i: calamares_viewmodule_n
 
 # target to preprocess a source file
 calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.i
 
 calamares_viewmodule_notesqml_autogen/mocs_compilation.s: calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.s
@@ -288,7 +288,7 @@ calamares_viewmodule_notesqml_autogen/mocs_compilation.s: calamares_viewmodule_n
 
 # target to generate assembly for a file
 calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/build.make src/modules/notesqml/CMakeFiles/calamares_viewmodule_notesqml.dir/calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_viewmodule_notesqml_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -328,6 +328,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

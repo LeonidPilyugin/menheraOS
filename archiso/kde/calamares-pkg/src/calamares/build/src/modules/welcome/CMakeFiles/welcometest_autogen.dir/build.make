@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Utility rule file for welcometest_autogen.
 
@@ -67,8 +67,8 @@ include src/modules/welcome/CMakeFiles/welcometest_autogen.dir/compiler_depend.m
 include src/modules/welcome/CMakeFiles/welcometest_autogen.dir/progress.make
 
 src/modules/welcome/CMakeFiles/welcometest_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target welcometest"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/cmake -E cmake_autogen /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome/CMakeFiles/welcometest_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target welcometest"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && /usr/bin/cmake -E cmake_autogen /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome/CMakeFiles/welcometest_autogen.dir/AutogenInfo.json Release
 
 welcometest_autogen: src/modules/welcome/CMakeFiles/welcometest_autogen
 welcometest_autogen: src/modules/welcome/CMakeFiles/welcometest_autogen.dir/build.make
@@ -79,10 +79,10 @@ src/modules/welcome/CMakeFiles/welcometest_autogen.dir/build: welcometest_autoge
 .PHONY : src/modules/welcome/CMakeFiles/welcometest_autogen.dir/build
 
 src/modules/welcome/CMakeFiles/welcometest_autogen.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && $(CMAKE_COMMAND) -P CMakeFiles/welcometest_autogen.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome && $(CMAKE_COMMAND) -P CMakeFiles/welcometest_autogen.dir/cmake_clean.cmake
 .PHONY : src/modules/welcome/CMakeFiles/welcometest_autogen.dir/clean
 
 src/modules/welcome/CMakeFiles/welcometest_autogen.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome/CMakeFiles/welcometest_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/welcome /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcome/CMakeFiles/welcometest_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/welcome/CMakeFiles/welcometest_autogen.dir/depend
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles//CMakeFiles/progress.marks
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/preservefiles//CMakeFiles/progress.marks
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/clean
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/rule
 .PHONY : src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_job_preservefiles: src/modules/preservefiles/CMakeFiles/calamares_job_
 
 # fast build rule for target.
 calamares_job_preservefiles/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build
 .PHONY : calamares_job_preservefiles/fast
 
 # Convenience name for target.
 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/CMakeFiles/preservefilestest.dir/rule
 .PHONY : src/modules/preservefiles/CMakeFiles/preservefilestest.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ preservefilestest: src/modules/preservefiles/CMakeFiles/preservefilestest.dir/ru
 
 # fast build rule for target.
 preservefilestest/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build
 .PHONY : preservefilestest/fast
 
 # Convenience name for target.
 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles_autogen.dir/rule
 .PHONY : src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles_autogen.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ calamares_job_preservefiles_autogen: src/modules/preservefiles/CMakeFiles/calama
 
 # fast build rule for target.
 calamares_job_preservefiles_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles_autogen.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles_autogen.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles_autogen.dir/build
 .PHONY : calamares_job_preservefiles_autogen/fast
 
 # Convenience name for target.
 src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/rule
 .PHONY : src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/rule
 
 # Convenience name for target.
@@ -244,7 +244,7 @@ preservefilestest_autogen: src/modules/preservefiles/CMakeFiles/preservefilestes
 
 # fast build rule for target.
 preservefilestest_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest_autogen.dir/build
 .PHONY : preservefilestest_autogen/fast
 
 Item.o: Item.cpp.o
@@ -252,8 +252,8 @@ Item.o: Item.cpp.o
 
 # target to build an object file
 Item.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.o
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.o
 .PHONY : Item.cpp.o
 
 Item.i: Item.cpp.i
@@ -261,8 +261,8 @@ Item.i: Item.cpp.i
 
 # target to preprocess a source file
 Item.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.i
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.i
 .PHONY : Item.cpp.i
 
 Item.s: Item.cpp.s
@@ -270,8 +270,8 @@ Item.s: Item.cpp.s
 
 # target to generate assembly for a file
 Item.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.s
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/Item.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Item.cpp.s
 .PHONY : Item.cpp.s
 
 PreserveFiles.o: PreserveFiles.cpp.o
@@ -279,7 +279,7 @@ PreserveFiles.o: PreserveFiles.cpp.o
 
 # target to build an object file
 PreserveFiles.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.o
 .PHONY : PreserveFiles.cpp.o
 
 PreserveFiles.i: PreserveFiles.cpp.i
@@ -287,7 +287,7 @@ PreserveFiles.i: PreserveFiles.cpp.i
 
 # target to preprocess a source file
 PreserveFiles.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.i
 .PHONY : PreserveFiles.cpp.i
 
 PreserveFiles.s: PreserveFiles.cpp.s
@@ -295,7 +295,7 @@ PreserveFiles.s: PreserveFiles.cpp.s
 
 # target to generate assembly for a file
 PreserveFiles.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/PreserveFiles.cpp.s
 .PHONY : PreserveFiles.cpp.s
 
 Tests.o: Tests.cpp.o
@@ -303,7 +303,7 @@ Tests.o: Tests.cpp.o
 
 # target to build an object file
 Tests.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.o
 .PHONY : Tests.cpp.o
 
 Tests.i: Tests.cpp.i
@@ -311,7 +311,7 @@ Tests.i: Tests.cpp.i
 
 # target to preprocess a source file
 Tests.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.i
 .PHONY : Tests.cpp.i
 
 Tests.s: Tests.cpp.s
@@ -319,7 +319,7 @@ Tests.s: Tests.cpp.s
 
 # target to generate assembly for a file
 Tests.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/Tests.cpp.s
 .PHONY : Tests.cpp.s
 
 calamares_job_preservefiles_autogen/mocs_compilation.o: calamares_job_preservefiles_autogen/mocs_compilation.cpp.o
@@ -327,7 +327,7 @@ calamares_job_preservefiles_autogen/mocs_compilation.o: calamares_job_preservefi
 
 # target to build an object file
 calamares_job_preservefiles_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_job_preservefiles_autogen/mocs_compilation.cpp.o
 
 calamares_job_preservefiles_autogen/mocs_compilation.i: calamares_job_preservefiles_autogen/mocs_compilation.cpp.i
@@ -335,7 +335,7 @@ calamares_job_preservefiles_autogen/mocs_compilation.i: calamares_job_preservefi
 
 # target to preprocess a source file
 calamares_job_preservefiles_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_job_preservefiles_autogen/mocs_compilation.cpp.i
 
 calamares_job_preservefiles_autogen/mocs_compilation.s: calamares_job_preservefiles_autogen/mocs_compilation.cpp.s
@@ -343,7 +343,7 @@ calamares_job_preservefiles_autogen/mocs_compilation.s: calamares_job_preservefi
 
 # target to generate assembly for a file
 calamares_job_preservefiles_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/build.make src/modules/preservefiles/CMakeFiles/calamares_job_preservefiles.dir/calamares_job_preservefiles_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_job_preservefiles_autogen/mocs_compilation.cpp.s
 
 preservefilestest_autogen/mocs_compilation.o: preservefilestest_autogen/mocs_compilation.cpp.o
@@ -351,7 +351,7 @@ preservefilestest_autogen/mocs_compilation.o: preservefilestest_autogen/mocs_com
 
 # target to build an object file
 preservefilestest_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.o
 .PHONY : preservefilestest_autogen/mocs_compilation.cpp.o
 
 preservefilestest_autogen/mocs_compilation.i: preservefilestest_autogen/mocs_compilation.cpp.i
@@ -359,7 +359,7 @@ preservefilestest_autogen/mocs_compilation.i: preservefilestest_autogen/mocs_com
 
 # target to preprocess a source file
 preservefilestest_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.i
 .PHONY : preservefilestest_autogen/mocs_compilation.cpp.i
 
 preservefilestest_autogen/mocs_compilation.s: preservefilestest_autogen/mocs_compilation.cpp.s
@@ -367,7 +367,7 @@ preservefilestest_autogen/mocs_compilation.s: preservefilestest_autogen/mocs_com
 
 # target to generate assembly for a file
 preservefilestest_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/preservefiles/CMakeFiles/preservefilestest.dir/build.make src/modules/preservefiles/CMakeFiles/preservefilestest.dir/preservefilestest_autogen/mocs_compilation.cpp.s
 .PHONY : preservefilestest_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -415,6 +415,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

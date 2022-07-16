@@ -1,7 +1,7 @@
 src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/partitionjobtest_autogen/mocs_compilation.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/mocs_compilation.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/moc_CreatePartitionJob.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/moc_CreatePartitionJob.cpp \
  /usr/include/c++/12.1.0/memory \
  /usr/include/c++/12.1.0/bits/stl_algobase.h \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -101,10 +101,10 @@ src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/partitionjobtest_aut
  /usr/include/c++/12.1.0/backward/auto_ptr.h \
  /usr/include/c++/12.1.0/pstl/glue_memory_defs.h \
  /usr/include/c++/12.1.0/pstl/execution_defs.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/../../../../../../../src/modules/partition/jobs/CreatePartitionJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/../../../../../../../src/modules/partition/jobs/PartitionJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/../../../../../../../src/modules/partition/jobs/CreatePartitionJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/../../../../../../../src/modules/partition/jobs/PartitionJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/12.1.0/cstddef \
  /usr/include/c++/12.1.0/utility \
  /usr/include/c++/12.1.0/bits/stl_relops.h \
@@ -229,26 +229,26 @@ src/modules/partition/tests/CMakeFiles/partitionjobtest.dir/partitionjobtest_aut
  /usr/include/qt/QtCore/qshareddata.h /usr/include/qt/QtCore/qhash.h \
  /usr/include/qt/QtCore/qsharedpointer_impl.h \
  /usr/include/qt/QtCore/qobject.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMManager.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/moc_CreatePartitionTableJob.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/../../../../../../../src/modules/partition/jobs/CreatePartitionTableJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMManager.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/moc_CreatePartitionTableJob.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/../../../../../../../src/modules/partition/jobs/CreatePartitionTableJob.h \
  /usr/include/kpmcore/core/partitiontable.h \
  /usr/include/kpmcore/util/libpartitionmanagerexport.h \
  /usr/include/kpmcore/core/partitionnode.h \
  /usr/include/qt/QtCore/QtGlobal /usr/include/qt/QtCore/qglobal.h \
  /usr/include/kpmcore/core/partitionrole.h \
  /usr/include/qt/QtCore/QStringList /usr/include/qt/QtCore/qstringlist.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/moc_DeletePartitionJob.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/../../../../../../../src/modules/partition/jobs/DeletePartitionJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/moc_PartitionJob.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/../../../../../../../src/modules/partition/jobs/PartitionJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/moc_ResizePartitionJob.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/../../../../../../../src/modules/partition/jobs/ResizePartitionJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/EWIEGA46WW/moc_PartitionJobTests.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/EWIEGA46WW/../../../../../../../src/modules/partition/tests/PartitionJobTests.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/JobQueue.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMHelper.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/moc_DeletePartitionJob.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/../../../../../../../src/modules/partition/jobs/DeletePartitionJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/moc_PartitionJob.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/../../../../../../../src/modules/partition/jobs/PartitionJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/moc_ResizePartitionJob.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/PFFQJ22XCN/../../../../../../../src/modules/partition/jobs/ResizePartitionJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/EWIEGA46WW/moc_PartitionJobTests.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitionjobtest_autogen/EWIEGA46WW/../../../../../../../src/modules/partition/tests/PartitionJobTests.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/JobQueue.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMHelper.h \
  /usr/include/kpmcore/backend/corebackend.h \
  /usr/include/kpmcore/fs/filesystem.h /usr/include/qt/QtCore/QVariant \
  /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \

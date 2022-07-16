@@ -7,6 +7,8 @@ pkgdesc='Oh My Zsh is an open source, community-driven framework for managing yo
 arch=('x86_64')
 depends=('zsh' 'git')
 url="https://github.com/ohmyzsh/ohmyzsh"
+source=("https://raw.githubusercontent.com/Matiashik/neco-arch/master/neco-arch-kde/zsh/src/.zshrc" "https://raw.githubusercontent.com/Matiashik/neco-arch/master/neco-arch-kde/zsh/src/kawaii.zsh-theme")
+sha512sums=('SKIP' 'SKIP')
 
 package() {
 	export ZSH=$pkgdir/usr/lib/oh-my-zsh
@@ -17,4 +19,7 @@ package() {
 	git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH/plugins/zsh-autosuggestions
 	# install syntax highlighting plugin
 	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH/plugins/zsh-syntax-highlighting
+	cp $srcdir/kawaii.zsh-theme $ZSH/themes/kawaii.zsh-theme
+	mkdir -p $pkgdir/etc/skel
+	cp $srcdir/.zshrc $pkgdir/etc/skel/.zshrc
 }

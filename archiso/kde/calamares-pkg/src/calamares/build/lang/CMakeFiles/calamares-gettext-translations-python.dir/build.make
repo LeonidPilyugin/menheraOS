@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Utility rule file for calamares-gettext-translations-python.
 
@@ -74,10 +74,10 @@ lang/CMakeFiles/calamares-gettext-translations-python.dir/build: calamares-gette
 .PHONY : lang/CMakeFiles/calamares-gettext-translations-python.dir/build
 
 lang/CMakeFiles/calamares-gettext-translations-python.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang && $(CMAKE_COMMAND) -P CMakeFiles/calamares-gettext-translations-python.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang && $(CMAKE_COMMAND) -P CMakeFiles/calamares-gettext-translations-python.dir/cmake_clean.cmake
 .PHONY : lang/CMakeFiles/calamares-gettext-translations-python.dir/clean
 
 lang/CMakeFiles/calamares-gettext-translations-python.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/lang /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang/CMakeFiles/calamares-gettext-translations-python.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/lang /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang/CMakeFiles/calamares-gettext-translations-python.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lang/CMakeFiles/calamares-gettext-translations-python.dir/depend
 

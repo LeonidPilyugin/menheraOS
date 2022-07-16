@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Include any dependencies generated for this target.
 include src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/depend.make
@@ -72,44 +72,44 @@ include src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/flags.make
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.o: src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/flags.make
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.o: src/libcalamares/libcalamaresutilstest_autogen/mocs_compilation.cpp
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.o: src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/mocs_compilation.cpp
 
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/mocs_compilation.cpp > CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/mocs_compilation.cpp > CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.i
 
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/mocs_compilation.cpp -o CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/libcalamaresutilstest_autogen/mocs_compilation.cpp -o CMakeFiles/libcalamaresutilstest.dir/libcalamaresutilstest_autogen/mocs_compilation.cpp.s
 
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.o: src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/flags.make
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.o: ../src/libcalamares/utils/Tests.cpp
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.o: src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.o -MF CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.o.d -o CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.o -MF CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.o.d -o CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Tests.cpp
 
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Tests.cpp > CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Tests.cpp > CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.i
 
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Tests.cpp -o CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Tests.cpp -o CMakeFiles/libcalamaresutilstest.dir/utils/Tests.cpp.s
 
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.o: src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/flags.make
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.o: ../src/libcalamares/utils/Runner.cpp
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.o: src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.o -MF CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.o.d -o CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Runner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.o -MF CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.o.d -o CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Runner.cpp
 
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Runner.cpp > CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Runner.cpp > CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.i
 
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Runner.cpp -o CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/Runner.cpp -o CMakeFiles/libcalamaresutilstest.dir/utils/Runner.cpp.s
 
 # Object files for target libcalamaresutilstest
 libcalamaresutilstest_OBJECTS = \
@@ -132,18 +132,18 @@ libcalamaresutilstest: /usr/lib/libQt5Xml.so.5.15.5
 libcalamaresutilstest: /usr/lib/libKF5CoreAddons.so.5.96.0
 libcalamaresutilstest: /usr/lib/libQt5Core.so.5.15.5
 libcalamaresutilstest: src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../libcalamaresutilstest"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libcalamaresutilstest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../libcalamaresutilstest"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libcalamaresutilstest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/build: libcalamaresutilstest
 .PHONY : src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/build
 
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && $(CMAKE_COMMAND) -P CMakeFiles/libcalamaresutilstest.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && $(CMAKE_COMMAND) -P CMakeFiles/libcalamaresutilstest.dir/cmake_clean.cmake
 .PHONY : src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/clean
 
 src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/libcalamares/CMakeFiles/libcalamaresutilstest.dir/depend
 

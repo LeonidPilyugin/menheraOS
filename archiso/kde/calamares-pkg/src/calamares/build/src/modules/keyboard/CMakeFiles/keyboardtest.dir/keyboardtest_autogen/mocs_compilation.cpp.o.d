@@ -1,7 +1,7 @@
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/moc_SetKeyboardLayoutJob.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/moc_SetKeyboardLayoutJob.cpp \
  /usr/include/c++/12.1.0/memory \
  /usr/include/c++/12.1.0/bits/stl_algobase.h \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -101,8 +101,8 @@ src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compi
  /usr/include/c++/12.1.0/backward/auto_ptr.h \
  /usr/include/c++/12.1.0/pstl/glue_memory_defs.h \
  /usr/include/c++/12.1.0/pstl/execution_defs.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/../../../../../../src/modules/keyboard/SetKeyboardLayoutJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/../../../../../../src/modules/keyboard/AdditionalLayoutInfo.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/../../../../../../src/modules/keyboard/SetKeyboardLayoutJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/../../../../../../src/modules/keyboard/AdditionalLayoutInfo.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtCore/qchar.h /usr/include/qt/QtCore/qglobal.h \
  /usr/include/c++/12.1.0/cstddef /usr/include/c++/12.1.0/utility \
@@ -178,8 +178,8 @@ src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compi
  /usr/include/qt/QtCore/qstringliteral.h \
  /usr/include/qt/QtCore/qstringalgorithms.h \
  /usr/include/qt/QtCore/qstringview.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/qt/QtCore/QList \
  /usr/include/qt/QtCore/qlist.h /usr/include/qt/QtCore/qalgorithms.h \
  /usr/include/qt/QtCore/qiterator.h \

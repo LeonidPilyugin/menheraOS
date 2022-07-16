@@ -1,5 +1,5 @@
-/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/calamares_viewmodule_netinstall_autogen/EWIEGA46WW/moc_LoaderQueue.cpp: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/LoaderQueue.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/calamares_viewmodule_netinstall_autogen/moc_predefs.h \
+/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/calamares_viewmodule_netinstall_autogen/EWIEGA46WW/moc_LoaderQueue.cpp: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/netinstall/LoaderQueue.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/netinstall/calamares_viewmodule_netinstall_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \

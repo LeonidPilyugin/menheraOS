@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Include any dependencies generated for this target.
 include src/modules/users/CMakeFiles/userstest.dir/depend.make
@@ -72,114 +72,114 @@ include src/modules/users/CMakeFiles/userstest.dir/flags.make
 src/modules/users/CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.o: src/modules/users/CMakeFiles/userstest.dir/flags.make
 src/modules/users/CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.o: src/modules/users/userstest_autogen/mocs_compilation.cpp
 src/modules/users/CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.o: src/modules/users/CMakeFiles/userstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userstest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userstest_autogen/mocs_compilation.cpp
 
 src/modules/users/CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userstest_autogen/mocs_compilation.cpp > CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userstest_autogen/mocs_compilation.cpp > CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.i
 
 src/modules/users/CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userstest_autogen/mocs_compilation.cpp -o CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/userstest_autogen/mocs_compilation.cpp -o CMakeFiles/userstest.dir/userstest_autogen/mocs_compilation.cpp.s
 
 src/modules/users/CMakeFiles/userstest.dir/Tests.cpp.o: src/modules/users/CMakeFiles/userstest.dir/flags.make
 src/modules/users/CMakeFiles/userstest.dir/Tests.cpp.o: ../src/modules/users/Tests.cpp
 src/modules/users/CMakeFiles/userstest.dir/Tests.cpp.o: src/modules/users/CMakeFiles/userstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/Tests.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/Tests.cpp.o -MF CMakeFiles/userstest.dir/Tests.cpp.o.d -o CMakeFiles/userstest.dir/Tests.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/Tests.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/Tests.cpp.o -MF CMakeFiles/userstest.dir/Tests.cpp.o.d -o CMakeFiles/userstest.dir/Tests.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Tests.cpp
 
 src/modules/users/CMakeFiles/userstest.dir/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/userstest.dir/Tests.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Tests.cpp > CMakeFiles/userstest.dir/Tests.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Tests.cpp > CMakeFiles/userstest.dir/Tests.cpp.i
 
 src/modules/users/CMakeFiles/userstest.dir/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/userstest.dir/Tests.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Tests.cpp -o CMakeFiles/userstest.dir/Tests.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Tests.cpp -o CMakeFiles/userstest.dir/Tests.cpp.s
 
 src/modules/users/CMakeFiles/userstest.dir/CreateUserJob.cpp.o: src/modules/users/CMakeFiles/userstest.dir/flags.make
 src/modules/users/CMakeFiles/userstest.dir/CreateUserJob.cpp.o: ../src/modules/users/CreateUserJob.cpp
 src/modules/users/CMakeFiles/userstest.dir/CreateUserJob.cpp.o: src/modules/users/CMakeFiles/userstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/CreateUserJob.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/CreateUserJob.cpp.o -MF CMakeFiles/userstest.dir/CreateUserJob.cpp.o.d -o CMakeFiles/userstest.dir/CreateUserJob.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CreateUserJob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/CreateUserJob.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/CreateUserJob.cpp.o -MF CMakeFiles/userstest.dir/CreateUserJob.cpp.o.d -o CMakeFiles/userstest.dir/CreateUserJob.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CreateUserJob.cpp
 
 src/modules/users/CMakeFiles/userstest.dir/CreateUserJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/userstest.dir/CreateUserJob.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CreateUserJob.cpp > CMakeFiles/userstest.dir/CreateUserJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CreateUserJob.cpp > CMakeFiles/userstest.dir/CreateUserJob.cpp.i
 
 src/modules/users/CMakeFiles/userstest.dir/CreateUserJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/userstest.dir/CreateUserJob.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CreateUserJob.cpp -o CMakeFiles/userstest.dir/CreateUserJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CreateUserJob.cpp -o CMakeFiles/userstest.dir/CreateUserJob.cpp.s
 
 src/modules/users/CMakeFiles/userstest.dir/MiscJobs.cpp.o: src/modules/users/CMakeFiles/userstest.dir/flags.make
 src/modules/users/CMakeFiles/userstest.dir/MiscJobs.cpp.o: ../src/modules/users/MiscJobs.cpp
 src/modules/users/CMakeFiles/userstest.dir/MiscJobs.cpp.o: src/modules/users/CMakeFiles/userstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/MiscJobs.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/MiscJobs.cpp.o -MF CMakeFiles/userstest.dir/MiscJobs.cpp.o.d -o CMakeFiles/userstest.dir/MiscJobs.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/MiscJobs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/MiscJobs.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/MiscJobs.cpp.o -MF CMakeFiles/userstest.dir/MiscJobs.cpp.o.d -o CMakeFiles/userstest.dir/MiscJobs.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/MiscJobs.cpp
 
 src/modules/users/CMakeFiles/userstest.dir/MiscJobs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/userstest.dir/MiscJobs.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/MiscJobs.cpp > CMakeFiles/userstest.dir/MiscJobs.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/MiscJobs.cpp > CMakeFiles/userstest.dir/MiscJobs.cpp.i
 
 src/modules/users/CMakeFiles/userstest.dir/MiscJobs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/userstest.dir/MiscJobs.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/MiscJobs.cpp -o CMakeFiles/userstest.dir/MiscJobs.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/MiscJobs.cpp -o CMakeFiles/userstest.dir/MiscJobs.cpp.s
 
 src/modules/users/CMakeFiles/userstest.dir/SetPasswordJob.cpp.o: src/modules/users/CMakeFiles/userstest.dir/flags.make
 src/modules/users/CMakeFiles/userstest.dir/SetPasswordJob.cpp.o: ../src/modules/users/SetPasswordJob.cpp
 src/modules/users/CMakeFiles/userstest.dir/SetPasswordJob.cpp.o: src/modules/users/CMakeFiles/userstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/SetPasswordJob.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/SetPasswordJob.cpp.o -MF CMakeFiles/userstest.dir/SetPasswordJob.cpp.o.d -o CMakeFiles/userstest.dir/SetPasswordJob.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetPasswordJob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/SetPasswordJob.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/SetPasswordJob.cpp.o -MF CMakeFiles/userstest.dir/SetPasswordJob.cpp.o.d -o CMakeFiles/userstest.dir/SetPasswordJob.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetPasswordJob.cpp
 
 src/modules/users/CMakeFiles/userstest.dir/SetPasswordJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/userstest.dir/SetPasswordJob.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetPasswordJob.cpp > CMakeFiles/userstest.dir/SetPasswordJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetPasswordJob.cpp > CMakeFiles/userstest.dir/SetPasswordJob.cpp.i
 
 src/modules/users/CMakeFiles/userstest.dir/SetPasswordJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/userstest.dir/SetPasswordJob.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetPasswordJob.cpp -o CMakeFiles/userstest.dir/SetPasswordJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetPasswordJob.cpp -o CMakeFiles/userstest.dir/SetPasswordJob.cpp.s
 
 src/modules/users/CMakeFiles/userstest.dir/SetHostNameJob.cpp.o: src/modules/users/CMakeFiles/userstest.dir/flags.make
 src/modules/users/CMakeFiles/userstest.dir/SetHostNameJob.cpp.o: ../src/modules/users/SetHostNameJob.cpp
 src/modules/users/CMakeFiles/userstest.dir/SetHostNameJob.cpp.o: src/modules/users/CMakeFiles/userstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/SetHostNameJob.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/SetHostNameJob.cpp.o -MF CMakeFiles/userstest.dir/SetHostNameJob.cpp.o.d -o CMakeFiles/userstest.dir/SetHostNameJob.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetHostNameJob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/SetHostNameJob.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/SetHostNameJob.cpp.o -MF CMakeFiles/userstest.dir/SetHostNameJob.cpp.o.d -o CMakeFiles/userstest.dir/SetHostNameJob.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetHostNameJob.cpp
 
 src/modules/users/CMakeFiles/userstest.dir/SetHostNameJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/userstest.dir/SetHostNameJob.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetHostNameJob.cpp > CMakeFiles/userstest.dir/SetHostNameJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetHostNameJob.cpp > CMakeFiles/userstest.dir/SetHostNameJob.cpp.i
 
 src/modules/users/CMakeFiles/userstest.dir/SetHostNameJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/userstest.dir/SetHostNameJob.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetHostNameJob.cpp -o CMakeFiles/userstest.dir/SetHostNameJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/SetHostNameJob.cpp -o CMakeFiles/userstest.dir/SetHostNameJob.cpp.s
 
 src/modules/users/CMakeFiles/userstest.dir/CheckPWQuality.cpp.o: src/modules/users/CMakeFiles/userstest.dir/flags.make
 src/modules/users/CMakeFiles/userstest.dir/CheckPWQuality.cpp.o: ../src/modules/users/CheckPWQuality.cpp
 src/modules/users/CMakeFiles/userstest.dir/CheckPWQuality.cpp.o: src/modules/users/CMakeFiles/userstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/CheckPWQuality.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/CheckPWQuality.cpp.o -MF CMakeFiles/userstest.dir/CheckPWQuality.cpp.o.d -o CMakeFiles/userstest.dir/CheckPWQuality.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CheckPWQuality.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/CheckPWQuality.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/CheckPWQuality.cpp.o -MF CMakeFiles/userstest.dir/CheckPWQuality.cpp.o.d -o CMakeFiles/userstest.dir/CheckPWQuality.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CheckPWQuality.cpp
 
 src/modules/users/CMakeFiles/userstest.dir/CheckPWQuality.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/userstest.dir/CheckPWQuality.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CheckPWQuality.cpp > CMakeFiles/userstest.dir/CheckPWQuality.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CheckPWQuality.cpp > CMakeFiles/userstest.dir/CheckPWQuality.cpp.i
 
 src/modules/users/CMakeFiles/userstest.dir/CheckPWQuality.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/userstest.dir/CheckPWQuality.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CheckPWQuality.cpp -o CMakeFiles/userstest.dir/CheckPWQuality.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/CheckPWQuality.cpp -o CMakeFiles/userstest.dir/CheckPWQuality.cpp.s
 
 src/modules/users/CMakeFiles/userstest.dir/Config.cpp.o: src/modules/users/CMakeFiles/userstest.dir/flags.make
 src/modules/users/CMakeFiles/userstest.dir/Config.cpp.o: ../src/modules/users/Config.cpp
 src/modules/users/CMakeFiles/userstest.dir/Config.cpp.o: src/modules/users/CMakeFiles/userstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/Config.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/Config.cpp.o -MF CMakeFiles/userstest.dir/Config.cpp.o.d -o CMakeFiles/userstest.dir/Config.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/modules/users/CMakeFiles/userstest.dir/Config.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/users/CMakeFiles/userstest.dir/Config.cpp.o -MF CMakeFiles/userstest.dir/Config.cpp.o.d -o CMakeFiles/userstest.dir/Config.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Config.cpp
 
 src/modules/users/CMakeFiles/userstest.dir/Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/userstest.dir/Config.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Config.cpp > CMakeFiles/userstest.dir/Config.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Config.cpp > CMakeFiles/userstest.dir/Config.cpp.i
 
 src/modules/users/CMakeFiles/userstest.dir/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/userstest.dir/Config.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Config.cpp -o CMakeFiles/userstest.dir/Config.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/Config.cpp -o CMakeFiles/userstest.dir/Config.cpp.s
 
 # Object files for target userstest
 userstest_OBJECTS = \
@@ -217,18 +217,18 @@ userstest: /usr/lib/libKF5CoreAddons.so.5.96.0
 userstest: /usr/lib/libQt5DBus.so.5.15.5
 userstest: /usr/lib/libQt5Core.so.5.15.5
 userstest: src/modules/users/CMakeFiles/userstest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../../userstest"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/userstest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../../userstest"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/userstest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/users/CMakeFiles/userstest.dir/build: userstest
 .PHONY : src/modules/users/CMakeFiles/userstest.dir/build
 
 src/modules/users/CMakeFiles/userstest.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && $(CMAKE_COMMAND) -P CMakeFiles/userstest.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users && $(CMAKE_COMMAND) -P CMakeFiles/userstest.dir/cmake_clean.cmake
 .PHONY : src/modules/users/CMakeFiles/userstest.dir/clean
 
 src/modules/users/CMakeFiles/userstest.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/CMakeFiles/userstest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/CMakeFiles/userstest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/users/CMakeFiles/userstest.dir/depend
 

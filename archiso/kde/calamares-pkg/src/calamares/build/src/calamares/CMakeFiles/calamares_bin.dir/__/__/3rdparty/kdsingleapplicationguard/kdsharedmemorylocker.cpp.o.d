@@ -1,8 +1,8 @@
 src/calamares/CMakeFiles/calamares_bin.dir/__/__/3rdparty/kdsingleapplicationguard/kdsharedmemorylocker.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdsharedmemorylocker.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdsharedmemorylocker.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdsharedmemorylocker.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdtoolsglobal.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdsharedmemorylocker.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/3rdparty/kdsingleapplicationguard/kdtoolsglobal.h \
  /usr/include/qt/QtCore/QtGlobal /usr/include/qt/QtCore/qglobal.h \
  /usr/include/c++/12.1.0/type_traits \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \

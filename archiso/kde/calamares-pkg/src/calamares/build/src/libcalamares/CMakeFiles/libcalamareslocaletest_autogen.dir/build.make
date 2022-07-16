@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Utility rule file for libcalamareslocaletest_autogen.
 
@@ -67,17 +67,17 @@ include src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen.dir/compiler_
 include src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen.dir/progress.make
 
 src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen: src/libcalamares/qrc_localetest.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target libcalamareslocaletest"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/cmake -E cmake_autogen /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target libcalamareslocaletest"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/cmake -E cmake_autogen /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen.dir/AutogenInfo.json Release
 
 src/libcalamares/qrc_localetest.cxx: src/libcalamares/localetest.qrc
 src/libcalamares/qrc_localetest.cxx: src/libcalamares/localetest_nl.qm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating qrc_localetest.cxx"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/rcc --format-version 1 -name localetest -o /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/qrc_localetest.cxx /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/localetest.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating qrc_localetest.cxx"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/rcc --format-version 1 -name localetest -o /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/qrc_localetest.cxx /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/localetest.qrc
 
 src/libcalamares/localetest_nl.qm: ../src/libcalamares/testdata/localetest_nl.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating localetest_nl.qm"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/lrelease /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/testdata/localetest_nl.ts -qm /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/localetest_nl.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating localetest_nl.qm"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && /usr/bin/lrelease /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/testdata/localetest_nl.ts -qm /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/localetest_nl.qm
 
 libcalamareslocaletest_autogen: src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen
 libcalamareslocaletest_autogen: src/libcalamares/localetest_nl.qm
@@ -90,10 +90,10 @@ src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen.dir/build: libcalamar
 .PHONY : src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen.dir/build
 
 src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && $(CMAKE_COMMAND) -P CMakeFiles/libcalamareslocaletest_autogen.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares && $(CMAKE_COMMAND) -P CMakeFiles/libcalamareslocaletest_autogen.dir/cmake_clean.cmake
 .PHONY : src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen.dir/clean
 
 src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/libcalamares/CMakeFiles/libcalamareslocaletest_autogen.dir/depend
 

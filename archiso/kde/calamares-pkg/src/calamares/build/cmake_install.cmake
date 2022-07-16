@@ -1,4 +1,4 @@
-# Install script for directory: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+# Install script for directory: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,7 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_CO
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares/CalamaresTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares/CalamaresTargets.cmake"
-         "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/Export/lib/cmake/Calamares/CalamaresTargets.cmake")
+         "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/Export/lib/cmake/Calamares/CalamaresTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares/CalamaresTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -55,31 +55,31 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_CO
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/Export/lib/cmake/Calamares/CalamaresTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/Export/lib/cmake/Calamares/CalamaresTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/Export/lib/cmake/Calamares/CalamaresTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/Export/lib/cmake/Calamares/CalamaresTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES
-    "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CalamaresConfig.cmake"
-    "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CalamaresConfigVersion.cmake"
-    "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresAddBrandingSubdirectory.cmake"
-    "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresAddLibrary.cmake"
-    "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresAddModuleSubdirectory.cmake"
-    "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresAddPlugin.cmake"
-    "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresAddTest.cmake"
-    "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresAddTranslations.cmake"
-    "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresAutomoc.cmake"
-    "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresCheckModuleSelection.cmake"
-    "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CMakeColors.cmake"
-    "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/FindYAMLCPP.cmake"
+    "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CalamaresConfig.cmake"
+    "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CalamaresConfigVersion.cmake"
+    "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresAddBrandingSubdirectory.cmake"
+    "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresAddLibrary.cmake"
+    "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresAddModuleSubdirectory.cmake"
+    "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresAddPlugin.cmake"
+    "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresAddTest.cmake"
+    "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresAddTranslations.cmake"
+    "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresAutomoc.cmake"
+    "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CalamaresCheckModuleSelection.cmake"
+    "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/CMakeColors.cmake"
+    "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/CMakeModules/FindYAMLCPP.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares" TYPE FILE FILES "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/settings.conf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/settings.conf")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -91,21 +91,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_CO
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/share/polkit-1/actions" TYPE FILE FILES "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/com.github.calamares.calamares.policy")
+  file(INSTALL DESTINATION "/usr/share/polkit-1/actions" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/com.github.calamares.calamares.policy")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/applications" TYPE FILE FILES "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/calamares.desktop")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/applications" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/calamares.desktop")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man8" TYPE FILE FILES "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/man/calamares.8")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man8" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/man/calamares.8")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang/cmake_install.cmake")
-  include("/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/cmake_install.cmake")
+  include("/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang/cmake_install.cmake")
+  include("/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/cmake_install.cmake")
 
 endif()
 
@@ -117,5 +117,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition//CMakeFiles/progress.marks
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition//CMakeFiles/progress.marks
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/clean
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/rule
 .PHONY : src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_viewmodule_partition: src/modules/partition/CMakeFiles/calamares_viewm
 
 # fast build rule for target.
 calamares_viewmodule_partition/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build
 .PHONY : calamares_viewmodule_partition/fast
 
 # Convenience name for target.
 src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/rule
 .PHONY : src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ calamares_viewmodule_partition_autogen: src/modules/partition/CMakeFiles/calamar
 
 # fast build rule for target.
 calamares_viewmodule_partition_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/build
 .PHONY : calamares_viewmodule_partition_autogen/fast
 
 Config.o: Config.cpp.o
@@ -224,7 +224,7 @@ Config.o: Config.cpp.o
 
 # target to build an object file
 Config.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/Config.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/Config.cpp.o
 .PHONY : Config.cpp.o
 
 Config.i: Config.cpp.i
@@ -232,7 +232,7 @@ Config.i: Config.cpp.i
 
 # target to preprocess a source file
 Config.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/Config.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/Config.cpp.i
 .PHONY : Config.cpp.i
 
 Config.s: Config.cpp.s
@@ -240,7 +240,7 @@ Config.s: Config.cpp.s
 
 # target to generate assembly for a file
 Config.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/Config.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/Config.cpp.s
 .PHONY : Config.cpp.s
 
 PartitionViewStep.o: PartitionViewStep.cpp.o
@@ -248,7 +248,7 @@ PartitionViewStep.o: PartitionViewStep.cpp.o
 
 # target to build an object file
 PartitionViewStep.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/PartitionViewStep.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/PartitionViewStep.cpp.o
 .PHONY : PartitionViewStep.cpp.o
 
 PartitionViewStep.i: PartitionViewStep.cpp.i
@@ -256,7 +256,7 @@ PartitionViewStep.i: PartitionViewStep.cpp.i
 
 # target to preprocess a source file
 PartitionViewStep.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/PartitionViewStep.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/PartitionViewStep.cpp.i
 .PHONY : PartitionViewStep.cpp.i
 
 PartitionViewStep.s: PartitionViewStep.cpp.s
@@ -264,7 +264,7 @@ PartitionViewStep.s: PartitionViewStep.cpp.s
 
 # target to generate assembly for a file
 PartitionViewStep.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/PartitionViewStep.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/PartitionViewStep.cpp.s
 .PHONY : PartitionViewStep.cpp.s
 
 calamares_viewmodule_partition_autogen/mocs_compilation.o: calamares_viewmodule_partition_autogen/mocs_compilation.cpp.o
@@ -272,7 +272,7 @@ calamares_viewmodule_partition_autogen/mocs_compilation.o: calamares_viewmodule_
 
 # target to build an object file
 calamares_viewmodule_partition_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/calamares_viewmodule_partition_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/calamares_viewmodule_partition_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_viewmodule_partition_autogen/mocs_compilation.cpp.o
 
 calamares_viewmodule_partition_autogen/mocs_compilation.i: calamares_viewmodule_partition_autogen/mocs_compilation.cpp.i
@@ -280,7 +280,7 @@ calamares_viewmodule_partition_autogen/mocs_compilation.i: calamares_viewmodule_
 
 # target to preprocess a source file
 calamares_viewmodule_partition_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/calamares_viewmodule_partition_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/calamares_viewmodule_partition_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_viewmodule_partition_autogen/mocs_compilation.cpp.i
 
 calamares_viewmodule_partition_autogen/mocs_compilation.s: calamares_viewmodule_partition_autogen/mocs_compilation.cpp.s
@@ -288,7 +288,7 @@ calamares_viewmodule_partition_autogen/mocs_compilation.s: calamares_viewmodule_
 
 # target to generate assembly for a file
 calamares_viewmodule_partition_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/calamares_viewmodule_partition_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/calamares_viewmodule_partition_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_viewmodule_partition_autogen/mocs_compilation.cpp.s
 
 core/BootLoaderModel.o: core/BootLoaderModel.cpp.o
@@ -296,7 +296,7 @@ core/BootLoaderModel.o: core/BootLoaderModel.cpp.o
 
 # target to build an object file
 core/BootLoaderModel.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/BootLoaderModel.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/BootLoaderModel.cpp.o
 .PHONY : core/BootLoaderModel.cpp.o
 
 core/BootLoaderModel.i: core/BootLoaderModel.cpp.i
@@ -304,7 +304,7 @@ core/BootLoaderModel.i: core/BootLoaderModel.cpp.i
 
 # target to preprocess a source file
 core/BootLoaderModel.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/BootLoaderModel.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/BootLoaderModel.cpp.i
 .PHONY : core/BootLoaderModel.cpp.i
 
 core/BootLoaderModel.s: core/BootLoaderModel.cpp.s
@@ -312,7 +312,7 @@ core/BootLoaderModel.s: core/BootLoaderModel.cpp.s
 
 # target to generate assembly for a file
 core/BootLoaderModel.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/BootLoaderModel.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/BootLoaderModel.cpp.s
 .PHONY : core/BootLoaderModel.cpp.s
 
 core/ColorUtils.o: core/ColorUtils.cpp.o
@@ -320,7 +320,7 @@ core/ColorUtils.o: core/ColorUtils.cpp.o
 
 # target to build an object file
 core/ColorUtils.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/ColorUtils.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/ColorUtils.cpp.o
 .PHONY : core/ColorUtils.cpp.o
 
 core/ColorUtils.i: core/ColorUtils.cpp.i
@@ -328,7 +328,7 @@ core/ColorUtils.i: core/ColorUtils.cpp.i
 
 # target to preprocess a source file
 core/ColorUtils.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/ColorUtils.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/ColorUtils.cpp.i
 .PHONY : core/ColorUtils.cpp.i
 
 core/ColorUtils.s: core/ColorUtils.cpp.s
@@ -336,7 +336,7 @@ core/ColorUtils.s: core/ColorUtils.cpp.s
 
 # target to generate assembly for a file
 core/ColorUtils.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/ColorUtils.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/ColorUtils.cpp.s
 .PHONY : core/ColorUtils.cpp.s
 
 core/DeviceList.o: core/DeviceList.cpp.o
@@ -344,7 +344,7 @@ core/DeviceList.o: core/DeviceList.cpp.o
 
 # target to build an object file
 core/DeviceList.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/DeviceList.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/DeviceList.cpp.o
 .PHONY : core/DeviceList.cpp.o
 
 core/DeviceList.i: core/DeviceList.cpp.i
@@ -352,7 +352,7 @@ core/DeviceList.i: core/DeviceList.cpp.i
 
 # target to preprocess a source file
 core/DeviceList.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/DeviceList.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/DeviceList.cpp.i
 .PHONY : core/DeviceList.cpp.i
 
 core/DeviceList.s: core/DeviceList.cpp.s
@@ -360,7 +360,7 @@ core/DeviceList.s: core/DeviceList.cpp.s
 
 # target to generate assembly for a file
 core/DeviceList.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/DeviceList.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/DeviceList.cpp.s
 .PHONY : core/DeviceList.cpp.s
 
 core/DeviceModel.o: core/DeviceModel.cpp.o
@@ -368,7 +368,7 @@ core/DeviceModel.o: core/DeviceModel.cpp.o
 
 # target to build an object file
 core/DeviceModel.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/DeviceModel.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/DeviceModel.cpp.o
 .PHONY : core/DeviceModel.cpp.o
 
 core/DeviceModel.i: core/DeviceModel.cpp.i
@@ -376,7 +376,7 @@ core/DeviceModel.i: core/DeviceModel.cpp.i
 
 # target to preprocess a source file
 core/DeviceModel.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/DeviceModel.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/DeviceModel.cpp.i
 .PHONY : core/DeviceModel.cpp.i
 
 core/DeviceModel.s: core/DeviceModel.cpp.s
@@ -384,7 +384,7 @@ core/DeviceModel.s: core/DeviceModel.cpp.s
 
 # target to generate assembly for a file
 core/DeviceModel.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/DeviceModel.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/DeviceModel.cpp.s
 .PHONY : core/DeviceModel.cpp.s
 
 core/KPMHelpers.o: core/KPMHelpers.cpp.o
@@ -392,7 +392,7 @@ core/KPMHelpers.o: core/KPMHelpers.cpp.o
 
 # target to build an object file
 core/KPMHelpers.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/KPMHelpers.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/KPMHelpers.cpp.o
 .PHONY : core/KPMHelpers.cpp.o
 
 core/KPMHelpers.i: core/KPMHelpers.cpp.i
@@ -400,7 +400,7 @@ core/KPMHelpers.i: core/KPMHelpers.cpp.i
 
 # target to preprocess a source file
 core/KPMHelpers.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/KPMHelpers.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/KPMHelpers.cpp.i
 .PHONY : core/KPMHelpers.cpp.i
 
 core/KPMHelpers.s: core/KPMHelpers.cpp.s
@@ -408,7 +408,7 @@ core/KPMHelpers.s: core/KPMHelpers.cpp.s
 
 # target to generate assembly for a file
 core/KPMHelpers.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/KPMHelpers.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/KPMHelpers.cpp.s
 .PHONY : core/KPMHelpers.cpp.s
 
 core/PartUtils.o: core/PartUtils.cpp.o
@@ -416,7 +416,7 @@ core/PartUtils.o: core/PartUtils.cpp.o
 
 # target to build an object file
 core/PartUtils.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartUtils.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartUtils.cpp.o
 .PHONY : core/PartUtils.cpp.o
 
 core/PartUtils.i: core/PartUtils.cpp.i
@@ -424,7 +424,7 @@ core/PartUtils.i: core/PartUtils.cpp.i
 
 # target to preprocess a source file
 core/PartUtils.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartUtils.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartUtils.cpp.i
 .PHONY : core/PartUtils.cpp.i
 
 core/PartUtils.s: core/PartUtils.cpp.s
@@ -432,7 +432,7 @@ core/PartUtils.s: core/PartUtils.cpp.s
 
 # target to generate assembly for a file
 core/PartUtils.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartUtils.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartUtils.cpp.s
 .PHONY : core/PartUtils.cpp.s
 
 core/PartitionActions.o: core/PartitionActions.cpp.o
@@ -440,7 +440,7 @@ core/PartitionActions.o: core/PartitionActions.cpp.o
 
 # target to build an object file
 core/PartitionActions.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionActions.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionActions.cpp.o
 .PHONY : core/PartitionActions.cpp.o
 
 core/PartitionActions.i: core/PartitionActions.cpp.i
@@ -448,7 +448,7 @@ core/PartitionActions.i: core/PartitionActions.cpp.i
 
 # target to preprocess a source file
 core/PartitionActions.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionActions.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionActions.cpp.i
 .PHONY : core/PartitionActions.cpp.i
 
 core/PartitionActions.s: core/PartitionActions.cpp.s
@@ -456,7 +456,7 @@ core/PartitionActions.s: core/PartitionActions.cpp.s
 
 # target to generate assembly for a file
 core/PartitionActions.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionActions.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionActions.cpp.s
 .PHONY : core/PartitionActions.cpp.s
 
 core/PartitionCoreModule.o: core/PartitionCoreModule.cpp.o
@@ -464,7 +464,7 @@ core/PartitionCoreModule.o: core/PartitionCoreModule.cpp.o
 
 # target to build an object file
 core/PartitionCoreModule.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionCoreModule.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionCoreModule.cpp.o
 .PHONY : core/PartitionCoreModule.cpp.o
 
 core/PartitionCoreModule.i: core/PartitionCoreModule.cpp.i
@@ -472,7 +472,7 @@ core/PartitionCoreModule.i: core/PartitionCoreModule.cpp.i
 
 # target to preprocess a source file
 core/PartitionCoreModule.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionCoreModule.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionCoreModule.cpp.i
 .PHONY : core/PartitionCoreModule.cpp.i
 
 core/PartitionCoreModule.s: core/PartitionCoreModule.cpp.s
@@ -480,7 +480,7 @@ core/PartitionCoreModule.s: core/PartitionCoreModule.cpp.s
 
 # target to generate assembly for a file
 core/PartitionCoreModule.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionCoreModule.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionCoreModule.cpp.s
 .PHONY : core/PartitionCoreModule.cpp.s
 
 core/PartitionInfo.o: core/PartitionInfo.cpp.o
@@ -488,7 +488,7 @@ core/PartitionInfo.o: core/PartitionInfo.cpp.o
 
 # target to build an object file
 core/PartitionInfo.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionInfo.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionInfo.cpp.o
 .PHONY : core/PartitionInfo.cpp.o
 
 core/PartitionInfo.i: core/PartitionInfo.cpp.i
@@ -496,7 +496,7 @@ core/PartitionInfo.i: core/PartitionInfo.cpp.i
 
 # target to preprocess a source file
 core/PartitionInfo.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionInfo.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionInfo.cpp.i
 .PHONY : core/PartitionInfo.cpp.i
 
 core/PartitionInfo.s: core/PartitionInfo.cpp.s
@@ -504,7 +504,7 @@ core/PartitionInfo.s: core/PartitionInfo.cpp.s
 
 # target to generate assembly for a file
 core/PartitionInfo.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionInfo.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionInfo.cpp.s
 .PHONY : core/PartitionInfo.cpp.s
 
 core/PartitionLayout.o: core/PartitionLayout.cpp.o
@@ -512,7 +512,7 @@ core/PartitionLayout.o: core/PartitionLayout.cpp.o
 
 # target to build an object file
 core/PartitionLayout.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionLayout.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionLayout.cpp.o
 .PHONY : core/PartitionLayout.cpp.o
 
 core/PartitionLayout.i: core/PartitionLayout.cpp.i
@@ -520,7 +520,7 @@ core/PartitionLayout.i: core/PartitionLayout.cpp.i
 
 # target to preprocess a source file
 core/PartitionLayout.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionLayout.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionLayout.cpp.i
 .PHONY : core/PartitionLayout.cpp.i
 
 core/PartitionLayout.s: core/PartitionLayout.cpp.s
@@ -528,7 +528,7 @@ core/PartitionLayout.s: core/PartitionLayout.cpp.s
 
 # target to generate assembly for a file
 core/PartitionLayout.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionLayout.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionLayout.cpp.s
 .PHONY : core/PartitionLayout.cpp.s
 
 core/PartitionModel.o: core/PartitionModel.cpp.o
@@ -536,7 +536,7 @@ core/PartitionModel.o: core/PartitionModel.cpp.o
 
 # target to build an object file
 core/PartitionModel.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionModel.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionModel.cpp.o
 .PHONY : core/PartitionModel.cpp.o
 
 core/PartitionModel.i: core/PartitionModel.cpp.i
@@ -544,7 +544,7 @@ core/PartitionModel.i: core/PartitionModel.cpp.i
 
 # target to preprocess a source file
 core/PartitionModel.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionModel.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionModel.cpp.i
 .PHONY : core/PartitionModel.cpp.i
 
 core/PartitionModel.s: core/PartitionModel.cpp.s
@@ -552,7 +552,7 @@ core/PartitionModel.s: core/PartitionModel.cpp.s
 
 # target to generate assembly for a file
 core/PartitionModel.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionModel.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/core/PartitionModel.cpp.s
 .PHONY : core/PartitionModel.cpp.s
 
 gui/BootInfoWidget.o: gui/BootInfoWidget.cpp.o
@@ -560,7 +560,7 @@ gui/BootInfoWidget.o: gui/BootInfoWidget.cpp.o
 
 # target to build an object file
 gui/BootInfoWidget.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/BootInfoWidget.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/BootInfoWidget.cpp.o
 .PHONY : gui/BootInfoWidget.cpp.o
 
 gui/BootInfoWidget.i: gui/BootInfoWidget.cpp.i
@@ -568,7 +568,7 @@ gui/BootInfoWidget.i: gui/BootInfoWidget.cpp.i
 
 # target to preprocess a source file
 gui/BootInfoWidget.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/BootInfoWidget.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/BootInfoWidget.cpp.i
 .PHONY : gui/BootInfoWidget.cpp.i
 
 gui/BootInfoWidget.s: gui/BootInfoWidget.cpp.s
@@ -576,7 +576,7 @@ gui/BootInfoWidget.s: gui/BootInfoWidget.cpp.s
 
 # target to generate assembly for a file
 gui/BootInfoWidget.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/BootInfoWidget.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/BootInfoWidget.cpp.s
 .PHONY : gui/BootInfoWidget.cpp.s
 
 gui/ChoicePage.o: gui/ChoicePage.cpp.o
@@ -584,7 +584,7 @@ gui/ChoicePage.o: gui/ChoicePage.cpp.o
 
 # target to build an object file
 gui/ChoicePage.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ChoicePage.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ChoicePage.cpp.o
 .PHONY : gui/ChoicePage.cpp.o
 
 gui/ChoicePage.i: gui/ChoicePage.cpp.i
@@ -592,7 +592,7 @@ gui/ChoicePage.i: gui/ChoicePage.cpp.i
 
 # target to preprocess a source file
 gui/ChoicePage.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ChoicePage.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ChoicePage.cpp.i
 .PHONY : gui/ChoicePage.cpp.i
 
 gui/ChoicePage.s: gui/ChoicePage.cpp.s
@@ -600,7 +600,7 @@ gui/ChoicePage.s: gui/ChoicePage.cpp.s
 
 # target to generate assembly for a file
 gui/ChoicePage.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ChoicePage.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ChoicePage.cpp.s
 .PHONY : gui/ChoicePage.cpp.s
 
 gui/CreatePartitionDialog.o: gui/CreatePartitionDialog.cpp.o
@@ -608,7 +608,7 @@ gui/CreatePartitionDialog.o: gui/CreatePartitionDialog.cpp.o
 
 # target to build an object file
 gui/CreatePartitionDialog.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/CreatePartitionDialog.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/CreatePartitionDialog.cpp.o
 .PHONY : gui/CreatePartitionDialog.cpp.o
 
 gui/CreatePartitionDialog.i: gui/CreatePartitionDialog.cpp.i
@@ -616,7 +616,7 @@ gui/CreatePartitionDialog.i: gui/CreatePartitionDialog.cpp.i
 
 # target to preprocess a source file
 gui/CreatePartitionDialog.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/CreatePartitionDialog.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/CreatePartitionDialog.cpp.i
 .PHONY : gui/CreatePartitionDialog.cpp.i
 
 gui/CreatePartitionDialog.s: gui/CreatePartitionDialog.cpp.s
@@ -624,7 +624,7 @@ gui/CreatePartitionDialog.s: gui/CreatePartitionDialog.cpp.s
 
 # target to generate assembly for a file
 gui/CreatePartitionDialog.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/CreatePartitionDialog.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/CreatePartitionDialog.cpp.s
 .PHONY : gui/CreatePartitionDialog.cpp.s
 
 gui/CreateVolumeGroupDialog.o: gui/CreateVolumeGroupDialog.cpp.o
@@ -632,7 +632,7 @@ gui/CreateVolumeGroupDialog.o: gui/CreateVolumeGroupDialog.cpp.o
 
 # target to build an object file
 gui/CreateVolumeGroupDialog.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/CreateVolumeGroupDialog.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/CreateVolumeGroupDialog.cpp.o
 .PHONY : gui/CreateVolumeGroupDialog.cpp.o
 
 gui/CreateVolumeGroupDialog.i: gui/CreateVolumeGroupDialog.cpp.i
@@ -640,7 +640,7 @@ gui/CreateVolumeGroupDialog.i: gui/CreateVolumeGroupDialog.cpp.i
 
 # target to preprocess a source file
 gui/CreateVolumeGroupDialog.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/CreateVolumeGroupDialog.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/CreateVolumeGroupDialog.cpp.i
 .PHONY : gui/CreateVolumeGroupDialog.cpp.i
 
 gui/CreateVolumeGroupDialog.s: gui/CreateVolumeGroupDialog.cpp.s
@@ -648,7 +648,7 @@ gui/CreateVolumeGroupDialog.s: gui/CreateVolumeGroupDialog.cpp.s
 
 # target to generate assembly for a file
 gui/CreateVolumeGroupDialog.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/CreateVolumeGroupDialog.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/CreateVolumeGroupDialog.cpp.s
 .PHONY : gui/CreateVolumeGroupDialog.cpp.s
 
 gui/DeviceInfoWidget.o: gui/DeviceInfoWidget.cpp.o
@@ -656,7 +656,7 @@ gui/DeviceInfoWidget.o: gui/DeviceInfoWidget.cpp.o
 
 # target to build an object file
 gui/DeviceInfoWidget.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/DeviceInfoWidget.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/DeviceInfoWidget.cpp.o
 .PHONY : gui/DeviceInfoWidget.cpp.o
 
 gui/DeviceInfoWidget.i: gui/DeviceInfoWidget.cpp.i
@@ -664,7 +664,7 @@ gui/DeviceInfoWidget.i: gui/DeviceInfoWidget.cpp.i
 
 # target to preprocess a source file
 gui/DeviceInfoWidget.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/DeviceInfoWidget.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/DeviceInfoWidget.cpp.i
 .PHONY : gui/DeviceInfoWidget.cpp.i
 
 gui/DeviceInfoWidget.s: gui/DeviceInfoWidget.cpp.s
@@ -672,7 +672,7 @@ gui/DeviceInfoWidget.s: gui/DeviceInfoWidget.cpp.s
 
 # target to generate assembly for a file
 gui/DeviceInfoWidget.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/DeviceInfoWidget.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/DeviceInfoWidget.cpp.s
 .PHONY : gui/DeviceInfoWidget.cpp.s
 
 gui/EditExistingPartitionDialog.o: gui/EditExistingPartitionDialog.cpp.o
@@ -680,7 +680,7 @@ gui/EditExistingPartitionDialog.o: gui/EditExistingPartitionDialog.cpp.o
 
 # target to build an object file
 gui/EditExistingPartitionDialog.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/EditExistingPartitionDialog.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/EditExistingPartitionDialog.cpp.o
 .PHONY : gui/EditExistingPartitionDialog.cpp.o
 
 gui/EditExistingPartitionDialog.i: gui/EditExistingPartitionDialog.cpp.i
@@ -688,7 +688,7 @@ gui/EditExistingPartitionDialog.i: gui/EditExistingPartitionDialog.cpp.i
 
 # target to preprocess a source file
 gui/EditExistingPartitionDialog.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/EditExistingPartitionDialog.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/EditExistingPartitionDialog.cpp.i
 .PHONY : gui/EditExistingPartitionDialog.cpp.i
 
 gui/EditExistingPartitionDialog.s: gui/EditExistingPartitionDialog.cpp.s
@@ -696,7 +696,7 @@ gui/EditExistingPartitionDialog.s: gui/EditExistingPartitionDialog.cpp.s
 
 # target to generate assembly for a file
 gui/EditExistingPartitionDialog.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/EditExistingPartitionDialog.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/EditExistingPartitionDialog.cpp.s
 .PHONY : gui/EditExistingPartitionDialog.cpp.s
 
 gui/EncryptWidget.o: gui/EncryptWidget.cpp.o
@@ -704,7 +704,7 @@ gui/EncryptWidget.o: gui/EncryptWidget.cpp.o
 
 # target to build an object file
 gui/EncryptWidget.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/EncryptWidget.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/EncryptWidget.cpp.o
 .PHONY : gui/EncryptWidget.cpp.o
 
 gui/EncryptWidget.i: gui/EncryptWidget.cpp.i
@@ -712,7 +712,7 @@ gui/EncryptWidget.i: gui/EncryptWidget.cpp.i
 
 # target to preprocess a source file
 gui/EncryptWidget.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/EncryptWidget.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/EncryptWidget.cpp.i
 .PHONY : gui/EncryptWidget.cpp.i
 
 gui/EncryptWidget.s: gui/EncryptWidget.cpp.s
@@ -720,7 +720,7 @@ gui/EncryptWidget.s: gui/EncryptWidget.cpp.s
 
 # target to generate assembly for a file
 gui/EncryptWidget.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/EncryptWidget.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/EncryptWidget.cpp.s
 .PHONY : gui/EncryptWidget.cpp.s
 
 gui/ListPhysicalVolumeWidgetItem.o: gui/ListPhysicalVolumeWidgetItem.cpp.o
@@ -728,7 +728,7 @@ gui/ListPhysicalVolumeWidgetItem.o: gui/ListPhysicalVolumeWidgetItem.cpp.o
 
 # target to build an object file
 gui/ListPhysicalVolumeWidgetItem.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ListPhysicalVolumeWidgetItem.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ListPhysicalVolumeWidgetItem.cpp.o
 .PHONY : gui/ListPhysicalVolumeWidgetItem.cpp.o
 
 gui/ListPhysicalVolumeWidgetItem.i: gui/ListPhysicalVolumeWidgetItem.cpp.i
@@ -736,7 +736,7 @@ gui/ListPhysicalVolumeWidgetItem.i: gui/ListPhysicalVolumeWidgetItem.cpp.i
 
 # target to preprocess a source file
 gui/ListPhysicalVolumeWidgetItem.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ListPhysicalVolumeWidgetItem.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ListPhysicalVolumeWidgetItem.cpp.i
 .PHONY : gui/ListPhysicalVolumeWidgetItem.cpp.i
 
 gui/ListPhysicalVolumeWidgetItem.s: gui/ListPhysicalVolumeWidgetItem.cpp.s
@@ -744,7 +744,7 @@ gui/ListPhysicalVolumeWidgetItem.s: gui/ListPhysicalVolumeWidgetItem.cpp.s
 
 # target to generate assembly for a file
 gui/ListPhysicalVolumeWidgetItem.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ListPhysicalVolumeWidgetItem.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ListPhysicalVolumeWidgetItem.cpp.s
 .PHONY : gui/ListPhysicalVolumeWidgetItem.cpp.s
 
 gui/PartitionBarsView.o: gui/PartitionBarsView.cpp.o
@@ -752,7 +752,7 @@ gui/PartitionBarsView.o: gui/PartitionBarsView.cpp.o
 
 # target to build an object file
 gui/PartitionBarsView.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionBarsView.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionBarsView.cpp.o
 .PHONY : gui/PartitionBarsView.cpp.o
 
 gui/PartitionBarsView.i: gui/PartitionBarsView.cpp.i
@@ -760,7 +760,7 @@ gui/PartitionBarsView.i: gui/PartitionBarsView.cpp.i
 
 # target to preprocess a source file
 gui/PartitionBarsView.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionBarsView.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionBarsView.cpp.i
 .PHONY : gui/PartitionBarsView.cpp.i
 
 gui/PartitionBarsView.s: gui/PartitionBarsView.cpp.s
@@ -768,7 +768,7 @@ gui/PartitionBarsView.s: gui/PartitionBarsView.cpp.s
 
 # target to generate assembly for a file
 gui/PartitionBarsView.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionBarsView.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionBarsView.cpp.s
 .PHONY : gui/PartitionBarsView.cpp.s
 
 gui/PartitionDialogHelpers.o: gui/PartitionDialogHelpers.cpp.o
@@ -776,7 +776,7 @@ gui/PartitionDialogHelpers.o: gui/PartitionDialogHelpers.cpp.o
 
 # target to build an object file
 gui/PartitionDialogHelpers.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionDialogHelpers.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionDialogHelpers.cpp.o
 .PHONY : gui/PartitionDialogHelpers.cpp.o
 
 gui/PartitionDialogHelpers.i: gui/PartitionDialogHelpers.cpp.i
@@ -784,7 +784,7 @@ gui/PartitionDialogHelpers.i: gui/PartitionDialogHelpers.cpp.i
 
 # target to preprocess a source file
 gui/PartitionDialogHelpers.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionDialogHelpers.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionDialogHelpers.cpp.i
 .PHONY : gui/PartitionDialogHelpers.cpp.i
 
 gui/PartitionDialogHelpers.s: gui/PartitionDialogHelpers.cpp.s
@@ -792,7 +792,7 @@ gui/PartitionDialogHelpers.s: gui/PartitionDialogHelpers.cpp.s
 
 # target to generate assembly for a file
 gui/PartitionDialogHelpers.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionDialogHelpers.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionDialogHelpers.cpp.s
 .PHONY : gui/PartitionDialogHelpers.cpp.s
 
 gui/PartitionLabelsView.o: gui/PartitionLabelsView.cpp.o
@@ -800,7 +800,7 @@ gui/PartitionLabelsView.o: gui/PartitionLabelsView.cpp.o
 
 # target to build an object file
 gui/PartitionLabelsView.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionLabelsView.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionLabelsView.cpp.o
 .PHONY : gui/PartitionLabelsView.cpp.o
 
 gui/PartitionLabelsView.i: gui/PartitionLabelsView.cpp.i
@@ -808,7 +808,7 @@ gui/PartitionLabelsView.i: gui/PartitionLabelsView.cpp.i
 
 # target to preprocess a source file
 gui/PartitionLabelsView.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionLabelsView.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionLabelsView.cpp.i
 .PHONY : gui/PartitionLabelsView.cpp.i
 
 gui/PartitionLabelsView.s: gui/PartitionLabelsView.cpp.s
@@ -816,7 +816,7 @@ gui/PartitionLabelsView.s: gui/PartitionLabelsView.cpp.s
 
 # target to generate assembly for a file
 gui/PartitionLabelsView.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionLabelsView.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionLabelsView.cpp.s
 .PHONY : gui/PartitionLabelsView.cpp.s
 
 gui/PartitionPage.o: gui/PartitionPage.cpp.o
@@ -824,7 +824,7 @@ gui/PartitionPage.o: gui/PartitionPage.cpp.o
 
 # target to build an object file
 gui/PartitionPage.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionPage.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionPage.cpp.o
 .PHONY : gui/PartitionPage.cpp.o
 
 gui/PartitionPage.i: gui/PartitionPage.cpp.i
@@ -832,7 +832,7 @@ gui/PartitionPage.i: gui/PartitionPage.cpp.i
 
 # target to preprocess a source file
 gui/PartitionPage.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionPage.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionPage.cpp.i
 .PHONY : gui/PartitionPage.cpp.i
 
 gui/PartitionPage.s: gui/PartitionPage.cpp.s
@@ -840,7 +840,7 @@ gui/PartitionPage.s: gui/PartitionPage.cpp.s
 
 # target to generate assembly for a file
 gui/PartitionPage.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionPage.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionPage.cpp.s
 .PHONY : gui/PartitionPage.cpp.s
 
 gui/PartitionSizeController.o: gui/PartitionSizeController.cpp.o
@@ -848,7 +848,7 @@ gui/PartitionSizeController.o: gui/PartitionSizeController.cpp.o
 
 # target to build an object file
 gui/PartitionSizeController.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionSizeController.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionSizeController.cpp.o
 .PHONY : gui/PartitionSizeController.cpp.o
 
 gui/PartitionSizeController.i: gui/PartitionSizeController.cpp.i
@@ -856,7 +856,7 @@ gui/PartitionSizeController.i: gui/PartitionSizeController.cpp.i
 
 # target to preprocess a source file
 gui/PartitionSizeController.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionSizeController.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionSizeController.cpp.i
 .PHONY : gui/PartitionSizeController.cpp.i
 
 gui/PartitionSizeController.s: gui/PartitionSizeController.cpp.s
@@ -864,7 +864,7 @@ gui/PartitionSizeController.s: gui/PartitionSizeController.cpp.s
 
 # target to generate assembly for a file
 gui/PartitionSizeController.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionSizeController.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionSizeController.cpp.s
 .PHONY : gui/PartitionSizeController.cpp.s
 
 gui/PartitionSplitterWidget.o: gui/PartitionSplitterWidget.cpp.o
@@ -872,7 +872,7 @@ gui/PartitionSplitterWidget.o: gui/PartitionSplitterWidget.cpp.o
 
 # target to build an object file
 gui/PartitionSplitterWidget.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionSplitterWidget.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionSplitterWidget.cpp.o
 .PHONY : gui/PartitionSplitterWidget.cpp.o
 
 gui/PartitionSplitterWidget.i: gui/PartitionSplitterWidget.cpp.i
@@ -880,7 +880,7 @@ gui/PartitionSplitterWidget.i: gui/PartitionSplitterWidget.cpp.i
 
 # target to preprocess a source file
 gui/PartitionSplitterWidget.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionSplitterWidget.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionSplitterWidget.cpp.i
 .PHONY : gui/PartitionSplitterWidget.cpp.i
 
 gui/PartitionSplitterWidget.s: gui/PartitionSplitterWidget.cpp.s
@@ -888,7 +888,7 @@ gui/PartitionSplitterWidget.s: gui/PartitionSplitterWidget.cpp.s
 
 # target to generate assembly for a file
 gui/PartitionSplitterWidget.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionSplitterWidget.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/PartitionSplitterWidget.cpp.s
 .PHONY : gui/PartitionSplitterWidget.cpp.s
 
 gui/ReplaceWidget.o: gui/ReplaceWidget.cpp.o
@@ -896,7 +896,7 @@ gui/ReplaceWidget.o: gui/ReplaceWidget.cpp.o
 
 # target to build an object file
 gui/ReplaceWidget.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ReplaceWidget.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ReplaceWidget.cpp.o
 .PHONY : gui/ReplaceWidget.cpp.o
 
 gui/ReplaceWidget.i: gui/ReplaceWidget.cpp.i
@@ -904,7 +904,7 @@ gui/ReplaceWidget.i: gui/ReplaceWidget.cpp.i
 
 # target to preprocess a source file
 gui/ReplaceWidget.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ReplaceWidget.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ReplaceWidget.cpp.i
 .PHONY : gui/ReplaceWidget.cpp.i
 
 gui/ReplaceWidget.s: gui/ReplaceWidget.cpp.s
@@ -912,7 +912,7 @@ gui/ReplaceWidget.s: gui/ReplaceWidget.cpp.s
 
 # target to generate assembly for a file
 gui/ReplaceWidget.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ReplaceWidget.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ReplaceWidget.cpp.s
 .PHONY : gui/ReplaceWidget.cpp.s
 
 gui/ResizeVolumeGroupDialog.o: gui/ResizeVolumeGroupDialog.cpp.o
@@ -920,7 +920,7 @@ gui/ResizeVolumeGroupDialog.o: gui/ResizeVolumeGroupDialog.cpp.o
 
 # target to build an object file
 gui/ResizeVolumeGroupDialog.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ResizeVolumeGroupDialog.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ResizeVolumeGroupDialog.cpp.o
 .PHONY : gui/ResizeVolumeGroupDialog.cpp.o
 
 gui/ResizeVolumeGroupDialog.i: gui/ResizeVolumeGroupDialog.cpp.i
@@ -928,7 +928,7 @@ gui/ResizeVolumeGroupDialog.i: gui/ResizeVolumeGroupDialog.cpp.i
 
 # target to preprocess a source file
 gui/ResizeVolumeGroupDialog.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ResizeVolumeGroupDialog.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ResizeVolumeGroupDialog.cpp.i
 .PHONY : gui/ResizeVolumeGroupDialog.cpp.i
 
 gui/ResizeVolumeGroupDialog.s: gui/ResizeVolumeGroupDialog.cpp.s
@@ -936,7 +936,7 @@ gui/ResizeVolumeGroupDialog.s: gui/ResizeVolumeGroupDialog.cpp.s
 
 # target to generate assembly for a file
 gui/ResizeVolumeGroupDialog.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ResizeVolumeGroupDialog.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ResizeVolumeGroupDialog.cpp.s
 .PHONY : gui/ResizeVolumeGroupDialog.cpp.s
 
 gui/ScanningDialog.o: gui/ScanningDialog.cpp.o
@@ -944,7 +944,7 @@ gui/ScanningDialog.o: gui/ScanningDialog.cpp.o
 
 # target to build an object file
 gui/ScanningDialog.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ScanningDialog.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ScanningDialog.cpp.o
 .PHONY : gui/ScanningDialog.cpp.o
 
 gui/ScanningDialog.i: gui/ScanningDialog.cpp.i
@@ -952,7 +952,7 @@ gui/ScanningDialog.i: gui/ScanningDialog.cpp.i
 
 # target to preprocess a source file
 gui/ScanningDialog.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ScanningDialog.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ScanningDialog.cpp.i
 .PHONY : gui/ScanningDialog.cpp.i
 
 gui/ScanningDialog.s: gui/ScanningDialog.cpp.s
@@ -960,7 +960,7 @@ gui/ScanningDialog.s: gui/ScanningDialog.cpp.s
 
 # target to generate assembly for a file
 gui/ScanningDialog.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ScanningDialog.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/ScanningDialog.cpp.s
 .PHONY : gui/ScanningDialog.cpp.s
 
 gui/VolumeGroupBaseDialog.o: gui/VolumeGroupBaseDialog.cpp.o
@@ -968,7 +968,7 @@ gui/VolumeGroupBaseDialog.o: gui/VolumeGroupBaseDialog.cpp.o
 
 # target to build an object file
 gui/VolumeGroupBaseDialog.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/VolumeGroupBaseDialog.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/VolumeGroupBaseDialog.cpp.o
 .PHONY : gui/VolumeGroupBaseDialog.cpp.o
 
 gui/VolumeGroupBaseDialog.i: gui/VolumeGroupBaseDialog.cpp.i
@@ -976,7 +976,7 @@ gui/VolumeGroupBaseDialog.i: gui/VolumeGroupBaseDialog.cpp.i
 
 # target to preprocess a source file
 gui/VolumeGroupBaseDialog.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/VolumeGroupBaseDialog.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/VolumeGroupBaseDialog.cpp.i
 .PHONY : gui/VolumeGroupBaseDialog.cpp.i
 
 gui/VolumeGroupBaseDialog.s: gui/VolumeGroupBaseDialog.cpp.s
@@ -984,7 +984,7 @@ gui/VolumeGroupBaseDialog.s: gui/VolumeGroupBaseDialog.cpp.s
 
 # target to generate assembly for a file
 gui/VolumeGroupBaseDialog.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/VolumeGroupBaseDialog.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/gui/VolumeGroupBaseDialog.cpp.s
 .PHONY : gui/VolumeGroupBaseDialog.cpp.s
 
 jobs/AutoMountManagementJob.o: jobs/AutoMountManagementJob.cpp.o
@@ -992,7 +992,7 @@ jobs/AutoMountManagementJob.o: jobs/AutoMountManagementJob.cpp.o
 
 # target to build an object file
 jobs/AutoMountManagementJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/AutoMountManagementJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/AutoMountManagementJob.cpp.o
 .PHONY : jobs/AutoMountManagementJob.cpp.o
 
 jobs/AutoMountManagementJob.i: jobs/AutoMountManagementJob.cpp.i
@@ -1000,7 +1000,7 @@ jobs/AutoMountManagementJob.i: jobs/AutoMountManagementJob.cpp.i
 
 # target to preprocess a source file
 jobs/AutoMountManagementJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/AutoMountManagementJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/AutoMountManagementJob.cpp.i
 .PHONY : jobs/AutoMountManagementJob.cpp.i
 
 jobs/AutoMountManagementJob.s: jobs/AutoMountManagementJob.cpp.s
@@ -1008,7 +1008,7 @@ jobs/AutoMountManagementJob.s: jobs/AutoMountManagementJob.cpp.s
 
 # target to generate assembly for a file
 jobs/AutoMountManagementJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/AutoMountManagementJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/AutoMountManagementJob.cpp.s
 .PHONY : jobs/AutoMountManagementJob.cpp.s
 
 jobs/ChangeFilesystemLabelJob.o: jobs/ChangeFilesystemLabelJob.cpp.o
@@ -1016,7 +1016,7 @@ jobs/ChangeFilesystemLabelJob.o: jobs/ChangeFilesystemLabelJob.cpp.o
 
 # target to build an object file
 jobs/ChangeFilesystemLabelJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ChangeFilesystemLabelJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ChangeFilesystemLabelJob.cpp.o
 .PHONY : jobs/ChangeFilesystemLabelJob.cpp.o
 
 jobs/ChangeFilesystemLabelJob.i: jobs/ChangeFilesystemLabelJob.cpp.i
@@ -1024,7 +1024,7 @@ jobs/ChangeFilesystemLabelJob.i: jobs/ChangeFilesystemLabelJob.cpp.i
 
 # target to preprocess a source file
 jobs/ChangeFilesystemLabelJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ChangeFilesystemLabelJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ChangeFilesystemLabelJob.cpp.i
 .PHONY : jobs/ChangeFilesystemLabelJob.cpp.i
 
 jobs/ChangeFilesystemLabelJob.s: jobs/ChangeFilesystemLabelJob.cpp.s
@@ -1032,7 +1032,7 @@ jobs/ChangeFilesystemLabelJob.s: jobs/ChangeFilesystemLabelJob.cpp.s
 
 # target to generate assembly for a file
 jobs/ChangeFilesystemLabelJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ChangeFilesystemLabelJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ChangeFilesystemLabelJob.cpp.s
 .PHONY : jobs/ChangeFilesystemLabelJob.cpp.s
 
 jobs/ClearMountsJob.o: jobs/ClearMountsJob.cpp.o
@@ -1040,7 +1040,7 @@ jobs/ClearMountsJob.o: jobs/ClearMountsJob.cpp.o
 
 # target to build an object file
 jobs/ClearMountsJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ClearMountsJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ClearMountsJob.cpp.o
 .PHONY : jobs/ClearMountsJob.cpp.o
 
 jobs/ClearMountsJob.i: jobs/ClearMountsJob.cpp.i
@@ -1048,7 +1048,7 @@ jobs/ClearMountsJob.i: jobs/ClearMountsJob.cpp.i
 
 # target to preprocess a source file
 jobs/ClearMountsJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ClearMountsJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ClearMountsJob.cpp.i
 .PHONY : jobs/ClearMountsJob.cpp.i
 
 jobs/ClearMountsJob.s: jobs/ClearMountsJob.cpp.s
@@ -1056,7 +1056,7 @@ jobs/ClearMountsJob.s: jobs/ClearMountsJob.cpp.s
 
 # target to generate assembly for a file
 jobs/ClearMountsJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ClearMountsJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ClearMountsJob.cpp.s
 .PHONY : jobs/ClearMountsJob.cpp.s
 
 jobs/ClearTempMountsJob.o: jobs/ClearTempMountsJob.cpp.o
@@ -1064,7 +1064,7 @@ jobs/ClearTempMountsJob.o: jobs/ClearTempMountsJob.cpp.o
 
 # target to build an object file
 jobs/ClearTempMountsJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ClearTempMountsJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ClearTempMountsJob.cpp.o
 .PHONY : jobs/ClearTempMountsJob.cpp.o
 
 jobs/ClearTempMountsJob.i: jobs/ClearTempMountsJob.cpp.i
@@ -1072,7 +1072,7 @@ jobs/ClearTempMountsJob.i: jobs/ClearTempMountsJob.cpp.i
 
 # target to preprocess a source file
 jobs/ClearTempMountsJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ClearTempMountsJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ClearTempMountsJob.cpp.i
 .PHONY : jobs/ClearTempMountsJob.cpp.i
 
 jobs/ClearTempMountsJob.s: jobs/ClearTempMountsJob.cpp.s
@@ -1080,7 +1080,7 @@ jobs/ClearTempMountsJob.s: jobs/ClearTempMountsJob.cpp.s
 
 # target to generate assembly for a file
 jobs/ClearTempMountsJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ClearTempMountsJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ClearTempMountsJob.cpp.s
 .PHONY : jobs/ClearTempMountsJob.cpp.s
 
 jobs/CreatePartitionJob.o: jobs/CreatePartitionJob.cpp.o
@@ -1088,7 +1088,7 @@ jobs/CreatePartitionJob.o: jobs/CreatePartitionJob.cpp.o
 
 # target to build an object file
 jobs/CreatePartitionJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreatePartitionJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreatePartitionJob.cpp.o
 .PHONY : jobs/CreatePartitionJob.cpp.o
 
 jobs/CreatePartitionJob.i: jobs/CreatePartitionJob.cpp.i
@@ -1096,7 +1096,7 @@ jobs/CreatePartitionJob.i: jobs/CreatePartitionJob.cpp.i
 
 # target to preprocess a source file
 jobs/CreatePartitionJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreatePartitionJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreatePartitionJob.cpp.i
 .PHONY : jobs/CreatePartitionJob.cpp.i
 
 jobs/CreatePartitionJob.s: jobs/CreatePartitionJob.cpp.s
@@ -1104,7 +1104,7 @@ jobs/CreatePartitionJob.s: jobs/CreatePartitionJob.cpp.s
 
 # target to generate assembly for a file
 jobs/CreatePartitionJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreatePartitionJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreatePartitionJob.cpp.s
 .PHONY : jobs/CreatePartitionJob.cpp.s
 
 jobs/CreatePartitionTableJob.o: jobs/CreatePartitionTableJob.cpp.o
@@ -1112,7 +1112,7 @@ jobs/CreatePartitionTableJob.o: jobs/CreatePartitionTableJob.cpp.o
 
 # target to build an object file
 jobs/CreatePartitionTableJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreatePartitionTableJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreatePartitionTableJob.cpp.o
 .PHONY : jobs/CreatePartitionTableJob.cpp.o
 
 jobs/CreatePartitionTableJob.i: jobs/CreatePartitionTableJob.cpp.i
@@ -1120,7 +1120,7 @@ jobs/CreatePartitionTableJob.i: jobs/CreatePartitionTableJob.cpp.i
 
 # target to preprocess a source file
 jobs/CreatePartitionTableJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreatePartitionTableJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreatePartitionTableJob.cpp.i
 .PHONY : jobs/CreatePartitionTableJob.cpp.i
 
 jobs/CreatePartitionTableJob.s: jobs/CreatePartitionTableJob.cpp.s
@@ -1128,7 +1128,7 @@ jobs/CreatePartitionTableJob.s: jobs/CreatePartitionTableJob.cpp.s
 
 # target to generate assembly for a file
 jobs/CreatePartitionTableJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreatePartitionTableJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreatePartitionTableJob.cpp.s
 .PHONY : jobs/CreatePartitionTableJob.cpp.s
 
 jobs/CreateVolumeGroupJob.o: jobs/CreateVolumeGroupJob.cpp.o
@@ -1136,7 +1136,7 @@ jobs/CreateVolumeGroupJob.o: jobs/CreateVolumeGroupJob.cpp.o
 
 # target to build an object file
 jobs/CreateVolumeGroupJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreateVolumeGroupJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreateVolumeGroupJob.cpp.o
 .PHONY : jobs/CreateVolumeGroupJob.cpp.o
 
 jobs/CreateVolumeGroupJob.i: jobs/CreateVolumeGroupJob.cpp.i
@@ -1144,7 +1144,7 @@ jobs/CreateVolumeGroupJob.i: jobs/CreateVolumeGroupJob.cpp.i
 
 # target to preprocess a source file
 jobs/CreateVolumeGroupJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreateVolumeGroupJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreateVolumeGroupJob.cpp.i
 .PHONY : jobs/CreateVolumeGroupJob.cpp.i
 
 jobs/CreateVolumeGroupJob.s: jobs/CreateVolumeGroupJob.cpp.s
@@ -1152,7 +1152,7 @@ jobs/CreateVolumeGroupJob.s: jobs/CreateVolumeGroupJob.cpp.s
 
 # target to generate assembly for a file
 jobs/CreateVolumeGroupJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreateVolumeGroupJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/CreateVolumeGroupJob.cpp.s
 .PHONY : jobs/CreateVolumeGroupJob.cpp.s
 
 jobs/DeactivateVolumeGroupJob.o: jobs/DeactivateVolumeGroupJob.cpp.o
@@ -1160,7 +1160,7 @@ jobs/DeactivateVolumeGroupJob.o: jobs/DeactivateVolumeGroupJob.cpp.o
 
 # target to build an object file
 jobs/DeactivateVolumeGroupJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/DeactivateVolumeGroupJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/DeactivateVolumeGroupJob.cpp.o
 .PHONY : jobs/DeactivateVolumeGroupJob.cpp.o
 
 jobs/DeactivateVolumeGroupJob.i: jobs/DeactivateVolumeGroupJob.cpp.i
@@ -1168,7 +1168,7 @@ jobs/DeactivateVolumeGroupJob.i: jobs/DeactivateVolumeGroupJob.cpp.i
 
 # target to preprocess a source file
 jobs/DeactivateVolumeGroupJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/DeactivateVolumeGroupJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/DeactivateVolumeGroupJob.cpp.i
 .PHONY : jobs/DeactivateVolumeGroupJob.cpp.i
 
 jobs/DeactivateVolumeGroupJob.s: jobs/DeactivateVolumeGroupJob.cpp.s
@@ -1176,7 +1176,7 @@ jobs/DeactivateVolumeGroupJob.s: jobs/DeactivateVolumeGroupJob.cpp.s
 
 # target to generate assembly for a file
 jobs/DeactivateVolumeGroupJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/DeactivateVolumeGroupJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/DeactivateVolumeGroupJob.cpp.s
 .PHONY : jobs/DeactivateVolumeGroupJob.cpp.s
 
 jobs/DeletePartitionJob.o: jobs/DeletePartitionJob.cpp.o
@@ -1184,7 +1184,7 @@ jobs/DeletePartitionJob.o: jobs/DeletePartitionJob.cpp.o
 
 # target to build an object file
 jobs/DeletePartitionJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/DeletePartitionJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/DeletePartitionJob.cpp.o
 .PHONY : jobs/DeletePartitionJob.cpp.o
 
 jobs/DeletePartitionJob.i: jobs/DeletePartitionJob.cpp.i
@@ -1192,7 +1192,7 @@ jobs/DeletePartitionJob.i: jobs/DeletePartitionJob.cpp.i
 
 # target to preprocess a source file
 jobs/DeletePartitionJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/DeletePartitionJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/DeletePartitionJob.cpp.i
 .PHONY : jobs/DeletePartitionJob.cpp.i
 
 jobs/DeletePartitionJob.s: jobs/DeletePartitionJob.cpp.s
@@ -1200,7 +1200,7 @@ jobs/DeletePartitionJob.s: jobs/DeletePartitionJob.cpp.s
 
 # target to generate assembly for a file
 jobs/DeletePartitionJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/DeletePartitionJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/DeletePartitionJob.cpp.s
 .PHONY : jobs/DeletePartitionJob.cpp.s
 
 jobs/FillGlobalStorageJob.o: jobs/FillGlobalStorageJob.cpp.o
@@ -1208,7 +1208,7 @@ jobs/FillGlobalStorageJob.o: jobs/FillGlobalStorageJob.cpp.o
 
 # target to build an object file
 jobs/FillGlobalStorageJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/FillGlobalStorageJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/FillGlobalStorageJob.cpp.o
 .PHONY : jobs/FillGlobalStorageJob.cpp.o
 
 jobs/FillGlobalStorageJob.i: jobs/FillGlobalStorageJob.cpp.i
@@ -1216,7 +1216,7 @@ jobs/FillGlobalStorageJob.i: jobs/FillGlobalStorageJob.cpp.i
 
 # target to preprocess a source file
 jobs/FillGlobalStorageJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/FillGlobalStorageJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/FillGlobalStorageJob.cpp.i
 .PHONY : jobs/FillGlobalStorageJob.cpp.i
 
 jobs/FillGlobalStorageJob.s: jobs/FillGlobalStorageJob.cpp.s
@@ -1224,7 +1224,7 @@ jobs/FillGlobalStorageJob.s: jobs/FillGlobalStorageJob.cpp.s
 
 # target to generate assembly for a file
 jobs/FillGlobalStorageJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/FillGlobalStorageJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/FillGlobalStorageJob.cpp.s
 .PHONY : jobs/FillGlobalStorageJob.cpp.s
 
 jobs/FormatPartitionJob.o: jobs/FormatPartitionJob.cpp.o
@@ -1232,7 +1232,7 @@ jobs/FormatPartitionJob.o: jobs/FormatPartitionJob.cpp.o
 
 # target to build an object file
 jobs/FormatPartitionJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/FormatPartitionJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/FormatPartitionJob.cpp.o
 .PHONY : jobs/FormatPartitionJob.cpp.o
 
 jobs/FormatPartitionJob.i: jobs/FormatPartitionJob.cpp.i
@@ -1240,7 +1240,7 @@ jobs/FormatPartitionJob.i: jobs/FormatPartitionJob.cpp.i
 
 # target to preprocess a source file
 jobs/FormatPartitionJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/FormatPartitionJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/FormatPartitionJob.cpp.i
 .PHONY : jobs/FormatPartitionJob.cpp.i
 
 jobs/FormatPartitionJob.s: jobs/FormatPartitionJob.cpp.s
@@ -1248,7 +1248,7 @@ jobs/FormatPartitionJob.s: jobs/FormatPartitionJob.cpp.s
 
 # target to generate assembly for a file
 jobs/FormatPartitionJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/FormatPartitionJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/FormatPartitionJob.cpp.s
 .PHONY : jobs/FormatPartitionJob.cpp.s
 
 jobs/PartitionJob.o: jobs/PartitionJob.cpp.o
@@ -1256,7 +1256,7 @@ jobs/PartitionJob.o: jobs/PartitionJob.cpp.o
 
 # target to build an object file
 jobs/PartitionJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/PartitionJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/PartitionJob.cpp.o
 .PHONY : jobs/PartitionJob.cpp.o
 
 jobs/PartitionJob.i: jobs/PartitionJob.cpp.i
@@ -1264,7 +1264,7 @@ jobs/PartitionJob.i: jobs/PartitionJob.cpp.i
 
 # target to preprocess a source file
 jobs/PartitionJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/PartitionJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/PartitionJob.cpp.i
 .PHONY : jobs/PartitionJob.cpp.i
 
 jobs/PartitionJob.s: jobs/PartitionJob.cpp.s
@@ -1272,7 +1272,7 @@ jobs/PartitionJob.s: jobs/PartitionJob.cpp.s
 
 # target to generate assembly for a file
 jobs/PartitionJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/PartitionJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/PartitionJob.cpp.s
 .PHONY : jobs/PartitionJob.cpp.s
 
 jobs/RemoveVolumeGroupJob.o: jobs/RemoveVolumeGroupJob.cpp.o
@@ -1280,7 +1280,7 @@ jobs/RemoveVolumeGroupJob.o: jobs/RemoveVolumeGroupJob.cpp.o
 
 # target to build an object file
 jobs/RemoveVolumeGroupJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/RemoveVolumeGroupJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/RemoveVolumeGroupJob.cpp.o
 .PHONY : jobs/RemoveVolumeGroupJob.cpp.o
 
 jobs/RemoveVolumeGroupJob.i: jobs/RemoveVolumeGroupJob.cpp.i
@@ -1288,7 +1288,7 @@ jobs/RemoveVolumeGroupJob.i: jobs/RemoveVolumeGroupJob.cpp.i
 
 # target to preprocess a source file
 jobs/RemoveVolumeGroupJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/RemoveVolumeGroupJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/RemoveVolumeGroupJob.cpp.i
 .PHONY : jobs/RemoveVolumeGroupJob.cpp.i
 
 jobs/RemoveVolumeGroupJob.s: jobs/RemoveVolumeGroupJob.cpp.s
@@ -1296,7 +1296,7 @@ jobs/RemoveVolumeGroupJob.s: jobs/RemoveVolumeGroupJob.cpp.s
 
 # target to generate assembly for a file
 jobs/RemoveVolumeGroupJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/RemoveVolumeGroupJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/RemoveVolumeGroupJob.cpp.s
 .PHONY : jobs/RemoveVolumeGroupJob.cpp.s
 
 jobs/ResizePartitionJob.o: jobs/ResizePartitionJob.cpp.o
@@ -1304,7 +1304,7 @@ jobs/ResizePartitionJob.o: jobs/ResizePartitionJob.cpp.o
 
 # target to build an object file
 jobs/ResizePartitionJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ResizePartitionJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ResizePartitionJob.cpp.o
 .PHONY : jobs/ResizePartitionJob.cpp.o
 
 jobs/ResizePartitionJob.i: jobs/ResizePartitionJob.cpp.i
@@ -1312,7 +1312,7 @@ jobs/ResizePartitionJob.i: jobs/ResizePartitionJob.cpp.i
 
 # target to preprocess a source file
 jobs/ResizePartitionJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ResizePartitionJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ResizePartitionJob.cpp.i
 .PHONY : jobs/ResizePartitionJob.cpp.i
 
 jobs/ResizePartitionJob.s: jobs/ResizePartitionJob.cpp.s
@@ -1320,7 +1320,7 @@ jobs/ResizePartitionJob.s: jobs/ResizePartitionJob.cpp.s
 
 # target to generate assembly for a file
 jobs/ResizePartitionJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ResizePartitionJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ResizePartitionJob.cpp.s
 .PHONY : jobs/ResizePartitionJob.cpp.s
 
 jobs/ResizeVolumeGroupJob.o: jobs/ResizeVolumeGroupJob.cpp.o
@@ -1328,7 +1328,7 @@ jobs/ResizeVolumeGroupJob.o: jobs/ResizeVolumeGroupJob.cpp.o
 
 # target to build an object file
 jobs/ResizeVolumeGroupJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ResizeVolumeGroupJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ResizeVolumeGroupJob.cpp.o
 .PHONY : jobs/ResizeVolumeGroupJob.cpp.o
 
 jobs/ResizeVolumeGroupJob.i: jobs/ResizeVolumeGroupJob.cpp.i
@@ -1336,7 +1336,7 @@ jobs/ResizeVolumeGroupJob.i: jobs/ResizeVolumeGroupJob.cpp.i
 
 # target to preprocess a source file
 jobs/ResizeVolumeGroupJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ResizeVolumeGroupJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ResizeVolumeGroupJob.cpp.i
 .PHONY : jobs/ResizeVolumeGroupJob.cpp.i
 
 jobs/ResizeVolumeGroupJob.s: jobs/ResizeVolumeGroupJob.cpp.s
@@ -1344,7 +1344,7 @@ jobs/ResizeVolumeGroupJob.s: jobs/ResizeVolumeGroupJob.cpp.s
 
 # target to generate assembly for a file
 jobs/ResizeVolumeGroupJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ResizeVolumeGroupJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/ResizeVolumeGroupJob.cpp.s
 .PHONY : jobs/ResizeVolumeGroupJob.cpp.s
 
 jobs/SetPartitionFlagsJob.o: jobs/SetPartitionFlagsJob.cpp.o
@@ -1352,7 +1352,7 @@ jobs/SetPartitionFlagsJob.o: jobs/SetPartitionFlagsJob.cpp.o
 
 # target to build an object file
 jobs/SetPartitionFlagsJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/SetPartitionFlagsJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/SetPartitionFlagsJob.cpp.o
 .PHONY : jobs/SetPartitionFlagsJob.cpp.o
 
 jobs/SetPartitionFlagsJob.i: jobs/SetPartitionFlagsJob.cpp.i
@@ -1360,7 +1360,7 @@ jobs/SetPartitionFlagsJob.i: jobs/SetPartitionFlagsJob.cpp.i
 
 # target to preprocess a source file
 jobs/SetPartitionFlagsJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/SetPartitionFlagsJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/SetPartitionFlagsJob.cpp.i
 .PHONY : jobs/SetPartitionFlagsJob.cpp.i
 
 jobs/SetPartitionFlagsJob.s: jobs/SetPartitionFlagsJob.cpp.s
@@ -1368,7 +1368,7 @@ jobs/SetPartitionFlagsJob.s: jobs/SetPartitionFlagsJob.cpp.s
 
 # target to generate assembly for a file
 jobs/SetPartitionFlagsJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/SetPartitionFlagsJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/build.make src/modules/partition/CMakeFiles/calamares_viewmodule_partition.dir/jobs/SetPartitionFlagsJob.cpp.s
 .PHONY : jobs/SetPartitionFlagsJob.cpp.s
 
 # Help Target
@@ -1543,6 +1543,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

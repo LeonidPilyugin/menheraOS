@@ -1,7 +1,7 @@
 src/modules/users/CMakeFiles/usersgroupstest.dir/usersgroupstest_autogen/mocs_compilation.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/mocs_compilation.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/moc_Config.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/moc_Config.cpp \
  /usr/include/c++/12.1.0/memory \
  /usr/include/c++/12.1.0/bits/stl_algobase.h \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -101,8 +101,8 @@ src/modules/users/CMakeFiles/usersgroupstest.dir/usersgroupstest_autogen/mocs_co
  /usr/include/c++/12.1.0/backward/auto_ptr.h \
  /usr/include/c++/12.1.0/pstl/glue_memory_defs.h \
  /usr/include/c++/12.1.0/pstl/execution_defs.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/../../../../../../src/modules/users/Config.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/../../../../../../src/modules/users/CheckPWQuality.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/../../../../../../src/modules/users/Config.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/../../../../../../src/modules/users/CheckPWQuality.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtCore/qchar.h /usr/include/qt/QtCore/qglobal.h \
  /usr/include/c++/12.1.0/cstddef /usr/include/c++/12.1.0/utility \
@@ -224,25 +224,25 @@ src/modules/users/CMakeFiles/usersgroupstest.dir/usersgroupstest_autogen/mocs_co
  /usr/include/c++/12.1.0/bits/parse_numbers.h \
  /usr/include/c++/12.1.0/variant /usr/include/qt/QtCore/QVector \
  /usr/include/qt/QtCore/qvector.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/Job.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/qt/QtCore/QList \
  /usr/include/qt/QtCore/qlist.h /usr/include/qt/QtCore/QObject \
  /usr/include/qt/QtCore/qobject.h /usr/include/qt/QtCore/QSharedPointer \
  /usr/include/qt/QtCore/qsharedpointer.h \
  /usr/include/qt/QtCore/qshareddata.h \
  /usr/include/qt/QtCore/qsharedpointer_impl.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/Config.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/modulesystem/Config.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/QStringList /usr/include/qt/QtCore/qstringlist.h \
  /usr/include/qt/QtCore/QVariantMap \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/moc_CreateUserJob.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/../../../../../../src/modules/users/CreateUserJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/moc_MiscJobs.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/../../../../../../src/modules/users/MiscJobs.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/../../../../../../src/modules/users/Config.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/moc_SetHostNameJob.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/../../../../../../src/modules/users/SetHostNameJob.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/moc_SetPasswordJob.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/../../../../../../src/modules/users/SetPasswordJob.h
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/utils/NamedEnum.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/moc_CreateUserJob.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/../../../../../../src/modules/users/CreateUserJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/moc_MiscJobs.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/../../../../../../src/modules/users/MiscJobs.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/../../../../../../src/modules/users/Config.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/moc_SetHostNameJob.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/../../../../../../src/modules/users/SetHostNameJob.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/moc_SetPasswordJob.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/usersgroupstest_autogen/EWIEGA46WW/../../../../../../src/modules/users/SetPasswordJob.h

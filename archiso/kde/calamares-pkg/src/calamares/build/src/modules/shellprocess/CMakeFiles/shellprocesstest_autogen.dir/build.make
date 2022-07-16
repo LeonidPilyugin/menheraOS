@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Utility rule file for shellprocesstest_autogen.
 
@@ -67,8 +67,8 @@ include src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen.dir/compile
 include src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen.dir/progress.make
 
 src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target shellprocesstest"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/shellprocess && /usr/bin/cmake -E cmake_autogen /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target shellprocesstest"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/shellprocess && /usr/bin/cmake -E cmake_autogen /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen.dir/AutogenInfo.json Release
 
 shellprocesstest_autogen: src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen
 shellprocesstest_autogen: src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen.dir/build.make
@@ -79,10 +79,10 @@ src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen.dir/build: shellpro
 .PHONY : src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen.dir/build
 
 src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/shellprocess && $(CMAKE_COMMAND) -P CMakeFiles/shellprocesstest_autogen.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/shellprocess && $(CMAKE_COMMAND) -P CMakeFiles/shellprocesstest_autogen.dir/cmake_clean.cmake
 .PHONY : src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen.dir/clean
 
 src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/shellprocess /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/shellprocess /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/shellprocess /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/shellprocess /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/shellprocess/CMakeFiles/shellprocesstest_autogen.dir/depend
 

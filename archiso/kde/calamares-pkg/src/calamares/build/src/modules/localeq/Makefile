@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/localeq//CMakeFiles/progress.marks
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/localeq/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/localeq//CMakeFiles/progress.marks
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/localeq/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/localeq/clean
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/localeq/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/localeq/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/localeq/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/localeq/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/localeq/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/rule
 .PHONY : src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_viewmodule_localeq: src/modules/localeq/CMakeFiles/calamares_viewmodul
 
 # fast build rule for target.
 calamares_viewmodule_localeq/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build
 .PHONY : calamares_viewmodule_localeq/fast
 
 # Convenience name for target.
 src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq_autogen.dir/rule
 .PHONY : src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq_autogen.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ calamares_viewmodule_localeq_autogen: src/modules/localeq/CMakeFiles/calamares_v
 
 # fast build rule for target.
 calamares_viewmodule_localeq_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq_autogen.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq_autogen.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq_autogen.dir/build
 .PHONY : calamares_viewmodule_localeq_autogen/fast
 
 LocaleQmlViewStep.o: LocaleQmlViewStep.cpp.o
@@ -224,7 +224,7 @@ LocaleQmlViewStep.o: LocaleQmlViewStep.cpp.o
 
 # target to build an object file
 LocaleQmlViewStep.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/LocaleQmlViewStep.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/LocaleQmlViewStep.cpp.o
 .PHONY : LocaleQmlViewStep.cpp.o
 
 LocaleQmlViewStep.i: LocaleQmlViewStep.cpp.i
@@ -232,7 +232,7 @@ LocaleQmlViewStep.i: LocaleQmlViewStep.cpp.i
 
 # target to preprocess a source file
 LocaleQmlViewStep.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/LocaleQmlViewStep.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/LocaleQmlViewStep.cpp.i
 .PHONY : LocaleQmlViewStep.cpp.i
 
 LocaleQmlViewStep.s: LocaleQmlViewStep.cpp.s
@@ -240,7 +240,7 @@ LocaleQmlViewStep.s: LocaleQmlViewStep.cpp.s
 
 # target to generate assembly for a file
 LocaleQmlViewStep.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/LocaleQmlViewStep.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/LocaleQmlViewStep.cpp.s
 .PHONY : LocaleQmlViewStep.cpp.s
 
 __/locale/Config.o: __/locale/Config.cpp.o
@@ -248,7 +248,7 @@ __/locale/Config.o: __/locale/Config.cpp.o
 
 # target to build an object file
 __/locale/Config.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/Config.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/Config.cpp.o
 .PHONY : __/locale/Config.cpp.o
 
 __/locale/Config.i: __/locale/Config.cpp.i
@@ -256,7 +256,7 @@ __/locale/Config.i: __/locale/Config.cpp.i
 
 # target to preprocess a source file
 __/locale/Config.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/Config.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/Config.cpp.i
 .PHONY : __/locale/Config.cpp.i
 
 __/locale/Config.s: __/locale/Config.cpp.s
@@ -264,7 +264,7 @@ __/locale/Config.s: __/locale/Config.cpp.s
 
 # target to generate assembly for a file
 __/locale/Config.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/Config.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/Config.cpp.s
 .PHONY : __/locale/Config.cpp.s
 
 __/locale/LocaleConfiguration.o: __/locale/LocaleConfiguration.cpp.o
@@ -272,7 +272,7 @@ __/locale/LocaleConfiguration.o: __/locale/LocaleConfiguration.cpp.o
 
 # target to build an object file
 __/locale/LocaleConfiguration.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/LocaleConfiguration.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/LocaleConfiguration.cpp.o
 .PHONY : __/locale/LocaleConfiguration.cpp.o
 
 __/locale/LocaleConfiguration.i: __/locale/LocaleConfiguration.cpp.i
@@ -280,7 +280,7 @@ __/locale/LocaleConfiguration.i: __/locale/LocaleConfiguration.cpp.i
 
 # target to preprocess a source file
 __/locale/LocaleConfiguration.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/LocaleConfiguration.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/LocaleConfiguration.cpp.i
 .PHONY : __/locale/LocaleConfiguration.cpp.i
 
 __/locale/LocaleConfiguration.s: __/locale/LocaleConfiguration.cpp.s
@@ -288,7 +288,7 @@ __/locale/LocaleConfiguration.s: __/locale/LocaleConfiguration.cpp.s
 
 # target to generate assembly for a file
 __/locale/LocaleConfiguration.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/LocaleConfiguration.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/LocaleConfiguration.cpp.s
 .PHONY : __/locale/LocaleConfiguration.cpp.s
 
 __/locale/SetTimezoneJob.o: __/locale/SetTimezoneJob.cpp.o
@@ -296,7 +296,7 @@ __/locale/SetTimezoneJob.o: __/locale/SetTimezoneJob.cpp.o
 
 # target to build an object file
 __/locale/SetTimezoneJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/SetTimezoneJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/SetTimezoneJob.cpp.o
 .PHONY : __/locale/SetTimezoneJob.cpp.o
 
 __/locale/SetTimezoneJob.i: __/locale/SetTimezoneJob.cpp.i
@@ -304,7 +304,7 @@ __/locale/SetTimezoneJob.i: __/locale/SetTimezoneJob.cpp.i
 
 # target to preprocess a source file
 __/locale/SetTimezoneJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/SetTimezoneJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/SetTimezoneJob.cpp.i
 .PHONY : __/locale/SetTimezoneJob.cpp.i
 
 __/locale/SetTimezoneJob.s: __/locale/SetTimezoneJob.cpp.s
@@ -312,7 +312,7 @@ __/locale/SetTimezoneJob.s: __/locale/SetTimezoneJob.cpp.s
 
 # target to generate assembly for a file
 __/locale/SetTimezoneJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/SetTimezoneJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/__/locale/SetTimezoneJob.cpp.s
 .PHONY : __/locale/SetTimezoneJob.cpp.s
 
 calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.o: calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.o
@@ -320,7 +320,7 @@ calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.o: calamares_viewmod
 
 # target to build an object file
 calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.o
 .PHONY : calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.o
 
 calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.i: calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.i
@@ -328,7 +328,7 @@ calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.i: calamares_viewmod
 
 # target to preprocess a source file
 calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.i
 .PHONY : calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.i
 
 calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.s: calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.s
@@ -336,7 +336,7 @@ calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.s: calamares_viewmod
 
 # target to generate assembly for a file
 calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.s
 .PHONY : calamares_viewmodule_localeq_autogen/EWIEGA46WW/qrc_localeq.cpp.s
 
 calamares_viewmodule_localeq_autogen/mocs_compilation.o: calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.o
@@ -344,7 +344,7 @@ calamares_viewmodule_localeq_autogen/mocs_compilation.o: calamares_viewmodule_lo
 
 # target to build an object file
 calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.o
 
 calamares_viewmodule_localeq_autogen/mocs_compilation.i: calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.i
@@ -352,7 +352,7 @@ calamares_viewmodule_localeq_autogen/mocs_compilation.i: calamares_viewmodule_lo
 
 # target to preprocess a source file
 calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.i
 
 calamares_viewmodule_localeq_autogen/mocs_compilation.s: calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.s
@@ -360,7 +360,7 @@ calamares_viewmodule_localeq_autogen/mocs_compilation.s: calamares_viewmodule_lo
 
 # target to generate assembly for a file
 calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/build.make src/modules/localeq/CMakeFiles/calamares_viewmodule_localeq.dir/calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_viewmodule_localeq_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -409,6 +409,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

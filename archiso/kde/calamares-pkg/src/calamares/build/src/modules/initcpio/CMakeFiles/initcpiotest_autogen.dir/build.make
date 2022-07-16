@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Utility rule file for initcpiotest_autogen.
 
@@ -67,8 +67,8 @@ include src/modules/initcpio/CMakeFiles/initcpiotest_autogen.dir/compiler_depend
 include src/modules/initcpio/CMakeFiles/initcpiotest_autogen.dir/progress.make
 
 src/modules/initcpio/CMakeFiles/initcpiotest_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target initcpiotest"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && /usr/bin/cmake -E cmake_autogen /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio/CMakeFiles/initcpiotest_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target initcpiotest"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && /usr/bin/cmake -E cmake_autogen /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio/CMakeFiles/initcpiotest_autogen.dir/AutogenInfo.json Release
 
 initcpiotest_autogen: src/modules/initcpio/CMakeFiles/initcpiotest_autogen
 initcpiotest_autogen: src/modules/initcpio/CMakeFiles/initcpiotest_autogen.dir/build.make
@@ -79,10 +79,10 @@ src/modules/initcpio/CMakeFiles/initcpiotest_autogen.dir/build: initcpiotest_aut
 .PHONY : src/modules/initcpio/CMakeFiles/initcpiotest_autogen.dir/build
 
 src/modules/initcpio/CMakeFiles/initcpiotest_autogen.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && $(CMAKE_COMMAND) -P CMakeFiles/initcpiotest_autogen.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio && $(CMAKE_COMMAND) -P CMakeFiles/initcpiotest_autogen.dir/cmake_clean.cmake
 .PHONY : src/modules/initcpio/CMakeFiles/initcpiotest_autogen.dir/clean
 
 src/modules/initcpio/CMakeFiles/initcpiotest_autogen.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/initcpio /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio/CMakeFiles/initcpiotest_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/initcpio /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/initcpio/CMakeFiles/initcpiotest_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/initcpio/CMakeFiles/initcpiotest_autogen.dir/depend
 

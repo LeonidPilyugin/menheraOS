@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Include any dependencies generated for this target.
 include src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/depend.make
@@ -72,44 +72,44 @@ include src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/flags.make
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.o: src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/flags.make
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.o: src/modules/machineid/calamares_job_machineid_autogen/mocs_compilation.cpp
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.o: src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid/calamares_job_machineid_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid/calamares_job_machineid_autogen/mocs_compilation.cpp
 
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid/calamares_job_machineid_autogen/mocs_compilation.cpp > CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid/calamares_job_machineid_autogen/mocs_compilation.cpp > CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.i
 
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid/calamares_job_machineid_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid/calamares_job_machineid_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_job_machineid.dir/calamares_job_machineid_autogen/mocs_compilation.cpp.s
 
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.o: src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/flags.make
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.o: ../src/modules/machineid/MachineIdJob.cpp
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.o: src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.o -MF CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.o.d -o CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid/MachineIdJob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.o -MF CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.o.d -o CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid/MachineIdJob.cpp
 
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid/MachineIdJob.cpp > CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid/MachineIdJob.cpp > CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.i
 
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid/MachineIdJob.cpp -o CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid/MachineIdJob.cpp -o CMakeFiles/calamares_job_machineid.dir/MachineIdJob.cpp.s
 
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/Workers.cpp.o: src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/flags.make
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/Workers.cpp.o: ../src/modules/machineid/Workers.cpp
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/Workers.cpp.o: src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/Workers.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/Workers.cpp.o -MF CMakeFiles/calamares_job_machineid.dir/Workers.cpp.o.d -o CMakeFiles/calamares_job_machineid.dir/Workers.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid/Workers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/Workers.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/Workers.cpp.o -MF CMakeFiles/calamares_job_machineid.dir/Workers.cpp.o.d -o CMakeFiles/calamares_job_machineid.dir/Workers.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid/Workers.cpp
 
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/Workers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_job_machineid.dir/Workers.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid/Workers.cpp > CMakeFiles/calamares_job_machineid.dir/Workers.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid/Workers.cpp > CMakeFiles/calamares_job_machineid.dir/Workers.cpp.i
 
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/Workers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_job_machineid.dir/Workers.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid/Workers.cpp -o CMakeFiles/calamares_job_machineid.dir/Workers.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid/Workers.cpp -o CMakeFiles/calamares_job_machineid.dir/Workers.cpp.s
 
 # Object files for target calamares_job_machineid
 calamares_job_machineid_OBJECTS = \
@@ -133,18 +133,18 @@ src/modules/machineid/libcalamares_job_machineid.so: /usr/lib/libQt5Widgets.so.5
 src/modules/machineid/libcalamares_job_machineid.so: /usr/lib/libQt5Gui.so.5.15.5
 src/modules/machineid/libcalamares_job_machineid.so: /usr/lib/libQt5Core.so.5.15.5
 src/modules/machineid/libcalamares_job_machineid.so: src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcalamares_job_machineid.so"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_job_machineid.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcalamares_job_machineid.so"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_job_machineid.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/build: src/modules/machineid/libcalamares_job_machineid.so
 .PHONY : src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/build
 
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && $(CMAKE_COMMAND) -P CMakeFiles/calamares_job_machineid.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid && $(CMAKE_COMMAND) -P CMakeFiles/calamares_job_machineid.dir/cmake_clean.cmake
 .PHONY : src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/clean
 
 src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/machineid /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/machineid/CMakeFiles/calamares_job_machineid.dir/depend
 

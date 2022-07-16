@@ -1,5 +1,5 @@
-/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen/EWIEGA46WW/moc_PlasmaLnfPage.cpp: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/plasmalnf/PlasmaLnfPage.h \
-  /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen/moc_predefs.h \
+/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen/EWIEGA46WW/moc_PlasmaLnfPage.cpp: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/plasmalnf/PlasmaLnfPage.h \
+  /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/plasmalnf/calamares_viewmodule_plasmalnf_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Include any dependencies generated for this target.
 include src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/depend.make
@@ -72,58 +72,58 @@ include src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/flags.ma
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.o: src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/flags.make
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.o: src/modules/license/calamares_viewmodule_license_autogen/mocs_compilation.cpp
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.o: src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license/calamares_viewmodule_license_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license/calamares_viewmodule_license_autogen/mocs_compilation.cpp
 
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license/calamares_viewmodule_license_autogen/mocs_compilation.cpp > CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license/calamares_viewmodule_license_autogen/mocs_compilation.cpp > CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.i
 
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license/calamares_viewmodule_license_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license/calamares_viewmodule_license_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_viewmodule_license.dir/calamares_viewmodule_license_autogen/mocs_compilation.cpp.s
 
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.o: src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/flags.make
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.o: ../src/modules/license/LicensePage.cpp
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.o: src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.o -MF CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.o.d -o CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicensePage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.o -MF CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.o.d -o CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicensePage.cpp
 
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicensePage.cpp > CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicensePage.cpp > CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.i
 
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicensePage.cpp -o CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicensePage.cpp -o CMakeFiles/calamares_viewmodule_license.dir/LicensePage.cpp.s
 
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.o: src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/flags.make
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.o: ../src/modules/license/LicenseViewStep.cpp
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.o: src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.o -MF CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.o.d -o CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicenseViewStep.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.o -MF CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.o.d -o CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicenseViewStep.cpp
 
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicenseViewStep.cpp > CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicenseViewStep.cpp > CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.i
 
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicenseViewStep.cpp -o CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicenseViewStep.cpp -o CMakeFiles/calamares_viewmodule_license.dir/LicenseViewStep.cpp.s
 
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.o: src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/flags.make
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.o: ../src/modules/license/LicenseWidget.cpp
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.o: src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.o -MF CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.o.d -o CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicenseWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.o -MF CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.o.d -o CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicenseWidget.cpp
 
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicenseWidget.cpp > CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicenseWidget.cpp > CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.i
 
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicenseWidget.cpp -o CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license/LicenseWidget.cpp -o CMakeFiles/calamares_viewmodule_license.dir/LicenseWidget.cpp.s
 
 # Object files for target calamares_viewmodule_license
 calamares_viewmodule_license_OBJECTS = \
@@ -155,18 +155,18 @@ src/modules/license/libcalamares_viewmodule_license.so: /usr/lib/libQt5Qml.so.5.
 src/modules/license/libcalamares_viewmodule_license.so: /usr/lib/libQt5Network.so.5.15.5
 src/modules/license/libcalamares_viewmodule_license.so: /usr/lib/libQt5Core.so.5.15.5
 src/modules/license/libcalamares_viewmodule_license.so: src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libcalamares_viewmodule_license.so"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_viewmodule_license.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libcalamares_viewmodule_license.so"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_viewmodule_license.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build: src/modules/license/libcalamares_viewmodule_license.so
 .PHONY : src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/build
 
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && $(CMAKE_COMMAND) -P CMakeFiles/calamares_viewmodule_license.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license && $(CMAKE_COMMAND) -P CMakeFiles/calamares_viewmodule_license.dir/cmake_clean.cmake
 .PHONY : src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/clean
 
 src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/license /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/license/CMakeFiles/calamares_viewmodule_license.dir/depend
 

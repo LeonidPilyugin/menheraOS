@@ -1,7 +1,7 @@
 src/calamares/CMakeFiles/calamares_bin.dir/calamares_bin_autogen/mocs_compilation.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/mocs_compilation.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/63WDX6XJKF/moc_kdsingleapplicationguard.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/63WDX6XJKF/moc_kdsingleapplicationguard.cpp \
  /usr/include/c++/12.1.0/memory \
  /usr/include/c++/12.1.0/bits/stl_algobase.h \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -101,7 +101,7 @@ src/calamares/CMakeFiles/calamares_bin.dir/calamares_bin_autogen/mocs_compilatio
  /usr/include/c++/12.1.0/backward/auto_ptr.h \
  /usr/include/c++/12.1.0/pstl/glue_memory_defs.h \
  /usr/include/c++/12.1.0/pstl/execution_defs.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/63WDX6XJKF/../../../../../3rdparty/kdsingleapplicationguard/kdsingleapplicationguard.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/63WDX6XJKF/../../../../../3rdparty/kdsingleapplicationguard/kdsingleapplicationguard.h \
  /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
  /usr/include/qt/QtCore/qobjectdefs.h /usr/include/qt/QtCore/qnamespace.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/12.1.0/cstddef \
@@ -221,13 +221,13 @@ src/calamares/CMakeFiles/calamares_bin.dir/calamares_bin_autogen/mocs_compilatio
  /usr/include/c++/12.1.0/bits/parse_numbers.h \
  /usr/include/qt/QtCore/QStringList /usr/include/qt/QtCore/qstringlist.h \
  /usr/include/qt/QtCore/QMetaType /usr/include/qt/QtCore/qmetatype.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/63WDX6XJKF/../../../../../3rdparty/kdsingleapplicationguard/pimpl_ptr.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/63WDX6XJKF/../../../../../3rdparty/kdsingleapplicationguard/kdtoolsglobal.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/63WDX6XJKF/../../../../../3rdparty/kdsingleapplicationguard/pimpl_ptr.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/63WDX6XJKF/../../../../../3rdparty/kdsingleapplicationguard/kdtoolsglobal.h \
  /usr/include/qt/QtCore/QtGlobal /usr/include/qt/QtCore/qglobal.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/DllMacro.h \
  /usr/include/qt/QtCore/qglobal.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/moc_CalamaresApplication.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/../../../../../src/calamares/CalamaresApplication.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/moc_CalamaresApplication.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/../../../../../src/calamares/CalamaresApplication.h \
  /usr/include/qt/QtWidgets/QApplication \
  /usr/include/qt/QtWidgets/qapplication.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -243,8 +243,8 @@ src/calamares/CMakeFiles/calamares_bin.dir/calamares_bin_autogen/mocs_compilatio
  /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
  /usr/include/qt/QtCore/qhash.h /usr/include/c++/12.1.0/variant \
  /usr/include/qt/QtCore/qshareddata.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/moc_CalamaresWindow.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/../../../../../src/calamares/CalamaresWindow.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/moc_CalamaresWindow.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/../../../../../src/calamares/CalamaresWindow.h \
  /usr/include/qt/QtWidgets/QWidget /usr/include/qt/QtWidgets/qwidget.h \
  /usr/include/qt/QtGui/qpaintdevice.h /usr/include/qt/QtCore/qrect.h \
  /usr/include/qt/QtGui/qpalette.h /usr/include/qt/QtGui/qcolor.h \
@@ -260,19 +260,19 @@ src/calamares/CMakeFiles/calamares_bin.dir/calamares_bin_autogen/mocs_compilatio
  /usr/include/qt/QtGui/qfontinfo.h \
  /usr/include/qt/QtWidgets/qsizepolicy.h \
  /usr/include/qt/QtGui/qkeysequence.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/moc_DebugWindow.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/../../../../../src/calamares/DebugWindow.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/../../../../../src/calamares/VariantModel.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/moc_DebugWindow.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/../../../../../src/calamares/DebugWindow.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/../../../../../src/calamares/VariantModel.h \
  /usr/include/qt/QtCore/QAbstractItemModel \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/QVariantMap /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtCore/QVector /usr/include/qt/QtCore/qvector.h \
  /usr/include/qt/QtCore/QPointer /usr/include/qt/QtCore/qpointer.h \
  /usr/include/qt/QtCore/QVariant \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/moc_VariantModel.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/../../../../../src/calamares/VariantModel.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/WXGPQCWAY7/moc_ProgressTreeView.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/WXGPQCWAY7/../../../../../src/calamares/progresstree/ProgressTreeView.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/moc_VariantModel.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/EWIEGA46WW/../../../../../src/calamares/VariantModel.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/WXGPQCWAY7/moc_ProgressTreeView.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/calamares/calamares_bin_autogen/WXGPQCWAY7/../../../../../src/calamares/progresstree/ProgressTreeView.h \
  /usr/include/qt/QtWidgets/QListView \
  /usr/include/qt/QtWidgets/qlistview.h \
  /usr/include/qt/QtWidgets/qabstractitemview.h \

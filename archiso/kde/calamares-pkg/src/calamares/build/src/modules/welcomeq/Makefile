@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcomeq//CMakeFiles/progress.marks
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcomeq/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/welcomeq//CMakeFiles/progress.marks
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcomeq/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcomeq/clean
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcomeq/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcomeq/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcomeq/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcomeq/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcomeq/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/rule
 .PHONY : src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_viewmodule_welcomeq: src/modules/welcomeq/CMakeFiles/calamares_viewmod
 
 # fast build rule for target.
 calamares_viewmodule_welcomeq/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build
 .PHONY : calamares_viewmodule_welcomeq/fast
 
 # Convenience name for target.
 src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq_autogen.dir/rule
 .PHONY : src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq_autogen.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ calamares_viewmodule_welcomeq_autogen: src/modules/welcomeq/CMakeFiles/calamares
 
 # fast build rule for target.
 calamares_viewmodule_welcomeq_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq_autogen.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq_autogen.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq_autogen.dir/build
 .PHONY : calamares_viewmodule_welcomeq_autogen/fast
 
 WelcomeQmlViewStep.o: WelcomeQmlViewStep.cpp.o
@@ -224,7 +224,7 @@ WelcomeQmlViewStep.o: WelcomeQmlViewStep.cpp.o
 
 # target to build an object file
 WelcomeQmlViewStep.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/WelcomeQmlViewStep.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/WelcomeQmlViewStep.cpp.o
 .PHONY : WelcomeQmlViewStep.cpp.o
 
 WelcomeQmlViewStep.i: WelcomeQmlViewStep.cpp.i
@@ -232,7 +232,7 @@ WelcomeQmlViewStep.i: WelcomeQmlViewStep.cpp.i
 
 # target to preprocess a source file
 WelcomeQmlViewStep.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/WelcomeQmlViewStep.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/WelcomeQmlViewStep.cpp.i
 .PHONY : WelcomeQmlViewStep.cpp.i
 
 WelcomeQmlViewStep.s: WelcomeQmlViewStep.cpp.s
@@ -240,7 +240,7 @@ WelcomeQmlViewStep.s: WelcomeQmlViewStep.cpp.s
 
 # target to generate assembly for a file
 WelcomeQmlViewStep.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/WelcomeQmlViewStep.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/WelcomeQmlViewStep.cpp.s
 .PHONY : WelcomeQmlViewStep.cpp.s
 
 __/welcome/Config.o: __/welcome/Config.cpp.o
@@ -248,7 +248,7 @@ __/welcome/Config.o: __/welcome/Config.cpp.o
 
 # target to build an object file
 __/welcome/Config.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/Config.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/Config.cpp.o
 .PHONY : __/welcome/Config.cpp.o
 
 __/welcome/Config.i: __/welcome/Config.cpp.i
@@ -256,7 +256,7 @@ __/welcome/Config.i: __/welcome/Config.cpp.i
 
 # target to preprocess a source file
 __/welcome/Config.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/Config.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/Config.cpp.i
 .PHONY : __/welcome/Config.cpp.i
 
 __/welcome/Config.s: __/welcome/Config.cpp.s
@@ -264,7 +264,7 @@ __/welcome/Config.s: __/welcome/Config.cpp.s
 
 # target to generate assembly for a file
 __/welcome/Config.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/Config.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/Config.cpp.s
 .PHONY : __/welcome/Config.cpp.s
 
 __/welcome/checker/GeneralRequirements.o: __/welcome/checker/GeneralRequirements.cpp.o
@@ -272,7 +272,7 @@ __/welcome/checker/GeneralRequirements.o: __/welcome/checker/GeneralRequirements
 
 # target to build an object file
 __/welcome/checker/GeneralRequirements.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/checker/GeneralRequirements.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/checker/GeneralRequirements.cpp.o
 .PHONY : __/welcome/checker/GeneralRequirements.cpp.o
 
 __/welcome/checker/GeneralRequirements.i: __/welcome/checker/GeneralRequirements.cpp.i
@@ -280,7 +280,7 @@ __/welcome/checker/GeneralRequirements.i: __/welcome/checker/GeneralRequirements
 
 # target to preprocess a source file
 __/welcome/checker/GeneralRequirements.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/checker/GeneralRequirements.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/checker/GeneralRequirements.cpp.i
 .PHONY : __/welcome/checker/GeneralRequirements.cpp.i
 
 __/welcome/checker/GeneralRequirements.s: __/welcome/checker/GeneralRequirements.cpp.s
@@ -288,7 +288,7 @@ __/welcome/checker/GeneralRequirements.s: __/welcome/checker/GeneralRequirements
 
 # target to generate assembly for a file
 __/welcome/checker/GeneralRequirements.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/checker/GeneralRequirements.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/checker/GeneralRequirements.cpp.s
 .PHONY : __/welcome/checker/GeneralRequirements.cpp.s
 
 __/welcome/checker/partman_devices.o: __/welcome/checker/partman_devices.c.o
@@ -296,7 +296,7 @@ __/welcome/checker/partman_devices.o: __/welcome/checker/partman_devices.c.o
 
 # target to build an object file
 __/welcome/checker/partman_devices.c.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/checker/partman_devices.c.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/checker/partman_devices.c.o
 .PHONY : __/welcome/checker/partman_devices.c.o
 
 __/welcome/checker/partman_devices.i: __/welcome/checker/partman_devices.c.i
@@ -304,7 +304,7 @@ __/welcome/checker/partman_devices.i: __/welcome/checker/partman_devices.c.i
 
 # target to preprocess a source file
 __/welcome/checker/partman_devices.c.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/checker/partman_devices.c.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/checker/partman_devices.c.i
 .PHONY : __/welcome/checker/partman_devices.c.i
 
 __/welcome/checker/partman_devices.s: __/welcome/checker/partman_devices.c.s
@@ -312,7 +312,7 @@ __/welcome/checker/partman_devices.s: __/welcome/checker/partman_devices.c.s
 
 # target to generate assembly for a file
 __/welcome/checker/partman_devices.c.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/checker/partman_devices.c.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/__/welcome/checker/partman_devices.c.s
 .PHONY : __/welcome/checker/partman_devices.c.s
 
 calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.o: calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.o
@@ -320,7 +320,7 @@ calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.o: calamares_viewm
 
 # target to build an object file
 calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.o
 .PHONY : calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.o
 
 calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.i: calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.i
@@ -328,7 +328,7 @@ calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.i: calamares_viewm
 
 # target to preprocess a source file
 calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.i
 .PHONY : calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.i
 
 calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.s: calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.s
@@ -336,7 +336,7 @@ calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.s: calamares_viewm
 
 # target to generate assembly for a file
 calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.s
 .PHONY : calamares_viewmodule_welcomeq_autogen/EWIEGA46WW/qrc_welcomeq.cpp.s
 
 calamares_viewmodule_welcomeq_autogen/mocs_compilation.o: calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.o
@@ -344,7 +344,7 @@ calamares_viewmodule_welcomeq_autogen/mocs_compilation.o: calamares_viewmodule_w
 
 # target to build an object file
 calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.o
 
 calamares_viewmodule_welcomeq_autogen/mocs_compilation.i: calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.i
@@ -352,7 +352,7 @@ calamares_viewmodule_welcomeq_autogen/mocs_compilation.i: calamares_viewmodule_w
 
 # target to preprocess a source file
 calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.i
 
 calamares_viewmodule_welcomeq_autogen/mocs_compilation.s: calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.s
@@ -360,7 +360,7 @@ calamares_viewmodule_welcomeq_autogen/mocs_compilation.s: calamares_viewmodule_w
 
 # target to generate assembly for a file
 calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/build.make src/modules/welcomeq/CMakeFiles/calamares_viewmodule_welcomeq.dir/calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_viewmodule_welcomeq_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -409,6 +409,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/UsersPage.cpp" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/UsersPage.cpp.o" "gcc" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/UsersPage.cpp.o.d"
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/UsersViewStep.cpp" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/UsersViewStep.cpp.o" "gcc" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/UsersViewStep.cpp.o.d"
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/calamares_viewmodule_users_autogen/EWIEGA46WW/qrc_users.cpp" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/calamares_viewmodule_users_autogen/EWIEGA46WW/qrc_users.cpp.o" "gcc" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/calamares_viewmodule_users_autogen/EWIEGA46WW/qrc_users.cpp.o.d"
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/calamares_viewmodule_users_autogen/mocs_compilation.cpp" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/calamares_viewmodule_users_autogen/mocs_compilation.cpp.o" "gcc" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/calamares_viewmodule_users_autogen/mocs_compilation.cpp.o.d"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/UsersPage.cpp" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/UsersPage.cpp.o" "gcc" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/UsersPage.cpp.o.d"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/users/UsersViewStep.cpp" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/UsersViewStep.cpp.o" "gcc" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/UsersViewStep.cpp.o.d"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/calamares_viewmodule_users_autogen/EWIEGA46WW/qrc_users.cpp" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/calamares_viewmodule_users_autogen/EWIEGA46WW/qrc_users.cpp.o" "gcc" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/calamares_viewmodule_users_autogen/EWIEGA46WW/qrc_users.cpp.o.d"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/calamares_viewmodule_users_autogen/mocs_compilation.cpp" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/calamares_viewmodule_users_autogen/mocs_compilation.cpp.o" "gcc" "src/modules/users/CMakeFiles/calamares_viewmodule_users.dir/calamares_viewmodule_users_autogen/mocs_compilation.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/CMakeFiles/users_internal.dir/DependInfo.cmake"
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamaresui/CMakeFiles/calamaresui.dir/DependInfo.cmake"
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CMakeFiles/calamares.dir/DependInfo.cmake"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/users/CMakeFiles/users_internal.dir/DependInfo.cmake"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamaresui/CMakeFiles/calamaresui.dir/DependInfo.cmake"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CMakeFiles/calamares.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

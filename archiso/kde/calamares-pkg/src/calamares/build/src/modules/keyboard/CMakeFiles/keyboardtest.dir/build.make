@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Include any dependencies generated for this target.
 include src/modules/keyboard/CMakeFiles/keyboardtest.dir/depend.make
@@ -75,64 +75,64 @@ src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: ../src/mo
 src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: ../src/modules/keyboard/non-ascii-layouts
 src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: ../src/modules/keyboard/images/restore.png
 src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp: /usr/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for keyboard.qrc"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/cmake -E cmake_autorcc /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/CMakeFiles/keyboardtest_autogen.dir/AutoRcc_keyboard_EWIEGA46WW_Info.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for keyboard.qrc"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/cmake -E cmake_autorcc /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/CMakeFiles/keyboardtest_autogen.dir/AutoRcc_keyboard_EWIEGA46WW_Info.json Release
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/flags.make
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o: src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp > CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp > CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.i
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/mocs_compilation.cpp -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/mocs_compilation.cpp.s
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/flags.make
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o: ../src/modules/keyboard/Tests.cpp
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o -MF CMakeFiles/keyboardtest.dir/Tests.cpp.o.d -o CMakeFiles/keyboardtest.dir/Tests.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.o -MF CMakeFiles/keyboardtest.dir/Tests.cpp.o.d -o CMakeFiles/keyboardtest.dir/Tests.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/Tests.cpp
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/keyboardtest.dir/Tests.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/Tests.cpp > CMakeFiles/keyboardtest.dir/Tests.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/Tests.cpp > CMakeFiles/keyboardtest.dir/Tests.cpp.i
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/keyboardtest.dir/Tests.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/Tests.cpp -o CMakeFiles/keyboardtest.dir/Tests.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/Tests.cpp -o CMakeFiles/keyboardtest.dir/Tests.cpp.s
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/flags.make
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o: ../src/modules/keyboard/SetKeyboardLayoutJob.cpp
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o -MF CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o.d -o CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/SetKeyboardLayoutJob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o -MF CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o.d -o CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/SetKeyboardLayoutJob.cpp
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/SetKeyboardLayoutJob.cpp > CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/SetKeyboardLayoutJob.cpp > CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.i
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/SetKeyboardLayoutJob.cpp -o CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard/SetKeyboardLayoutJob.cpp -o CMakeFiles/keyboardtest.dir/SetKeyboardLayoutJob.cpp.s
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/flags.make
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o: src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o: src/modules/keyboard/CMakeFiles/keyboardtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o -MF CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o.d -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o -c /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o -MF CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o.d -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.o -c /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.i"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp > CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp > CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.i
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.s"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp -o CMakeFiles/keyboardtest.dir/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp.s
 
 # Object files for target keyboardtest
 keyboardtest_OBJECTS = \
@@ -157,18 +157,18 @@ keyboardtest: /usr/lib/libQt5Xml.so.5.15.5
 keyboardtest: /usr/lib/libKF5CoreAddons.so.5.96.0
 keyboardtest: /usr/lib/libQt5Core.so.5.15.5
 keyboardtest: src/modules/keyboard/CMakeFiles/keyboardtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../../keyboardtest"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/keyboardtest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../../keyboardtest"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/keyboardtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/build: keyboardtest
 .PHONY : src/modules/keyboard/CMakeFiles/keyboardtest.dir/build
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && $(CMAKE_COMMAND) -P CMakeFiles/keyboardtest.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard && $(CMAKE_COMMAND) -P CMakeFiles/keyboardtest.dir/cmake_clean.cmake
 .PHONY : src/modules/keyboard/CMakeFiles/keyboardtest.dir/clean
 
 src/modules/keyboard/CMakeFiles/keyboardtest.dir/depend: src/modules/keyboard/keyboardtest_autogen/EWIEGA46WW/qrc_keyboard.cpp
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/CMakeFiles/keyboardtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/keyboard /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/keyboard/CMakeFiles/keyboardtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/keyboard/CMakeFiles/keyboardtest.dir/depend
 

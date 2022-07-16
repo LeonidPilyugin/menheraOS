@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang/calamares-i18n.cxx" "lang/CMakeFiles/calamares-i18n.dir/calamares-i18n.cxx.o" "gcc" "lang/CMakeFiles/calamares-i18n.dir/calamares-i18n.cxx.o.d"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang/calamares-i18n.cxx" "lang/CMakeFiles/calamares-i18n.dir/calamares-i18n.cxx.o" "gcc" "lang/CMakeFiles/calamares-i18n.dir/calamares-i18n.cxx.o.d"
   )
 
 # Targets to which this target links.

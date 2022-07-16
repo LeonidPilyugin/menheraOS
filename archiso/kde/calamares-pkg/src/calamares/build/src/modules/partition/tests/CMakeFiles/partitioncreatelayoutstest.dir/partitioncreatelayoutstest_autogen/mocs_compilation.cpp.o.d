@@ -1,7 +1,7 @@
 src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/partitioncreatelayoutstest_autogen/mocs_compilation.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/mocs_compilation.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/X5UMKPNBA7/moc_DeviceModel.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/X5UMKPNBA7/moc_DeviceModel.cpp \
  /usr/include/c++/12.1.0/memory \
  /usr/include/c++/12.1.0/bits/stl_algobase.h \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -101,7 +101,7 @@ src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/partitionc
  /usr/include/c++/12.1.0/backward/auto_ptr.h \
  /usr/include/c++/12.1.0/pstl/glue_memory_defs.h \
  /usr/include/c++/12.1.0/pstl/execution_defs.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/X5UMKPNBA7/../../../../../../../src/modules/partition/core/DeviceModel.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/X5UMKPNBA7/../../../../../../../src/modules/partition/core/DeviceModel.h \
  /usr/include/qt/QtCore/QAbstractListModel \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qatomic.h \
@@ -226,9 +226,9 @@ src/modules/partition/tests/CMakeFiles/partitioncreatelayoutstest.dir/partitionc
  /usr/include/c++/12.1.0/variant /usr/include/qt/QtCore/QList \
  /usr/include/qt/QtCore/qlist.h /usr/include/qt/QtCore/QScopedPointer \
  /usr/include/qt/QtCore/qscopedpointer.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/EWIEGA46WW/moc_CreateLayoutsTests.cpp \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/EWIEGA46WW/../../../../../../../src/modules/partition/tests/CreateLayoutsTests.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMHelper.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/EWIEGA46WW/moc_CreateLayoutsTests.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/partition/tests/partitioncreatelayoutstest_autogen/EWIEGA46WW/../../../../../../../src/modules/partition/tests/CreateLayoutsTests.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/KPMHelper.h \
  /usr/include/kpmcore/backend/corebackend.h \
  /usr/include/kpmcore/util/libpartitionmanagerexport.h \
  /usr/include/kpmcore/fs/filesystem.h /usr/include/qt/QtCore/QVariant \

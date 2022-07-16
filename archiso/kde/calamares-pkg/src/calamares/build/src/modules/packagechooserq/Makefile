@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooserq//CMakeFiles/progress.marks
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/packagechooserq/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/packagechooserq//CMakeFiles/progress.marks
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/packagechooserq/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/packagechooserq/clean
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/packagechooserq/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/packagechooserq/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/packagechooserq/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/packagechooserq/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/packagechooserq/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/rule
 .PHONY : src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_viewmodule_packagechooserq: src/modules/packagechooserq/CMakeFiles/cal
 
 # fast build rule for target.
 calamares_viewmodule_packagechooserq/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build
 .PHONY : calamares_viewmodule_packagechooserq/fast
 
 # Convenience name for target.
 src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq_autogen.dir/rule
 .PHONY : src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq_autogen.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ calamares_viewmodule_packagechooserq_autogen: src/modules/packagechooserq/CMakeF
 
 # fast build rule for target.
 calamares_viewmodule_packagechooserq_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq_autogen.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq_autogen.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq_autogen.dir/build
 .PHONY : calamares_viewmodule_packagechooserq_autogen/fast
 
 PackageChooserQmlViewStep.o: PackageChooserQmlViewStep.cpp.o
@@ -224,7 +224,7 @@ PackageChooserQmlViewStep.o: PackageChooserQmlViewStep.cpp.o
 
 # target to build an object file
 PackageChooserQmlViewStep.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/PackageChooserQmlViewStep.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/PackageChooserQmlViewStep.cpp.o
 .PHONY : PackageChooserQmlViewStep.cpp.o
 
 PackageChooserQmlViewStep.i: PackageChooserQmlViewStep.cpp.i
@@ -232,7 +232,7 @@ PackageChooserQmlViewStep.i: PackageChooserQmlViewStep.cpp.i
 
 # target to preprocess a source file
 PackageChooserQmlViewStep.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/PackageChooserQmlViewStep.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/PackageChooserQmlViewStep.cpp.i
 .PHONY : PackageChooserQmlViewStep.cpp.i
 
 PackageChooserQmlViewStep.s: PackageChooserQmlViewStep.cpp.s
@@ -240,7 +240,7 @@ PackageChooserQmlViewStep.s: PackageChooserQmlViewStep.cpp.s
 
 # target to generate assembly for a file
 PackageChooserQmlViewStep.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/PackageChooserQmlViewStep.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/PackageChooserQmlViewStep.cpp.s
 .PHONY : PackageChooserQmlViewStep.cpp.s
 
 __/packagechooser/Config.o: __/packagechooser/Config.cpp.o
@@ -248,7 +248,7 @@ __/packagechooser/Config.o: __/packagechooser/Config.cpp.o
 
 # target to build an object file
 __/packagechooser/Config.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/Config.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/Config.cpp.o
 .PHONY : __/packagechooser/Config.cpp.o
 
 __/packagechooser/Config.i: __/packagechooser/Config.cpp.i
@@ -256,7 +256,7 @@ __/packagechooser/Config.i: __/packagechooser/Config.cpp.i
 
 # target to preprocess a source file
 __/packagechooser/Config.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/Config.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/Config.cpp.i
 .PHONY : __/packagechooser/Config.cpp.i
 
 __/packagechooser/Config.s: __/packagechooser/Config.cpp.s
@@ -264,7 +264,7 @@ __/packagechooser/Config.s: __/packagechooser/Config.cpp.s
 
 # target to generate assembly for a file
 __/packagechooser/Config.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/Config.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/Config.cpp.s
 .PHONY : __/packagechooser/Config.cpp.s
 
 __/packagechooser/ItemAppData.o: __/packagechooser/ItemAppData.cpp.o
@@ -272,7 +272,7 @@ __/packagechooser/ItemAppData.o: __/packagechooser/ItemAppData.cpp.o
 
 # target to build an object file
 __/packagechooser/ItemAppData.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/ItemAppData.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/ItemAppData.cpp.o
 .PHONY : __/packagechooser/ItemAppData.cpp.o
 
 __/packagechooser/ItemAppData.i: __/packagechooser/ItemAppData.cpp.i
@@ -280,7 +280,7 @@ __/packagechooser/ItemAppData.i: __/packagechooser/ItemAppData.cpp.i
 
 # target to preprocess a source file
 __/packagechooser/ItemAppData.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/ItemAppData.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/ItemAppData.cpp.i
 .PHONY : __/packagechooser/ItemAppData.cpp.i
 
 __/packagechooser/ItemAppData.s: __/packagechooser/ItemAppData.cpp.s
@@ -288,7 +288,7 @@ __/packagechooser/ItemAppData.s: __/packagechooser/ItemAppData.cpp.s
 
 # target to generate assembly for a file
 __/packagechooser/ItemAppData.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/ItemAppData.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/ItemAppData.cpp.s
 .PHONY : __/packagechooser/ItemAppData.cpp.s
 
 __/packagechooser/ItemAppStream.o: __/packagechooser/ItemAppStream.cpp.o
@@ -296,7 +296,7 @@ __/packagechooser/ItemAppStream.o: __/packagechooser/ItemAppStream.cpp.o
 
 # target to build an object file
 __/packagechooser/ItemAppStream.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/ItemAppStream.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/ItemAppStream.cpp.o
 .PHONY : __/packagechooser/ItemAppStream.cpp.o
 
 __/packagechooser/ItemAppStream.i: __/packagechooser/ItemAppStream.cpp.i
@@ -304,7 +304,7 @@ __/packagechooser/ItemAppStream.i: __/packagechooser/ItemAppStream.cpp.i
 
 # target to preprocess a source file
 __/packagechooser/ItemAppStream.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/ItemAppStream.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/ItemAppStream.cpp.i
 .PHONY : __/packagechooser/ItemAppStream.cpp.i
 
 __/packagechooser/ItemAppStream.s: __/packagechooser/ItemAppStream.cpp.s
@@ -312,7 +312,7 @@ __/packagechooser/ItemAppStream.s: __/packagechooser/ItemAppStream.cpp.s
 
 # target to generate assembly for a file
 __/packagechooser/ItemAppStream.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/ItemAppStream.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/ItemAppStream.cpp.s
 .PHONY : __/packagechooser/ItemAppStream.cpp.s
 
 __/packagechooser/PackageModel.o: __/packagechooser/PackageModel.cpp.o
@@ -320,7 +320,7 @@ __/packagechooser/PackageModel.o: __/packagechooser/PackageModel.cpp.o
 
 # target to build an object file
 __/packagechooser/PackageModel.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/PackageModel.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/PackageModel.cpp.o
 .PHONY : __/packagechooser/PackageModel.cpp.o
 
 __/packagechooser/PackageModel.i: __/packagechooser/PackageModel.cpp.i
@@ -328,7 +328,7 @@ __/packagechooser/PackageModel.i: __/packagechooser/PackageModel.cpp.i
 
 # target to preprocess a source file
 __/packagechooser/PackageModel.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/PackageModel.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/PackageModel.cpp.i
 .PHONY : __/packagechooser/PackageModel.cpp.i
 
 __/packagechooser/PackageModel.s: __/packagechooser/PackageModel.cpp.s
@@ -336,7 +336,7 @@ __/packagechooser/PackageModel.s: __/packagechooser/PackageModel.cpp.s
 
 # target to generate assembly for a file
 __/packagechooser/PackageModel.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/PackageModel.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/__/packagechooser/PackageModel.cpp.s
 .PHONY : __/packagechooser/PackageModel.cpp.s
 
 calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.o: calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.o
@@ -344,7 +344,7 @@ calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.o: c
 
 # target to build an object file
 calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.o
 .PHONY : calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.o
 
 calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.i: calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.i
@@ -352,7 +352,7 @@ calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.i: c
 
 # target to preprocess a source file
 calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.i
 .PHONY : calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.i
 
 calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.s: calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.s
@@ -360,7 +360,7 @@ calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.s: c
 
 # target to generate assembly for a file
 calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.s
 .PHONY : calamares_viewmodule_packagechooserq_autogen/EWIEGA46WW/qrc_packagechooserq.cpp.s
 
 calamares_viewmodule_packagechooserq_autogen/mocs_compilation.o: calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.o
@@ -368,7 +368,7 @@ calamares_viewmodule_packagechooserq_autogen/mocs_compilation.o: calamares_viewm
 
 # target to build an object file
 calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.o
 
 calamares_viewmodule_packagechooserq_autogen/mocs_compilation.i: calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.i
@@ -376,7 +376,7 @@ calamares_viewmodule_packagechooserq_autogen/mocs_compilation.i: calamares_viewm
 
 # target to preprocess a source file
 calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.i
 
 calamares_viewmodule_packagechooserq_autogen/mocs_compilation.s: calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.s
@@ -384,7 +384,7 @@ calamares_viewmodule_packagechooserq_autogen/mocs_compilation.s: calamares_viewm
 
 # target to generate assembly for a file
 calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/build.make src/modules/packagechooserq/CMakeFiles/calamares_viewmodule_packagechooserq.dir/calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_viewmodule_packagechooserq_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -436,6 +436,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

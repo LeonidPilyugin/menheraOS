@@ -1,7 +1,7 @@
 src/libcalamares/CMakeFiles/calamares.dir/partition/PartitionIterator.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionIterator.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionIterator.cpp \
  /usr/include/stdc-predef.h \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionIterator.h \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/libcalamares/partition/PartitionIterator.h \
  /usr/include/kpmcore/core/device.h \
  /usr/include/kpmcore/util/libpartitionmanagerexport.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \

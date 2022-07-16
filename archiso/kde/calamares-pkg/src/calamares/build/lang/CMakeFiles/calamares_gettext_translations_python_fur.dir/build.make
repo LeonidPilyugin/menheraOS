@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 # Utility rule file for calamares_gettext_translations_python_fur.
 
@@ -69,8 +69,8 @@ include lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/progress.m
 lang/CMakeFiles/calamares_gettext_translations_python_fur: lang/fur/LC_MESSAGES/calamares-python.mo
 
 lang/fur/LC_MESSAGES/calamares-python.mo: ../lang/python/fur/LC_MESSAGES/python.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating fur/LC_MESSAGES/calamares-python.mo"
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang && /usr/bin/msgfmt -o /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang/fur/LC_MESSAGES/calamares-python.mo /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/lang/python/fur/LC_MESSAGES/python.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating fur/LC_MESSAGES/calamares-python.mo"
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang && /usr/bin/msgfmt -o /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang/fur/LC_MESSAGES/calamares-python.mo /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/lang/python/fur/LC_MESSAGES/python.po
 
 calamares_gettext_translations_python_fur: lang/CMakeFiles/calamares_gettext_translations_python_fur
 calamares_gettext_translations_python_fur: lang/fur/LC_MESSAGES/calamares-python.mo
@@ -82,10 +82,10 @@ lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/build: calamares_g
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/build
 
 lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang && $(CMAKE_COMMAND) -P CMakeFiles/calamares_gettext_translations_python_fur.dir/cmake_clean.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang && $(CMAKE_COMMAND) -P CMakeFiles/calamares_gettext_translations_python_fur.dir/cmake_clean.cmake
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/clean
 
 lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/lang /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/lang /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_fur.dir/depend
 

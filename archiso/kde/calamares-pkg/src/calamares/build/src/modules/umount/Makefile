@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares
+CMAKE_SOURCE_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
+CMAKE_BINARY_DIR = /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/umount//CMakeFiles/progress.marks
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/umount//CMakeFiles/progress.marks
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/clean
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/preinstall
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/umount/CMakeFiles/calamares_job_umount.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/CMakeFiles/calamares_job_umount.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/CMakeFiles/calamares_job_umount.dir/rule
 .PHONY : src/modules/umount/CMakeFiles/calamares_job_umount.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_job_umount: src/modules/umount/CMakeFiles/calamares_job_umount.dir/rul
 
 # fast build rule for target.
 calamares_job_umount/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount.dir/build
 .PHONY : calamares_job_umount/fast
 
 # Convenience name for target.
 src/modules/umount/CMakeFiles/umounttest.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/CMakeFiles/umounttest.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/CMakeFiles/umounttest.dir/rule
 .PHONY : src/modules/umount/CMakeFiles/umounttest.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ umounttest: src/modules/umount/CMakeFiles/umounttest.dir/rule
 
 # fast build rule for target.
 umounttest/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest.dir/build.make src/modules/umount/CMakeFiles/umounttest.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest.dir/build.make src/modules/umount/CMakeFiles/umounttest.dir/build
 .PHONY : umounttest/fast
 
 # Convenience name for target.
 src/modules/umount/CMakeFiles/calamares_job_umount_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/CMakeFiles/calamares_job_umount_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/CMakeFiles/calamares_job_umount_autogen.dir/rule
 .PHONY : src/modules/umount/CMakeFiles/calamares_job_umount_autogen.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ calamares_job_umount_autogen: src/modules/umount/CMakeFiles/calamares_job_umount
 
 # fast build rule for target.
 calamares_job_umount_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount_autogen.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount_autogen.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount_autogen.dir/build
 .PHONY : calamares_job_umount_autogen/fast
 
 # Convenience name for target.
 src/modules/umount/CMakeFiles/umounttest_autogen.dir/rule:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/CMakeFiles/umounttest_autogen.dir/rule
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/umount/CMakeFiles/umounttest_autogen.dir/rule
 .PHONY : src/modules/umount/CMakeFiles/umounttest_autogen.dir/rule
 
 # Convenience name for target.
@@ -244,7 +244,7 @@ umounttest_autogen: src/modules/umount/CMakeFiles/umounttest_autogen.dir/rule
 
 # fast build rule for target.
 umounttest_autogen/fast:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest_autogen.dir/build.make src/modules/umount/CMakeFiles/umounttest_autogen.dir/build
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest_autogen.dir/build.make src/modules/umount/CMakeFiles/umounttest_autogen.dir/build
 .PHONY : umounttest_autogen/fast
 
 Tests.o: Tests.cpp.o
@@ -252,7 +252,7 @@ Tests.o: Tests.cpp.o
 
 # target to build an object file
 Tests.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest.dir/build.make src/modules/umount/CMakeFiles/umounttest.dir/Tests.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest.dir/build.make src/modules/umount/CMakeFiles/umounttest.dir/Tests.cpp.o
 .PHONY : Tests.cpp.o
 
 Tests.i: Tests.cpp.i
@@ -260,7 +260,7 @@ Tests.i: Tests.cpp.i
 
 # target to preprocess a source file
 Tests.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest.dir/build.make src/modules/umount/CMakeFiles/umounttest.dir/Tests.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest.dir/build.make src/modules/umount/CMakeFiles/umounttest.dir/Tests.cpp.i
 .PHONY : Tests.cpp.i
 
 Tests.s: Tests.cpp.s
@@ -268,7 +268,7 @@ Tests.s: Tests.cpp.s
 
 # target to generate assembly for a file
 Tests.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest.dir/build.make src/modules/umount/CMakeFiles/umounttest.dir/Tests.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest.dir/build.make src/modules/umount/CMakeFiles/umounttest.dir/Tests.cpp.s
 .PHONY : Tests.cpp.s
 
 UmountJob.o: UmountJob.cpp.o
@@ -276,7 +276,7 @@ UmountJob.o: UmountJob.cpp.o
 
 # target to build an object file
 UmountJob.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount.dir/UmountJob.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount.dir/UmountJob.cpp.o
 .PHONY : UmountJob.cpp.o
 
 UmountJob.i: UmountJob.cpp.i
@@ -284,7 +284,7 @@ UmountJob.i: UmountJob.cpp.i
 
 # target to preprocess a source file
 UmountJob.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount.dir/UmountJob.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount.dir/UmountJob.cpp.i
 .PHONY : UmountJob.cpp.i
 
 UmountJob.s: UmountJob.cpp.s
@@ -292,7 +292,7 @@ UmountJob.s: UmountJob.cpp.s
 
 # target to generate assembly for a file
 UmountJob.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount.dir/UmountJob.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount.dir/UmountJob.cpp.s
 .PHONY : UmountJob.cpp.s
 
 calamares_job_umount_autogen/mocs_compilation.o: calamares_job_umount_autogen/mocs_compilation.cpp.o
@@ -300,7 +300,7 @@ calamares_job_umount_autogen/mocs_compilation.o: calamares_job_umount_autogen/mo
 
 # target to build an object file
 calamares_job_umount_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount.dir/calamares_job_umount_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount.dir/calamares_job_umount_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_job_umount_autogen/mocs_compilation.cpp.o
 
 calamares_job_umount_autogen/mocs_compilation.i: calamares_job_umount_autogen/mocs_compilation.cpp.i
@@ -308,7 +308,7 @@ calamares_job_umount_autogen/mocs_compilation.i: calamares_job_umount_autogen/mo
 
 # target to preprocess a source file
 calamares_job_umount_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount.dir/calamares_job_umount_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount.dir/calamares_job_umount_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_job_umount_autogen/mocs_compilation.cpp.i
 
 calamares_job_umount_autogen/mocs_compilation.s: calamares_job_umount_autogen/mocs_compilation.cpp.s
@@ -316,7 +316,7 @@ calamares_job_umount_autogen/mocs_compilation.s: calamares_job_umount_autogen/mo
 
 # target to generate assembly for a file
 calamares_job_umount_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount.dir/calamares_job_umount_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/calamares_job_umount.dir/build.make src/modules/umount/CMakeFiles/calamares_job_umount.dir/calamares_job_umount_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_job_umount_autogen/mocs_compilation.cpp.s
 
 umounttest_autogen/mocs_compilation.o: umounttest_autogen/mocs_compilation.cpp.o
@@ -324,7 +324,7 @@ umounttest_autogen/mocs_compilation.o: umounttest_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 umounttest_autogen/mocs_compilation.cpp.o:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest.dir/build.make src/modules/umount/CMakeFiles/umounttest.dir/umounttest_autogen/mocs_compilation.cpp.o
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest.dir/build.make src/modules/umount/CMakeFiles/umounttest.dir/umounttest_autogen/mocs_compilation.cpp.o
 .PHONY : umounttest_autogen/mocs_compilation.cpp.o
 
 umounttest_autogen/mocs_compilation.i: umounttest_autogen/mocs_compilation.cpp.i
@@ -332,7 +332,7 @@ umounttest_autogen/mocs_compilation.i: umounttest_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 umounttest_autogen/mocs_compilation.cpp.i:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest.dir/build.make src/modules/umount/CMakeFiles/umounttest.dir/umounttest_autogen/mocs_compilation.cpp.i
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest.dir/build.make src/modules/umount/CMakeFiles/umounttest.dir/umounttest_autogen/mocs_compilation.cpp.i
 .PHONY : umounttest_autogen/mocs_compilation.cpp.i
 
 umounttest_autogen/mocs_compilation.s: umounttest_autogen/mocs_compilation.cpp.s
@@ -340,7 +340,7 @@ umounttest_autogen/mocs_compilation.s: umounttest_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 umounttest_autogen/mocs_compilation.cpp.s:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest.dir/build.make src/modules/umount/CMakeFiles/umounttest.dir/umounttest_autogen/mocs_compilation.cpp.s
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/umount/CMakeFiles/umounttest.dir/build.make src/modules/umount/CMakeFiles/umounttest.dir/umounttest_autogen/mocs_compilation.cpp.s
 .PHONY : umounttest_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -385,6 +385,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

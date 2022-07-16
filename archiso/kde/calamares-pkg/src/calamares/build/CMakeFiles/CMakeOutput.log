@@ -1,4 +1,4 @@
-The system is: Linux - 5.15.50-1-MANJARO - x86_64
+The system is: Linux - 5.18.11-arch1-1 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: -march=x86-64;-mtune=generic;-O2;-pipe;-fno-plt;-fexceptions;;;;;;;;;-Wp,-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;;;;;;;;;-fstack-clash-protection;-fcf-protection
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/3.23.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/3.23.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,15 +23,15 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/3.23.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/3.23.2/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
+Change Dir: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_1502b/fast && /usr/bin/make  -f CMakeFiles/cmTC_1502b.dir/build.make CMakeFiles/cmTC_1502b.dir/build
-make[1]: Entering directory '/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection    -v -o CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7896/fast && /usr/bin/make  -f CMakeFiles/cmTC_d7896.dir/build.make CMakeFiles/cmTC_d7896.dir/build
+make[1]: Entering directory '/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection    -v -o CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 Target: x86_64-pc-linux-gnu
@@ -39,9 +39,9 @@ Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortr
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 12.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_1502b.dir/'
- /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/cc1 -quiet -v -D_FORTIFY_SOURCE=2 /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1502b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=x86-64 -mtune=generic -O2 -Wformat=1 -version -fno-plt -fexceptions -fstack-clash-protection -fcf-protection=full -o - |
- as -v --64 -o CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_d7896.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/cc1 -quiet -v -D_FORTIFY_SOURCE=2 /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d7896.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=x86-64 -mtune=generic -O2 -Wformat=1 -version -fno-plt -fexceptions -fstack-clash-protection -fcf-protection=full -o - |
+ as -v --64 -o CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o
 GNU assembler version 2.38 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.38
 GNU C17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.25-GMP
@@ -62,10 +62,10 @@ GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 3e6a47a96552b6758214eb71bda8ede7
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_1502b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1502b.dir/link.txt --verbose=1
-/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -v -rdynamic CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o -o cmTC_1502b 
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_d7896
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7896.dir/link.txt --verbose=1
+/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -v -rdynamic CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o -o cmTC_d7896 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper
@@ -76,10 +76,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 12.1.0 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-rdynamic' '-o' 'cmTC_1502b' '-dumpdir' 'cmTC_1502b.'
- /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTOPObV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1502b /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. -O1 --sort-common --as-needed -z relro -z now CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-rdynamic' '-o' 'cmTC_1502b' '-dumpdir' 'cmTC_1502b.'
-make[1]: Leaving directory '/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-rdynamic' '-o' 'cmTC_d7896' '-dumpdir' 'cmTC_d7896.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4NeZFo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7896 /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. -O1 --sort-common --as-needed -z relro -z now CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-rdynamic' '-o' 'cmTC_d7896' '-dumpdir' 'cmTC_d7896.'
+make[1]: Leaving directory '/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -100,12 +100,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_1502b/fast && /usr/bin/make  -f CMakeFiles/cmTC_1502b.dir/build.make CMakeFiles/cmTC_1502b.dir/build]
-  ignore line: [make[1]: Entering directory '/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp -D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection    -v -o CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7896/fast && /usr/bin/make  -f CMakeFiles/cmTC_d7896.dir/build.make CMakeFiles/cmTC_d7896.dir/build]
+  ignore line: [make[1]: Entering directory '/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp -D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection    -v -o CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [Target: x86_64-pc-linux-gnu]
@@ -113,9 +113,9 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 12.1.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_1502b.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/cc1 -quiet -v -D_FORTIFY_SOURCE=2 /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1502b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=x86-64 -mtune=generic -O2 -Wformat=1 -version -fno-plt -fexceptions -fstack-clash-protection -fcf-protection=full -o - |]
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_d7896.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/cc1 -quiet -v -D_FORTIFY_SOURCE=2 /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d7896.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=x86-64 -mtune=generic -O2 -Wformat=1 -version -fno-plt -fexceptions -fstack-clash-protection -fcf-protection=full -o - |]
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o]
   ignore line: [GNU assembler version 2.38 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.38]
   ignore line: [GNU C17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.25-GMP]
@@ -136,10 +136,10 @@ Parsed C implicit link information from above output:
   ignore line: [Compiler executable checksum: 3e6a47a96552b6758214eb71bda8ede7]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_1502b]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1502b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp -D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection  -Wl -O1 --sort-common --as-needed -z relro -z now -v -rdynamic CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o -o cmTC_1502b ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_d7896]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7896.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp -D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection  -Wl -O1 --sort-common --as-needed -z relro -z now -v -rdynamic CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o -o cmTC_d7896 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper]
@@ -150,13 +150,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 12.1.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-rdynamic' '-o' 'cmTC_1502b' '-dumpdir' 'cmTC_1502b.']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTOPObV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1502b /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. -O1 --sort-common --as-needed -z relro -z now CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-rdynamic' '-o' 'cmTC_d7896' '-dumpdir' 'cmTC_d7896.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4NeZFo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7896 /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. -O1 --sort-common --as-needed -z relro -z now CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccTOPObV.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4NeZFo.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -172,7 +172,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1502b] ==> ignore
+    arg [cmTC_d7896] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crti.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbeginS.o]
@@ -186,7 +186,7 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-znow] ==> ignore
-    arg [CMakeFiles/cmTC_1502b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_d7896.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -215,12 +215,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
+Change Dir: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_3fba7/fast && /usr/bin/make  -f CMakeFiles/cmTC_3fba7.dir/build.make CMakeFiles/cmTC_3fba7.dir/build
-make[1]: Entering directory '/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection -Wp,-D_GLIBCXX_ASSERTIONS    -v -o CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_17cbc/fast && /usr/bin/make  -f CMakeFiles/cmTC_17cbc.dir/build.make CMakeFiles/cmTC_17cbc.dir/build
+make[1]: Entering directory '/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection -Wp,-D_GLIBCXX_ASSERTIONS    -v -o CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 Target: x86_64-pc-linux-gnu
@@ -228,9 +228,9 @@ Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortr
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 12.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_3fba7.dir/'
- /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3fba7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=x86-64 -mtune=generic -O2 -Wformat=1 -version -fno-plt -fexceptions -fstack-clash-protection -fcf-protection=full -o - |
- as -v --64 -o CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_17cbc.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_17cbc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=x86-64 -mtune=generic -O2 -Wformat=1 -version -fno-plt -fexceptions -fstack-clash-protection -fcf-protection=full -o - |
+ as -v --64 -o CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o
 GNU assembler version 2.38 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.38
 GNU C++17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.25-GMP
@@ -254,10 +254,10 @@ GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 14439460ac50886fda7029a3ce5859f0
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_3fba7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fba7.dir/link.txt --verbose=1
-/usr/bin/c++ -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection -Wp,-D_GLIBCXX_ASSERTIONS  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -v -rdynamic CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3fba7 
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_17cbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17cbc.dir/link.txt --verbose=1
+/usr/bin/c++ -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection -Wp,-D_GLIBCXX_ASSERTIONS  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -v -rdynamic CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_17cbc 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper
@@ -268,10 +268,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 12.1.0 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-rdynamic' '-o' 'cmTC_3fba7' '-shared-libgcc' '-dumpdir' 'cmTC_3fba7.'
- /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwRZoDc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3fba7 /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. -O1 --sort-common --as-needed -z relro -z now CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-rdynamic' '-o' 'cmTC_3fba7' '-shared-libgcc' '-dumpdir' 'cmTC_3fba7.'
-make[1]: Leaving directory '/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-rdynamic' '-o' 'cmTC_17cbc' '-shared-libgcc' '-dumpdir' 'cmTC_17cbc.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccNXAPN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_17cbc /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. -O1 --sort-common --as-needed -z relro -z now CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-rdynamic' '-o' 'cmTC_17cbc' '-shared-libgcc' '-dumpdir' 'cmTC_17cbc.'
+make[1]: Leaving directory '/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -298,12 +298,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_3fba7/fast && /usr/bin/make  -f CMakeFiles/cmTC_3fba7.dir/build.make CMakeFiles/cmTC_3fba7.dir/build]
-  ignore line: [make[1]: Entering directory '/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp -D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection -Wp -D_GLIBCXX_ASSERTIONS    -v -o CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_17cbc/fast && /usr/bin/make  -f CMakeFiles/cmTC_17cbc.dir/build.make CMakeFiles/cmTC_17cbc.dir/build]
+  ignore line: [make[1]: Entering directory '/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp -D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection -Wp -D_GLIBCXX_ASSERTIONS    -v -o CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [Target: x86_64-pc-linux-gnu]
@@ -311,9 +311,9 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 12.1.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_3fba7.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3fba7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=x86-64 -mtune=generic -O2 -Wformat=1 -version -fno-plt -fexceptions -fstack-clash-protection -fcf-protection=full -o - |]
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_17cbc.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_17cbc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=x86-64 -mtune=generic -O2 -Wformat=1 -version -fno-plt -fexceptions -fstack-clash-protection -fcf-protection=full -o - |]
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [GNU assembler version 2.38 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.38]
   ignore line: [GNU C++17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.25-GMP]
@@ -337,10 +337,10 @@ Parsed CXX implicit link information from above output:
   ignore line: [Compiler executable checksum: 14439460ac50886fda7029a3ce5859f0]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_3fba7]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fba7.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++ -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp -D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection -Wp -D_GLIBCXX_ASSERTIONS  -Wl -O1 --sort-common --as-needed -z relro -z now -v -rdynamic CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3fba7 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-o' 'CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_17cbc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17cbc.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++ -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp -D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection -Wp -D_GLIBCXX_ASSERTIONS  -Wl -O1 --sort-common --as-needed -z relro -z now -v -rdynamic CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_17cbc ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper]
@@ -351,13 +351,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 12.1.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-rdynamic' '-o' 'cmTC_3fba7' '-shared-libgcc' '-dumpdir' 'cmTC_3fba7.']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwRZoDc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3fba7 /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. -O1 --sort-common --as-needed -z relro -z now CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fno-plt' '-fexceptions' '-Wformat=1' '-fstack-clash-protection' '-fcf-protection=full' '-v' '-rdynamic' '-o' 'cmTC_17cbc' '-shared-libgcc' '-dumpdir' 'cmTC_17cbc.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccNXAPN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_17cbc /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. -O1 --sort-common --as-needed -z relro -z now CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccwRZoDc.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cccNXAPN.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -373,7 +373,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3fba7] ==> ignore
+    arg [cmTC_17cbc] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib/crti.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbeginS.o]
@@ -387,7 +387,7 @@ Parsed CXX implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-znow] ==> ignore
-    arg [CMakeFiles/cmTC_3fba7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_17cbc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -412,86 +412,86 @@ Parsed CXX implicit link information from above output:
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/libX11.so;/usr/lib/libXext.so passed with the following output:
-Change Dir: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
+Change Dir: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_b3fa5/fast && /usr/bin/make  -f CMakeFiles/cmTC_b3fa5.dir/build.make CMakeFiles/cmTC_b3fa5.dir/build
-make[1]: вход в каталог «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_b3fa5.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_b3fa5.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b3fa5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3fa5.dir/link.txt --verbose=1
-/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=XOpenDisplay -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_b3fa5.dir/CheckFunctionExists.c.o -o cmTC_b3fa5  /usr/lib/libX11.so /usr/lib/libXext.so 
-make[1]: выход из каталога «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dc3f4/fast && /usr/bin/make  -f CMakeFiles/cmTC_dc3f4.dir/build.make CMakeFiles/cmTC_dc3f4.dir/build
+make[1]: вход в каталог «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_dc3f4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_dc3f4.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dc3f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc3f4.dir/link.txt --verbose=1
+/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=XOpenDisplay -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_dc3f4.dir/CheckFunctionExists.c.o -o cmTC_dc3f4  /usr/lib/libX11.so /usr/lib/libXext.so 
+make[1]: выход из каталога «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
+Change Dir: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_6f5e5/fast && /usr/bin/make  -f CMakeFiles/cmTC_6f5e5.dir/build.make CMakeFiles/cmTC_6f5e5.dir/build
-make[1]: вход в каталог «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_6f5e5.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_6f5e5.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6f5e5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f5e5.dir/link.txt --verbose=1
-/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=gethostbyname -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_6f5e5.dir/CheckFunctionExists.c.o -o cmTC_6f5e5 
-make[1]: выход из каталога «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7fd38/fast && /usr/bin/make  -f CMakeFiles/cmTC_7fd38.dir/build.make CMakeFiles/cmTC_7fd38.dir/build
+make[1]: вход в каталог «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_7fd38.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_7fd38.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7fd38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fd38.dir/link.txt --verbose=1
+/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=gethostbyname -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_7fd38.dir/CheckFunctionExists.c.o -o cmTC_7fd38 
+make[1]: выход из каталога «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
+Change Dir: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_2ff10/fast && /usr/bin/make  -f CMakeFiles/cmTC_2ff10.dir/build.make CMakeFiles/cmTC_2ff10.dir/build
-make[1]: вход в каталог «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_2ff10.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_2ff10.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_2ff10
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ff10.dir/link.txt --verbose=1
-/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=connect -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_2ff10.dir/CheckFunctionExists.c.o -o cmTC_2ff10 
-make[1]: выход из каталога «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cf3b4/fast && /usr/bin/make  -f CMakeFiles/cmTC_cf3b4.dir/build.make CMakeFiles/cmTC_cf3b4.dir/build
+make[1]: вход в каталог «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_cf3b4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_cf3b4.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cf3b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf3b4.dir/link.txt --verbose=1
+/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=connect -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_cf3b4.dir/CheckFunctionExists.c.o -o cmTC_cf3b4 
+make[1]: выход из каталога «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
+Change Dir: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_cfb18/fast && /usr/bin/make  -f CMakeFiles/cmTC_cfb18.dir/build.make CMakeFiles/cmTC_cfb18.dir/build
-make[1]: вход в каталог «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_cfb18.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_cfb18.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_cfb18
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfb18.dir/link.txt --verbose=1
-/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=remove -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_cfb18.dir/CheckFunctionExists.c.o -o cmTC_cfb18 
-make[1]: выход из каталога «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1c8aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_1c8aa.dir/build.make CMakeFiles/cmTC_1c8aa.dir/build
+make[1]: вход в каталог «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_1c8aa.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_1c8aa.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1c8aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c8aa.dir/link.txt --verbose=1
+/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=remove -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_1c8aa.dir/CheckFunctionExists.c.o -o cmTC_1c8aa 
+make[1]: выход из каталога «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
+Change Dir: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_4dd2e/fast && /usr/bin/make  -f CMakeFiles/cmTC_4dd2e.dir/build.make CMakeFiles/cmTC_4dd2e.dir/build
-make[1]: вход в каталог «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_4dd2e.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_4dd2e.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_4dd2e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dd2e.dir/link.txt --verbose=1
-/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=shmat -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_4dd2e.dir/CheckFunctionExists.c.o -o cmTC_4dd2e 
-make[1]: выход из каталога «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a607a/fast && /usr/bin/make  -f CMakeFiles/cmTC_a607a.dir/build.make CMakeFiles/cmTC_a607a.dir/build
+make[1]: вход в каталог «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_a607a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_a607a.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a607a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a607a.dir/link.txt --verbose=1
+/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=shmat -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_a607a.dir/CheckFunctionExists.c.o -o cmTC_a607a 
+make[1]: выход из каталога «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
 
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
+Change Dir: /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_c6a5a/fast && /usr/bin/make  -f CMakeFiles/cmTC_c6a5a.dir/build.make CMakeFiles/cmTC_c6a5a.dir/build
-make[1]: вход в каталог «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_c6a5a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_c6a5a.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c6a5a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6a5a.dir/link.txt --verbose=1
-/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_c6a5a.dir/CheckFunctionExists.c.o -o cmTC_c6a5a  -lICE 
-make[1]: выход из каталога «/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c50a1/fast && /usr/bin/make  -f CMakeFiles/cmTC_c50a1.dir/build.make CMakeFiles/cmTC_c50a1.dir/build
+make[1]: вход в каталог «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_c50a1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_c50a1.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c50a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c50a1.dir/link.txt --verbose=1
+/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wall -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_c50a1.dir/CheckFunctionExists.c.o -o cmTC_c50a1  -lICE 
+make[1]: выход из каталога «/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/CMakeFiles/CMakeTmp»
 
 
 

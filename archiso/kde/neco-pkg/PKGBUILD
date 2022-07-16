@@ -1,0 +1,12 @@
+# Maintainer: Leonid Pilyugin  <l.pilyugin04@gmail.com>
+
+pkgname=necoarch
+pkgver=1.0
+pkgrel=1
+pkgdesc='Neco the arch system'
+arch=('x86_64')
+
+package() {
+    cd $srcdir
+
+}

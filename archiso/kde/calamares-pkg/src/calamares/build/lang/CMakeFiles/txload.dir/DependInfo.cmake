@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/lang/txload.cpp" "lang/CMakeFiles/txload.dir/txload.cpp.o" "gcc" "lang/CMakeFiles/txload.dir/txload.cpp.o.d"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/lang/txload.cpp" "lang/CMakeFiles/txload.dir/txload.cpp.o" "gcc" "lang/CMakeFiles/txload.dir/txload.cpp.o.d"
   )
 
 # Targets to which this target links.

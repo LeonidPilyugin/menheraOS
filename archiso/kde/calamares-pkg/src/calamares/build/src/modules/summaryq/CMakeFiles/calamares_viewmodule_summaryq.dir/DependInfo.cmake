@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/summaryq/SummaryQmlViewStep.cpp" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/SummaryQmlViewStep.cpp.o" "gcc" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/SummaryQmlViewStep.cpp.o.d"
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/summary/Config.cpp" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/__/summary/Config.cpp.o" "gcc" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/__/summary/Config.cpp.o.d"
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/EWIEGA46WW/qrc_summaryq.cpp" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/calamares_viewmodule_summaryq_autogen/EWIEGA46WW/qrc_summaryq.cpp.o" "gcc" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/calamares_viewmodule_summaryq_autogen/EWIEGA46WW/qrc_summaryq.cpp.o.d"
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/mocs_compilation.cpp" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/calamares_viewmodule_summaryq_autogen/mocs_compilation.cpp.o" "gcc" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/calamares_viewmodule_summaryq_autogen/mocs_compilation.cpp.o.d"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/summaryq/SummaryQmlViewStep.cpp" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/SummaryQmlViewStep.cpp.o" "gcc" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/SummaryQmlViewStep.cpp.o.d"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/src/modules/summary/Config.cpp" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/__/summary/Config.cpp.o" "gcc" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/__/summary/Config.cpp.o.d"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/EWIEGA46WW/qrc_summaryq.cpp" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/calamares_viewmodule_summaryq_autogen/EWIEGA46WW/qrc_summaryq.cpp.o" "gcc" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/calamares_viewmodule_summaryq_autogen/EWIEGA46WW/qrc_summaryq.cpp.o.d"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/mocs_compilation.cpp" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/calamares_viewmodule_summaryq_autogen/mocs_compilation.cpp.o" "gcc" "src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/calamares_viewmodule_summaryq_autogen/mocs_compilation.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamaresui/CMakeFiles/calamaresui.dir/DependInfo.cmake"
-  "/home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CMakeFiles/calamares.dir/DependInfo.cmake"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamaresui/CMakeFiles/calamaresui.dir/DependInfo.cmake"
+  "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/libcalamares/CMakeFiles/calamares.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

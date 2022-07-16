@@ -1,5 +1,5 @@
 lang/CMakeFiles/txload.dir/txload.cpp.o: \
- /home/leonid/github.com/LeonidPilyugin/neco-arch/archiso/kde/calamares-pkg/src/calamares/lang/txload.cpp \
+ /home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/lang/txload.cpp \
  /usr/include/stdc-predef.h /usr/include/qt/QtCore/QCoreApplication \
  /usr/include/qt/QtCore/qcoreapplication.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/12.1.0/type_traits \

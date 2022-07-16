@@ -1,0 +1,1 @@
+/home/leonid/neco-arch/archiso/kde/oh-my-zsh-pkg/.zshrc
