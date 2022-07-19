@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/myfo/neco-arch'
+make: Leaving directory 'c:/myfo/neco-arch'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
