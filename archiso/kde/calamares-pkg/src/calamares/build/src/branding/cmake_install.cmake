@@ -88,3 +88,131 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_CO
     )
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/ImageSlide.qml")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/banner.png")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/banner.png.license")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/branding.desc")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/languages.png")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/languages.png.license")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco1.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco10.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco11.png")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco12.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco13.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco14.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco15.png")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco16.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco17.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco18.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco19.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco2.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco20.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco3.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco4.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco5.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco6.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco7.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco8.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/neco9.jpg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/necoarch-logo-text.png")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/necoarch-logo.png")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/show.qml")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/squid.png")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/squid.png.license")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/kawaii" TYPE FILE FILES "/home/leonid/neco-arch/archiso/kde/calamares-pkg/src/calamares/build/src/branding/kawaii/stylesheet.qss")
+endif()
+

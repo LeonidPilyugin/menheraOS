@@ -125,10 +125,18 @@ zsh
 
 calamares
 xorg
-plasma
+plasma-desktop
 plasma-wayland-session
 konsole
 oh-my-zsh
 neofetch
 vlc
 zsh
+necoarch
+repo/filesystem
+
+#web-greeter
+#lightdm-webkit2-greeter
+#lightdm-gtk-greeter
+lightdm
+lightdm-webkit2-greeter

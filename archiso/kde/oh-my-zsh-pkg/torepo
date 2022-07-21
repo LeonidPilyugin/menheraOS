@@ -1,6 +1,3 @@
 #!/bin/sh
-rm -rf pkg
-rm -rf src
-rm *.pkg.tar.zst
-makepkg
+makepkg -f
 cp *.pkg.tar.zst ../repo/

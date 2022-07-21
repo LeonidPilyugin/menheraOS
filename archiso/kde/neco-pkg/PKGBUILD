@@ -7,6 +7,5 @@ pkgdesc='Neco the arch system'
 arch=('x86_64')
 
 package() {
-    cd $srcdir
-
+    cp -r $srcdir/* $pkgdir
 }

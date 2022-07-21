@@ -7,8 +7,8 @@ pkgdesc='Oh My Zsh is an open source, community-driven framework for managing yo
 arch=('x86_64')
 depends=('zsh' 'git')
 url="https://github.com/ohmyzsh/ohmyzsh"
-source=("https://raw.githubusercontent.com/Matiashik/neco-arch/master/neco-arch-kde/zsh/src/.zshrc" "https://raw.githubusercontent.com/Matiashik/neco-arch/master/neco-arch-kde/zsh/src/kawaii.zsh-theme")
-sha512sums=('SKIP' 'SKIP')
+source=(".zshrc" "kawaii.zsh-theme")
+sha512sums=("SKIP" "SKIP")
 
 package() {
 	export ZSH=$pkgdir/usr/lib/oh-my-zsh

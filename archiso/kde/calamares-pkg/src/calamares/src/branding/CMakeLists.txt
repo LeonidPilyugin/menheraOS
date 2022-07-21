@@ -8,3 +8,4 @@
 # add that one. For examples of other branding components, see
 # the calamares-extensions repository.
 calamares_add_branding_subdirectory( default )
+calamares_add_branding_subdirectory( kawaii )
