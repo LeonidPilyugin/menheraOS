@@ -1,3 +1,0 @@
-#!/bin/sh
-makepkg -f
-cp *.pkg.tar.zst ../repo/

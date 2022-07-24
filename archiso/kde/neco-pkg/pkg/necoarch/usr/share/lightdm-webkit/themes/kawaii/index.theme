@@ -1,6 +1,0 @@
-[theme]
-name=KawaiiTheme
-description=The Kawaiiest theme
-engine=lightdm-webkit-greeter
-url=index.html
-session=plasma

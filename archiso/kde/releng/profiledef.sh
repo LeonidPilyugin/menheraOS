@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="necoarch"
-iso_label="NECOARCH_0"
-iso_publisher="NecoArch Linux <https://matiashik.github.io/neco-arch/>"
-iso_application="NecoArch Linux Live/Rescue CD"
+iso_name="menheraos"
+iso_label="MENHERAOS_1"
+iso_publisher="MenheraOS <https://matiashik.github.io/neco-arch/>"
+iso_application="MenheraOS Live/Rescue CD"
 iso_version="1"
-install_dir="necoarch"
+install_dir="menheraos"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
            'uefi-ia32.grub.esp' 'uefi-x64.grub.esp'

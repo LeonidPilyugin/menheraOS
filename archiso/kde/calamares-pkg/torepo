@@ -1,6 +1,0 @@
-#!/bin/sh
-rm -rf pkg
-rm -rf src/calamares/build
-rm *.pkg.tar.zst
-makepkg
-cp *.pkg.tar.zst ../repo/
