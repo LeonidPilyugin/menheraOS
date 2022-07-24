@@ -5,7 +5,7 @@
 
 body {
     background-image: url('bg.png');
-    background-size: contain;
+    background-size: cover;
     display: table;
     height: 100%;
     width: 100%;

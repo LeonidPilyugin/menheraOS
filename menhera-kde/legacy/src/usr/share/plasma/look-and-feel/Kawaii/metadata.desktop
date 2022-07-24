@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment=Kawaii splash
+
+Encoding=UTF-8
+Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;Hentai;Anime;Kawaii;UwU;UwU OS;
+Name=Kawaii
+Type=Service
+
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Name=Kawaii
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-License=LGPLv3
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-Plasma-MainScript=defaults 

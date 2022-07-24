@@ -1,3 +1,0 @@
-rose: #c58caf
-gray: #333333
-blue: #1793d1

@@ -1,0 +1,11 @@
+NAME="Menhera OS"
+ID=menhera
+ID_LIKE=arch
+BUILD_ID=rolling
+PRETTY_NAME="MenheraOS"
+ANSI_COLOR="38;2;234;164;188"
+HOME_URL="https://matiashik.github.io/meheraOS/"
+DOCUMENTATION_URL="https://matiashik.github.io/meheraOS/"
+SUPPORT_URL="https://github.com/Matiashik/meheraOS"
+BUG_REPORT_URL="https://github.com/Matiashik/meheraOS/"
+LOGO=menhera-logo
