@@ -1,9 +1,11 @@
-#!/bin/sh
+!#/bin/sh
+
+grub-mkconfig -o /boot/grub/grub.cfg
 
 # create neco sudo livecd user
 groupadd -r autologin
-useradd -m -G sys,network,power,lp,wheel,autologin -s /usr/bin/zsh neco
-echo -e "neco\nneco" | passwd neco &> /dev/null
+useradd -m -G sys,network,power,lp,wheel,autologin -s /usr/bin/zsh menhera
+echo -e "menhera\nmenhera" | passwd menhera &> /dev/null
 
 echo '
 #
@@ -39,17 +41,16 @@ webkit_theme        = kawaii
 
 [branding]
 background_images = /usr/share/backgrounds
-logo              = /usr/share/pixmaps/archlinux-logo.svg
+logo              = /usr/share/pixmaps/menhera-logo.svg
 user_image        = /usr/share/pixmaps/archlinux-user.svg
 
 ' > /etc/lightdm/lightdm-webkit2-greeter.conf
 
-#echo '#!/bin/sh
-#dm-tool lock
-#dm-tool switch-to-greeter
-#' > /usr/lib/kscreenlocker_greet/switch-on-lock
-#chmod +x /usr/lib/kscreenlocker_greet/switch-on-lock
+echo '#!/bin/sh
+dm-tool lock
+dm-tool switch-to-greeter
+' > /lib/systemd/system-sleep/switch-on-sleep
+chmod +x /lib/systemd/system-sleep/switch-on-sleep
 
 # autoload kde
 systemctl start lightdm.service && systemctl enable lightdm.service
-#systemctl enable NetworkManager.service

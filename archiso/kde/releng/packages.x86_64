@@ -129,11 +129,11 @@ plasma-desktop
 plasma-wayland-session
 konsole
 oh-my-zsh
-neofetch
+uwufetch
 vlc
 zsh
-necoarch
-repo/filesystem
+kawaii/filesystem
+kawaii/kscreenlocker
 
 #web-greeter
 #lightdm-webkit2-greeter
