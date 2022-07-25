@@ -54,3 +54,4 @@ chmod +x /lib/systemd/system-sleep/switch-on-sleep
 
 # autoload kde
 systemctl start lightdm.service && systemctl enable lightdm.service
+systemctl enable NetworkManager.service

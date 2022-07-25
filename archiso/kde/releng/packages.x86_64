@@ -125,7 +125,7 @@ zsh
 
 calamares
 xorg
-plasma-desktop
+plasma
 plasma-wayland-session
 konsole
 oh-my-zsh
