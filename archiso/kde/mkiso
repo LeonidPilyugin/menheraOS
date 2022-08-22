@@ -1,4 +1,4 @@
 #!/bin/sh
-mkarchiso -v -w /var/cache/archiso -o /home/leonid/Documents/qemu releng
+mkarchiso -v -w /var/cache/archiso -o . releng
 echo -e "\n\nISO DONE!\n\n"
 rm -rf /var/cache/archiso
