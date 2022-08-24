@@ -1,0 +1,2 @@
+#!/bin/sh
+qemu-system-x86_64 -hda menhera.qcow -m 4096 -enable-kvm -soundhw ac97 -vga qxl -boot d -cdrom *.iso

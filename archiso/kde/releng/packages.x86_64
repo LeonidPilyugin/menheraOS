@@ -1,10 +1,9 @@
-
+kawaii/kawaii-keyring
 kawaii/kawaii-filesystem
-kawaii/kawaii-kscreenlocker
 kawaii/kawaii-oh-my-zsh
-kawaii/kawaii-uwufetch
 kawaii/kawaii-calamares
-kawaii/kawaii-wallpapers
+kawaii/kawaii
+kawaii/kawaii-config
 
 alsa-utils
 amd-ucode

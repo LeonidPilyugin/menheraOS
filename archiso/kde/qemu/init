@@ -1,0 +1,2 @@
+#!/bin/sh
+qemu-img create -f qcow2 menhera.qcow 10G
