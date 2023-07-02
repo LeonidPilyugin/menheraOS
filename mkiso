@@ -1,0 +1,3 @@
+#!/bin/sh
+mkarchiso -v -w /var/cache/archiso releng
+rm -rf /var/cache/archiso

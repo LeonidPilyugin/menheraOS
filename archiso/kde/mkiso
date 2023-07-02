@@ -1,5 +1,0 @@
-#!/bin/sh
-sudo mkarchiso -v -w /var/cache/archiso -o qemu releng
-echo -e "\n\nISO DONE!\n\n"
-gurenyuu
-sudo rm -rf /var/cache/archiso
