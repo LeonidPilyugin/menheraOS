@@ -1,6 +1,6 @@
 # MenheraOS
 
-This repo contains the build for MenheraOS.
+Arch-based kawaii OS.
 
 ## What is MenheraOS?
 MenheraOS is the most Kawaii OS. It's based on [Arch Linux](https://archlinux.org/) and has
