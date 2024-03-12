@@ -26,7 +26,7 @@ You can see some some previews below.
 <img src="doc/wallpaper.png">
 
 ## OK, I want to install MenheraOS on my computer. What should I do?
-For a start, [download the latest MenheraOS ISO](https://www.dropbox.com/scl/fi/xs91p9vcbwz6z4dxnhlsg/menheraos-04_02_2024-x86_64.iso)
+For a start, [download the latest MenheraOS ISO](https://www.dropbox.com/scl/fi/xs91p9vcbwz6z4dxnhlsg/menheraos-04_02_2024-x86_64.iso?rlkey=97o2tam6lwspz8wo1nib0rqxf&dl=0)
 or build it yourself.
 Then, [create a bootable USB stick](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview).
 After that, [boot from USB](https://www.acronis.com/en-us/blog/posts/usb-boot/) and when system load,
