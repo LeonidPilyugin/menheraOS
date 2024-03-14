@@ -41,7 +41,7 @@ Firstly, install [archiso](https://wiki.archlinux.org/title/Archiso).
 
 Secondly, clone this repo
 ```
-$ git clone https://github.com/Matiashik/menheraOS
+$ git clone https://github.com/LeonidPilyugin/menheraOS.git
 ```
 
 Finally, run mksio script as root from project root
