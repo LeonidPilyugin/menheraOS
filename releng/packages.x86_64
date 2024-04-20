@@ -141,7 +141,6 @@ xl2tpd
 zsh
 
 xorg
-plasma-wayland-session
 konsole
 plasma-meta
 sddm
@@ -196,7 +195,6 @@ kpipewire
 lib32-pipewire
 pkgconf
 plasma-meta
-plasma-wayland-session
 sddm
 sed
 smartmontools
@@ -225,5 +223,4 @@ alsa-ucm-conf
 alsa-utils
 lib32-alsa-lib
 lib32-alsa-plugins
-pulseaudio-alsa
 
