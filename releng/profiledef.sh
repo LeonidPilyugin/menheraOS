@@ -3,7 +3,7 @@
 
 iso_name="menheraos"
 iso_label="MENHERAOS_1"
-iso_publisher="MenheraOS <https://matiashik.github.io/neco-arch/>"
+iso_publisher="MenheraOS <https://github.com/LeonidPilyugin/menheraOS>"
 iso_application="MenheraOS Live/Rescue CD"
 iso_version="1"
 install_dir="menheraos"
