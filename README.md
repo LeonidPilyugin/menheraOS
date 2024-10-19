@@ -31,8 +31,8 @@ Then, [create a bootable USB stick](https://ubuntu.com/tutorials/create-a-usb-st
 After that, [boot from USB](https://www.acronis.com/en-us/blog/posts/usb-boot/) and when system load,
 click on "Install" label on desktop and follow instructions.
 
-| :exclamation: It is recommended to test installation in virtual machine or backup your system before installing MenheraOS on your computer, because the installer may be not tested enough |
-|-----------------------------------------|
+> [!WARNING]
+> It is recommended to test installation in virtual machine or backup your system before installing MenheraOS on your computer, because the installer may be not tested enough.
 
 ## How can I build ISO myself?
 We do not recommend to do it, because usually we cannot update installer package timely (we do it twice: in January and July), so there will
