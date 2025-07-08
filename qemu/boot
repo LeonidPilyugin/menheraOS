@@ -1,0 +1,43 @@
+#!/bin/bash
+
+POSITIONAL_ARGS=()
+
+MEM=4096
+ISO=""
+EFI=""
+
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        -i|--iso)
+            ISO="$2"
+            shift 2
+            ;;
+        -m|--mem)
+            MEM="$2"
+            shift 2
+            ;;
+        -e|--efi)
+            EFI=yes
+            shift
+            ;;
+        *)
+            POSITIONAL_ARGS+=("$1")
+            shift
+            ;;
+    esac
+done
+
+set -- "${POSITIONAL_ARGS[@]}"
+
+QEMU_ARGS="-hda $1 -m $MEM -enable-kvm -vga virtio"
+
+if [ -n "$EFI" ]; then
+    QEMU_ARGS="$QEMU_ARGS -drive if=pflash,format=raw,readonly=on,file=/usr/share/edk2/x64/OVMF_CODE.4m.fd"
+    QEMU_ARGS="$QEMU_ARGS -drive if=pflash,format=raw,file=qemu/OVMF_VARS.4m.fd"
+fi
+
+if [ -n "$ISO" ]; then
+    QEMU_ARGS="$QEMU_ARGS -boot d -cdrom $ISO"
+fi
+
+qemu-system-x86_64 $QEMU_ARGS

@@ -1,3 +1,4 @@
-qemu/
 out/
 *.iso
+testing/
+mkiso-testing

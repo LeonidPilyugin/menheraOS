@@ -1,0 +1,15 @@
+root:x:0:root
+sys:x:3:bin,menhera
+network:x:90:menhera
+power:x:98:menhera
+adm:x:999:menhera
+wheel:x:998:menhera
+uucp:x:987:menhera
+optical:x:990:menhera
+rfkill:x:983:menhera
+video:x:986:menhera
+storage:x:988:menhera
+audio:x:995:menhera
+users:x:985:menhera
+autologin:x:967:menhera
+menhera:x:1000:menhera

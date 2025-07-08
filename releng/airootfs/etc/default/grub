@@ -1,0 +1,5 @@
+GRUB_DEFAULT=0
+GRUB_TIMEOUT=20
+GRUB_TIMEOUT_STYLE=menu
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+GRUB_THEME=/usr/share/grub/themes/kawaii/theme.txt
