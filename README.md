@@ -24,18 +24,21 @@ You can see some some previews below.
 <img src="doc/preview.png">
 <img src="doc/load.png">
 <img src="doc/wallpaper.png">
+<img src="doc/plymouth.png">
+<img src="doc/grub.png">
 
-## OK, I want to install MenheraOS on my computer. What should I do?
+## How to install MenheraOS?
 For a start, download the latest MenheraOS ISO from releases. Also you can build it yourself but we don't recommend it because there may be problems between installer and new packages.
 Then, [create a bootable USB stick](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview).
 After that, [boot from USB](https://www.acronis.com/en-us/blog/posts/usb-boot/) and when system load,
 click on "Install" label on desktop and follow instructions.
 
 > [!WARNING]
-> It is recommended to test installation in virtual machine or backup your system before installing MenheraOS on your computer, because the installer may be not tested enough.
+> It is recommended to test installation in virtual machine and backup your system before installing MenheraOS on your computer, because the installation process may be not tested enough.
+> Also try some basic actions like system update and regenerate initramfs image in VM.
 
 ## How can I build ISO myself?
-We do not recommend to do it, because usually we cannot update installer package timely (we do it twice: in January and July), so there will
+We do not recommend to do it, because usually we cannot update installer package timely, so there will
 be troubles with installation.
 
 But if you want to do that, follow instructions below.
@@ -53,10 +56,4 @@ $ cd menheraOS
 $ sudo bash mkiso
 ```
 
-It will take about 20 minutes and will use all your CPU resources.
-
-The .iso file will be placed in created "out" directory.
-
-## Stability and bugs
-MenheraOS should be as stable as Arch Linux [I](https://github.com/LeonidPilyugin) have been using MenheraOS for over a year
-and haven't noticed any major issues. But if you find something wrong, please, create an issue or write me here l.pilyugin04@gmail.com.
+The `.iso` file will be placed in created "out" directory.
