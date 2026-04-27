@@ -1,35 +1,38 @@
 # kawaii
-kawaii-keyring
-kawaii-filesystem
-oh-my-zsh-git
-oh-my-zsh-plugin-syntax-highlighting
-oh-my-zsh-plugin-autosuggestions
-kawaii-oh-my-zsh
-kawaii-sddm-themes
-kawaii-wallpapers
-kawaii-splashes
-kawaii-look-and-feel
-kawaii-konsole
-kawaii-color-schemes
-kawaii-plymouth
-kawaii-grub
 kawaii-calamares
+kawaii-color-schemes
+kawaii-filesystem
+kawaii-grub
+kawaii-keyring
+kawaii-konsole
+kawaii-look-and-feel
+kawaii-oh-my-zsh
+kawaii-plymouth
+kawaii-sddm-themes
+kawaii-splashes
+kawaii-wallpapers
+oh-my-zsh-git
+oh-my-zsh-plugin-autosuggestions
+oh-my-zsh-plugin-syntax-highlighting
 
 # pipewire
 pipewire
 pipewire-alsa
-pipewire-pulse
 pipewire-jack
+pipewire-pulse
 wireplumber
 
 # KDE and SDDM
-sddm
-plasma-desktop
 breeze
-konsole
 dolphin
+kinfocenter
+konsole
+kscreen
+plasma-desktop
 plasma-nm
 plasma-pa
+sddm
+sddm-kcm
 
 # network
 networkmanager
@@ -61,13 +64,14 @@ mdadm
 memtest86+
 memtest86+-efi
 mkinitcpio
-mkinitcpio-openswap
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
+mkinitcpio-openswap
 modemmanager
 nano
 nbd
 pcsclite
+rsync
 sof-firmware
 sudo
 syslinux
