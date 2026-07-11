@@ -8,7 +8,7 @@ kawaii-konsole
 kawaii-look-and-feel
 kawaii-oh-my-zsh
 kawaii-plymouth
-kawaii-sddm-themes
+# kawaii-sddm-themes
 kawaii-splashes
 kawaii-wallpapers
 oh-my-zsh-git
@@ -31,8 +31,9 @@ kscreen
 plasma-desktop
 plasma-nm
 plasma-pa
-sddm
-sddm-kcm
+plasma-login-manager
+# sddm
+# sddm-kcm
 
 # network
 networkmanager
